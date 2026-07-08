@@ -1,0 +1,29 @@
+metric,metric_label,metric_order,depth_label,response,n_control_pairs,n_warmed_pairs,control_slope,warmed_slope,warmed_minus_control_slope,permutation_p_two_sided,permutation_p_warmed_greater
+richness,"Formula richness
+(detected formulae)",1,0-10 cm,scaled_semivar,480,468,-0.0174208370815376,0.10996645471755,0.127387291799087,0.75,0.375
+richness,"Formula richness
+(detected formulae)",1,10-30 cm,scaled_semivar,372,312,0.3279958646722,0.117034146174048,-0.210961718498152,1,0.625
+mean_nosc,"Mean NOSC
+(formula-count mean)",2,0-10 cm,scaled_semivar,480,468,0.0872722133719668,0.227129873201351,0.139857659829384,1,0.5
+mean_nosc,"Mean NOSC
+(formula-count mean)",2,10-30 cm,scaled_semivar,372,312,-0.0343101057657611,0.0437667435317458,0.0780768492975068,0.75,0.375
+mean_hc,"Mean H/C
+(formula-count mean)",3,0-10 cm,scaled_semivar,480,468,0.0397726721131177,0.16448346817728,0.124710796064162,0.5,0.25
+mean_hc,"Mean H/C
+(formula-count mean)",3,10-30 cm,scaled_semivar,372,312,0.0555638622118667,0.0138693067458269,-0.0416945554660398,1,0.625
+mean_oc,"Mean O/C
+(formula-count mean)",4,0-10 cm,scaled_semivar,480,468,0.143126559829562,0.288557956082796,0.145431396253234,0.75,0.375
+mean_oc,"Mean O/C
+(formula-count mean)",4,10-30 cm,scaled_semivar,372,312,-0.00111088831642178,0.159908145505166,0.161019033821588,0.5,0.25
+mean_ai,"Aromaticity
+(mean AI_mod)",5,0-10 cm,scaled_semivar,480,468,0.0937925785033823,0.30692267145953,0.213130092956148,0.5,0.25
+mean_ai,"Aromaticity
+(mean AI_mod)",5,10-30 cm,scaled_semivar,372,312,0.0768175582335879,0.173821231224927,0.0970036729913395,0.75,0.375
+frac_lignin,"Lignin-like formulae
+(%)",6,0-10 cm,scaled_semivar,480,468,0.0407929160742004,0.362624836713994,0.321831920639793,0.25,0.125
+frac_lignin,"Lignin-like formulae
+(%)",6,10-30 cm,scaled_semivar,372,312,0.172701711215941,0.226954267674256,0.0542525564583151,1,0.5
+frac_n_containing,"N-containing formulae
+(%)",7,0-10 cm,scaled_semivar,480,468,0.0127625216291014,0.0842569545272862,0.0714944328981848,0.25,0.125
+frac_n_containing,"N-containing formulae
+(%)",7,10-30 cm,scaled_semivar,372,312,0.0934360765411963,0.0761435746495254,-0.0172925018916709,1,0.625

@@ -1,0 +1,7 @@
+distance_metric,depth_label,response,n_control_pairs,n_warmed_pairs,control_slope,warmed_slope,warmed_minus_control_slope,permutation_p_two_sided,permutation_p_warmed_greater
+formula_jaccard_distance,0-10 cm,formula_jaccard_distance,480,468,0.0241817356313338,0.0577518327230265,0.0335700970916927,0.75,0.375
+formula_jaccard_distance,10-30 cm,formula_jaccard_distance,372,312,0.0257467472381541,0.020108147467374,-0.00563859977078013,0.75,0.75
+metric_vector_distance,0-10 cm,metric_vector_distance,480,468,0.0474409806081123,0.159936399454852,0.112495418846739,0.5,0.25
+metric_vector_distance,10-30 cm,metric_vector_distance,372,312,0.0508244120011458,0.060548653630472,0.00972424162932618,1,0.5
+vk_class_braycurtis,0-10 cm,vk_class_braycurtis,480,468,0.00663750112002733,0.0365442596569597,0.0299067585369324,0.25,0.125
+vk_class_braycurtis,10-30 cm,vk_class_braycurtis,372,312,0.00790237699019409,0.0156383350986668,0.00773595810847276,0.75,0.375

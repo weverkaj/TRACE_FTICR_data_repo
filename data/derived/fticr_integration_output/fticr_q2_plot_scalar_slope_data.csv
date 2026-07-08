@@ -1,0 +1,57 @@
+metric,metric_label,metric_order,depth_label,n_control_pairs,n_warmed_pairs,treatment_raw,slope_per_lag_doubling,treatment_label,n_pairs,metric_clean
+richness,"Formula richness
+(detected formulae)",1,0-10 cm,480,468,control_slope,-0.0174208370815376,Control,480,Formula richness (detected formulae)
+richness,"Formula richness
+(detected formulae)",1,10-30 cm,372,312,control_slope,0.3279958646722,Control,372,Formula richness (detected formulae)
+mean_nosc,"Mean NOSC
+(formula-count mean)",2,0-10 cm,480,468,control_slope,0.0872722133719668,Control,480,Mean NOSC (formula-count mean)
+mean_nosc,"Mean NOSC
+(formula-count mean)",2,10-30 cm,372,312,control_slope,-0.0343101057657611,Control,372,Mean NOSC (formula-count mean)
+mean_hc,"Mean H/C
+(formula-count mean)",3,0-10 cm,480,468,control_slope,0.0397726721131177,Control,480,Mean H/C (formula-count mean)
+mean_hc,"Mean H/C
+(formula-count mean)",3,10-30 cm,372,312,control_slope,0.0555638622118667,Control,372,Mean H/C (formula-count mean)
+mean_oc,"Mean O/C
+(formula-count mean)",4,0-10 cm,480,468,control_slope,0.143126559829562,Control,480,Mean O/C (formula-count mean)
+mean_oc,"Mean O/C
+(formula-count mean)",4,10-30 cm,372,312,control_slope,-0.00111088831642178,Control,372,Mean O/C (formula-count mean)
+mean_ai,"Aromaticity
+(mean AI_mod)",5,0-10 cm,480,468,control_slope,0.0937925785033823,Control,480,Aromaticity (mean AI_mod)
+mean_ai,"Aromaticity
+(mean AI_mod)",5,10-30 cm,372,312,control_slope,0.0768175582335879,Control,372,Aromaticity (mean AI_mod)
+frac_lignin,"Lignin-like formulae
+(%)",6,0-10 cm,480,468,control_slope,0.0407929160742004,Control,480,Lignin-like formulae (%)
+frac_lignin,"Lignin-like formulae
+(%)",6,10-30 cm,372,312,control_slope,0.172701711215941,Control,372,Lignin-like formulae (%)
+frac_n_containing,"N-containing formulae
+(%)",7,0-10 cm,480,468,control_slope,0.0127625216291014,Control,480,N-containing formulae (%)
+frac_n_containing,"N-containing formulae
+(%)",7,10-30 cm,372,312,control_slope,0.0934360765411963,Control,372,N-containing formulae (%)
+richness,"Formula richness
+(detected formulae)",1,0-10 cm,480,468,warmed_slope,0.10996645471755,Warmed,468,Formula richness (detected formulae)
+richness,"Formula richness
+(detected formulae)",1,10-30 cm,372,312,warmed_slope,0.117034146174048,Warmed,312,Formula richness (detected formulae)
+mean_nosc,"Mean NOSC
+(formula-count mean)",2,0-10 cm,480,468,warmed_slope,0.227129873201351,Warmed,468,Mean NOSC (formula-count mean)
+mean_nosc,"Mean NOSC
+(formula-count mean)",2,10-30 cm,372,312,warmed_slope,0.0437667435317458,Warmed,312,Mean NOSC (formula-count mean)
+mean_hc,"Mean H/C
+(formula-count mean)",3,0-10 cm,480,468,warmed_slope,0.16448346817728,Warmed,468,Mean H/C (formula-count mean)
+mean_hc,"Mean H/C
+(formula-count mean)",3,10-30 cm,372,312,warmed_slope,0.0138693067458269,Warmed,312,Mean H/C (formula-count mean)
+mean_oc,"Mean O/C
+(formula-count mean)",4,0-10 cm,480,468,warmed_slope,0.288557956082796,Warmed,468,Mean O/C (formula-count mean)
+mean_oc,"Mean O/C
+(formula-count mean)",4,10-30 cm,372,312,warmed_slope,0.159908145505166,Warmed,312,Mean O/C (formula-count mean)
+mean_ai,"Aromaticity
+(mean AI_mod)",5,0-10 cm,480,468,warmed_slope,0.30692267145953,Warmed,468,Aromaticity (mean AI_mod)
+mean_ai,"Aromaticity
+(mean AI_mod)",5,10-30 cm,372,312,warmed_slope,0.173821231224927,Warmed,312,Aromaticity (mean AI_mod)
+frac_lignin,"Lignin-like formulae
+(%)",6,0-10 cm,480,468,warmed_slope,0.362624836713994,Warmed,468,Lignin-like formulae (%)
+frac_lignin,"Lignin-like formulae
+(%)",6,10-30 cm,372,312,warmed_slope,0.226954267674256,Warmed,312,Lignin-like formulae (%)
+frac_n_containing,"N-containing formulae
+(%)",7,0-10 cm,480,468,warmed_slope,0.0842569545272862,Warmed,468,N-containing formulae (%)
+frac_n_containing,"N-containing formulae
+(%)",7,10-30 cm,372,312,warmed_slope,0.0761435746495254,Warmed,312,N-containing formulae (%)

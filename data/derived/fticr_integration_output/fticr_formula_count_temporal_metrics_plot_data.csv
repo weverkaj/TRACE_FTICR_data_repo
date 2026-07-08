@@ -1,0 +1,2731 @@
+metric,sample_num,plot,date,treatment,treatment_label,depth_cm,depth_label,value,metric_label,multiplier,metric_order,value_plot
+richness,1,1,2017-05-31,control,Control,10,0-10 cm,163,"Formula richness
+(detected formulae)",1,1,163
+richness,70,5,2017-05-31,control,Control,10,0-10 cm,461,"Formula richness
+(detected formulae)",1,1,461
+richness,26,3,2017-10-20,control,Control,10,0-10 cm,326,"Formula richness
+(detected formulae)",1,1,326
+richness,2,1,2017-12-06,control,Control,10,0-10 cm,432,"Formula richness
+(detected formulae)",1,1,432
+richness,27,3,2017-12-06,control,Control,10,0-10 cm,1691,"Formula richness
+(detected formulae)",1,1,1691
+richness,28,3,2018-01-17,control,Control,10,0-10 cm,141,"Formula richness
+(detected formulae)",1,1,141
+richness,29,3,2018-01-30,control,Control,10,0-10 cm,635,"Formula richness
+(detected formulae)",1,1,635
+richness,30,3,2018-02-13,control,Control,10,0-10 cm,60,"Formula richness
+(detected formulae)",1,1,60
+richness,31,3,2018-02-27,control,Control,10,0-10 cm,123,"Formula richness
+(detected formulae)",1,1,123
+richness,3,1,2018-05-09,control,Control,10,0-10 cm,534,"Formula richness
+(detected formulae)",1,1,534
+richness,32,3,2018-05-09,control,Control,10,0-10 cm,210,"Formula richness
+(detected formulae)",1,1,210
+richness,4,1,2018-05-22,control,Control,10,0-10 cm,172,"Formula richness
+(detected formulae)",1,1,172
+richness,33,3,2018-05-22,control,Control,10,0-10 cm,53,"Formula richness
+(detected formulae)",1,1,53
+richness,5,1,2018-10-10,control,Control,10,0-10 cm,206,"Formula richness
+(detected formulae)",1,1,206
+richness,71,5,2018-10-10,control,Control,10,0-10 cm,151,"Formula richness
+(detected formulae)",1,1,151
+richness,34,3,2018-10-23,control,Control,10,0-10 cm,108,"Formula richness
+(detected formulae)",1,1,108
+richness,72,5,2018-10-23,control,Control,10,0-10 cm,1125,"Formula richness
+(detected formulae)",1,1,1125
+richness,6,1,2018-11-07,control,Control,10,0-10 cm,286,"Formula richness
+(detected formulae)",1,1,286
+richness,35,3,2018-11-07,control,Control,10,0-10 cm,18,"Formula richness
+(detected formulae)",1,1,18
+richness,7,1,2019-09-10,control,Control,10,0-10 cm,568,"Formula richness
+(detected formulae)",1,1,568
+richness,73,5,2019-09-10,control,Control,10,0-10 cm,1570,"Formula richness
+(detected formulae)",1,1,1570
+richness,36,3,2019-11-05,control,Control,10,0-10 cm,55,"Formula richness
+(detected formulae)",1,1,55
+richness,8,1,2019-12-03,control,Control,10,0-10 cm,285,"Formula richness
+(detected formulae)",1,1,285
+richness,37,3,2019-12-17,control,Control,10,0-10 cm,332,"Formula richness
+(detected formulae)",1,1,332
+richness,74,5,2019-12-17,control,Control,10,0-10 cm,536,"Formula richness
+(detected formulae)",1,1,536
+richness,38,3,2019-12-31,control,Control,10,0-10 cm,192,"Formula richness
+(detected formulae)",1,1,192
+richness,9,1,2020-01-28,control,Control,10,0-10 cm,603,"Formula richness
+(detected formulae)",1,1,603
+richness,39,3,2020-01-28,control,Control,10,0-10 cm,143,"Formula richness
+(detected formulae)",1,1,143
+richness,75,5,2020-01-28,control,Control,10,0-10 cm,370,"Formula richness
+(detected formulae)",1,1,370
+richness,76,5,2020-02-25,control,Control,10,0-10 cm,732,"Formula richness
+(detected formulae)",1,1,732
+richness,40,3,2020-03-10,control,Control,10,0-10 cm,172,"Formula richness
+(detected formulae)",1,1,172
+richness,77,5,2020-03-10,control,Control,10,0-10 cm,695,"Formula richness
+(detected formulae)",1,1,695
+richness,78,5,2020-07-28,control,Control,10,0-10 cm,1079,"Formula richness
+(detected formulae)",1,1,1079
+richness,79,5,2020-09-09,control,Control,10,0-10 cm,886,"Formula richness
+(detected formulae)",1,1,886
+richness,80,5,2020-10-06,control,Control,10,0-10 cm,746,"Formula richness
+(detected formulae)",1,1,746
+richness,81,5,2020-11-05,control,Control,10,0-10 cm,1320,"Formula richness
+(detected formulae)",1,1,1320
+richness,82,5,2021-02-09,control,Control,10,0-10 cm,1023,"Formula richness
+(detected formulae)",1,1,1023
+richness,83,5,2021-02-23,control,Control,10,0-10 cm,1686,"Formula richness
+(detected formulae)",1,1,1686
+richness,84,5,2021-06-03,control,Control,10,0-10 cm,996,"Formula richness
+(detected formulae)",1,1,996
+richness,10,1,2021-12-15,control,Control,10,0-10 cm,280,"Formula richness
+(detected formulae)",1,1,280
+richness,41,3,2021-12-15,control,Control,10,0-10 cm,276,"Formula richness
+(detected formulae)",1,1,276
+richness,85,5,2021-12-15,control,Control,10,0-10 cm,2342,"Formula richness
+(detected formulae)",1,1,2342
+richness,11,1,2022-08-23,control,Control,10,0-10 cm,354,"Formula richness
+(detected formulae)",1,1,354
+richness,86,5,2022-08-23,control,Control,10,0-10 cm,1008,"Formula richness
+(detected formulae)",1,1,1008
+richness,12,1,2022-09-08,control,Control,10,0-10 cm,289,"Formula richness
+(detected formulae)",1,1,289
+richness,42,3,2022-09-08,control,Control,10,0-10 cm,101,"Formula richness
+(detected formulae)",1,1,101
+richness,87,5,2022-09-08,control,Control,10,0-10 cm,294,"Formula richness
+(detected formulae)",1,1,294
+richness,13,1,2022-11-16,control,Control,10,0-10 cm,743,"Formula richness
+(detected formulae)",1,1,743
+richness,43,3,2022-11-16,control,Control,10,0-10 cm,407,"Formula richness
+(detected formulae)",1,1,407
+richness,88,5,2022-11-16,control,Control,10,0-10 cm,1135,"Formula richness
+(detected formulae)",1,1,1135
+richness,44,3,2023-05-30,control,Control,10,0-10 cm,180,"Formula richness
+(detected formulae)",1,1,180
+richness,45,3,2023-12-27,control,Control,10,0-10 cm,121,"Formula richness
+(detected formulae)",1,1,121
+richness,46,3,2024-04-16,control,Control,10,0-10 cm,251,"Formula richness
+(detected formulae)",1,1,251
+richness,47,3,2024-04-30,control,Control,10,0-10 cm,292,"Formula richness
+(detected formulae)",1,1,292
+richness,14,2,2017-05-31,warmed,Warmed,10,0-10 cm,944,"Formula richness
+(detected formulae)",1,1,944
+richness,89,6,2017-05-31,warmed,Warmed,10,0-10 cm,645,"Formula richness
+(detected formulae)",1,1,645
+richness,48,4,2017-10-20,warmed,Warmed,10,0-10 cm,731,"Formula richness
+(detected formulae)",1,1,731
+richness,15,2,2017-12-06,warmed,Warmed,10,0-10 cm,383,"Formula richness
+(detected formulae)",1,1,383
+richness,49,4,2017-12-06,warmed,Warmed,10,0-10 cm,1397,"Formula richness
+(detected formulae)",1,1,1397
+richness,50,4,2018-01-17,warmed,Warmed,10,0-10 cm,878,"Formula richness
+(detected formulae)",1,1,878
+richness,51,4,2018-01-30,warmed,Warmed,10,0-10 cm,1335,"Formula richness
+(detected formulae)",1,1,1335
+richness,52,4,2018-02-13,warmed,Warmed,10,0-10 cm,1246,"Formula richness
+(detected formulae)",1,1,1246
+richness,53,4,2018-02-27,warmed,Warmed,10,0-10 cm,1132,"Formula richness
+(detected formulae)",1,1,1132
+richness,16,2,2018-05-09,warmed,Warmed,10,0-10 cm,863,"Formula richness
+(detected formulae)",1,1,863
+richness,54,4,2018-05-09,warmed,Warmed,10,0-10 cm,1227,"Formula richness
+(detected formulae)",1,1,1227
+richness,17,2,2018-05-22,warmed,Warmed,10,0-10 cm,793,"Formula richness
+(detected formulae)",1,1,793
+richness,55,4,2018-05-22,warmed,Warmed,10,0-10 cm,1382,"Formula richness
+(detected formulae)",1,1,1382
+richness,18,2,2018-10-10,warmed,Warmed,10,0-10 cm,443,"Formula richness
+(detected formulae)",1,1,443
+richness,90,6,2018-10-10,warmed,Warmed,10,0-10 cm,721,"Formula richness
+(detected formulae)",1,1,721
+richness,56,4,2018-10-23,warmed,Warmed,10,0-10 cm,1927,"Formula richness
+(detected formulae)",1,1,1927
+richness,91,6,2018-10-23,warmed,Warmed,10,0-10 cm,1141,"Formula richness
+(detected formulae)",1,1,1141
+richness,19,2,2018-11-07,warmed,Warmed,10,0-10 cm,950,"Formula richness
+(detected formulae)",1,1,950
+richness,57,4,2018-11-07,warmed,Warmed,10,0-10 cm,1040,"Formula richness
+(detected formulae)",1,1,1040
+richness,20,2,2019-09-10,warmed,Warmed,10,0-10 cm,1392,"Formula richness
+(detected formulae)",1,1,1392
+richness,92,6,2019-09-10,warmed,Warmed,10,0-10 cm,825,"Formula richness
+(detected formulae)",1,1,825
+richness,58,4,2019-11-05,warmed,Warmed,10,0-10 cm,1490,"Formula richness
+(detected formulae)",1,1,1490
+richness,21,2,2019-12-03,warmed,Warmed,10,0-10 cm,867,"Formula richness
+(detected formulae)",1,1,867
+richness,59,4,2019-12-17,warmed,Warmed,10,0-10 cm,1382,"Formula richness
+(detected formulae)",1,1,1382
+richness,93,6,2019-12-17,warmed,Warmed,10,0-10 cm,759,"Formula richness
+(detected formulae)",1,1,759
+richness,60,4,2019-12-31,warmed,Warmed,10,0-10 cm,2125,"Formula richness
+(detected formulae)",1,1,2125
+richness,22,2,2020-01-28,warmed,Warmed,10,0-10 cm,773,"Formula richness
+(detected formulae)",1,1,773
+richness,61,4,2020-01-28,warmed,Warmed,10,0-10 cm,3580,"Formula richness
+(detected formulae)",1,1,3580
+richness,94,6,2020-01-28,warmed,Warmed,10,0-10 cm,1201,"Formula richness
+(detected formulae)",1,1,1201
+richness,95,6,2020-02-25,warmed,Warmed,10,0-10 cm,395,"Formula richness
+(detected formulae)",1,1,395
+richness,62,4,2020-03-10,warmed,Warmed,10,0-10 cm,4770,"Formula richness
+(detected formulae)",1,1,4770
+richness,96,6,2020-03-10,warmed,Warmed,10,0-10 cm,1335,"Formula richness
+(detected formulae)",1,1,1335
+richness,97,6,2020-07-28,warmed,Warmed,10,0-10 cm,777,"Formula richness
+(detected formulae)",1,1,777
+richness,98,6,2020-09-09,warmed,Warmed,10,0-10 cm,810,"Formula richness
+(detected formulae)",1,1,810
+richness,99,6,2020-10-06,warmed,Warmed,10,0-10 cm,748,"Formula richness
+(detected formulae)",1,1,748
+richness,100,6,2020-11-05,warmed,Warmed,10,0-10 cm,1639,"Formula richness
+(detected formulae)",1,1,1639
+richness,101,6,2021-02-09,warmed,Warmed,10,0-10 cm,311,"Formula richness
+(detected formulae)",1,1,311
+richness,102,6,2021-02-23,warmed,Warmed,10,0-10 cm,768,"Formula richness
+(detected formulae)",1,1,768
+richness,103,6,2021-06-03,warmed,Warmed,10,0-10 cm,806,"Formula richness
+(detected formulae)",1,1,806
+richness,23,2,2021-12-15,warmed,Warmed,10,0-10 cm,273,"Formula richness
+(detected formulae)",1,1,273
+richness,63,4,2021-12-15,warmed,Warmed,10,0-10 cm,198,"Formula richness
+(detected formulae)",1,1,198
+richness,104,6,2021-12-15,warmed,Warmed,10,0-10 cm,189,"Formula richness
+(detected formulae)",1,1,189
+richness,24,2,2022-08-23,warmed,Warmed,10,0-10 cm,679,"Formula richness
+(detected formulae)",1,1,679
+richness,105,6,2022-08-23,warmed,Warmed,10,0-10 cm,261,"Formula richness
+(detected formulae)",1,1,261
+richness,64,4,2022-09-08,warmed,Warmed,10,0-10 cm,213,"Formula richness
+(detected formulae)",1,1,213
+richness,106,6,2022-09-08,warmed,Warmed,10,0-10 cm,72,"Formula richness
+(detected formulae)",1,1,72
+richness,25,2,2022-11-16,warmed,Warmed,10,0-10 cm,211,"Formula richness
+(detected formulae)",1,1,211
+richness,65,4,2022-11-16,warmed,Warmed,10,0-10 cm,243,"Formula richness
+(detected formulae)",1,1,243
+richness,107,6,2022-11-16,warmed,Warmed,10,0-10 cm,545,"Formula richness
+(detected formulae)",1,1,545
+richness,66,4,2023-05-30,warmed,Warmed,10,0-10 cm,246,"Formula richness
+(detected formulae)",1,1,246
+richness,67,4,2023-12-27,warmed,Warmed,10,0-10 cm,534,"Formula richness
+(detected formulae)",1,1,534
+richness,68,4,2024-04-16,warmed,Warmed,10,0-10 cm,230,"Formula richness
+(detected formulae)",1,1,230
+richness,69,4,2024-04-30,warmed,Warmed,10,0-10 cm,311,"Formula richness
+(detected formulae)",1,1,311
+richness,126,3,2017-05-31,control,Control,30,10-30 cm,53,"Formula richness
+(detected formulae)",1,1,53
+richness,127,3,2017-11-22,control,Control,30,10-30 cm,30,"Formula richness
+(detected formulae)",1,1,30
+richness,128,3,2017-12-06,control,Control,30,10-30 cm,11,"Formula richness
+(detected formulae)",1,1,11
+richness,170,5,2017-12-06,control,Control,30,10-30 cm,87,"Formula richness
+(detected formulae)",1,1,87
+richness,129,3,2018-01-03,control,Control,30,10-30 cm,93,"Formula richness
+(detected formulae)",1,1,93
+richness,130,3,2018-01-30,control,Control,30,10-30 cm,92,"Formula richness
+(detected formulae)",1,1,92
+richness,131,3,2018-02-27,control,Control,30,10-30 cm,59,"Formula richness
+(detected formulae)",1,1,59
+richness,171,5,2018-03-27,control,Control,30,10-30 cm,78,"Formula richness
+(detected formulae)",1,1,78
+richness,132,3,2018-05-09,control,Control,30,10-30 cm,226,"Formula richness
+(detected formulae)",1,1,226
+richness,172,5,2018-05-09,control,Control,30,10-30 cm,315,"Formula richness
+(detected formulae)",1,1,315
+richness,133,3,2018-11-07,control,Control,30,10-30 cm,281,"Formula richness
+(detected formulae)",1,1,281
+richness,134,3,2019-09-10,control,Control,30,10-30 cm,115,"Formula richness
+(detected formulae)",1,1,115
+richness,135,3,2019-12-03,control,Control,30,10-30 cm,126,"Formula richness
+(detected formulae)",1,1,126
+richness,136,3,2020-01-14,control,Control,30,10-30 cm,127,"Formula richness
+(detected formulae)",1,1,127
+richness,108,1,2020-02-25,control,Control,30,10-30 cm,189,"Formula richness
+(detected formulae)",1,1,189
+richness,137,3,2020-02-25,control,Control,30,10-30 cm,176,"Formula richness
+(detected formulae)",1,1,176
+richness,138,3,2020-03-10,control,Control,30,10-30 cm,118,"Formula richness
+(detected formulae)",1,1,118
+richness,139,3,2020-07-28,control,Control,30,10-30 cm,97,"Formula richness
+(detected formulae)",1,1,97
+richness,173,5,2020-07-28,control,Control,30,10-30 cm,371,"Formula richness
+(detected formulae)",1,1,371
+richness,140,3,2020-09-09,control,Control,30,10-30 cm,190,"Formula richness
+(detected formulae)",1,1,190
+richness,141,3,2020-10-06,control,Control,30,10-30 cm,157,"Formula richness
+(detected formulae)",1,1,157
+richness,174,5,2020-10-06,control,Control,30,10-30 cm,290,"Formula richness
+(detected formulae)",1,1,290
+richness,142,3,2020-11-05,control,Control,30,10-30 cm,207,"Formula richness
+(detected formulae)",1,1,207
+richness,175,5,2020-11-05,control,Control,30,10-30 cm,186,"Formula richness
+(detected formulae)",1,1,186
+richness,143,3,2020-12-29,control,Control,30,10-30 cm,241,"Formula richness
+(detected formulae)",1,1,241
+richness,144,3,2021-02-09,control,Control,30,10-30 cm,214,"Formula richness
+(detected formulae)",1,1,214
+richness,176,5,2021-02-23,control,Control,30,10-30 cm,130,"Formula richness
+(detected formulae)",1,1,130
+richness,145,3,2021-06-03,control,Control,30,10-30 cm,227,"Formula richness
+(detected formulae)",1,1,227
+richness,109,1,2021-09-21,control,Control,30,10-30 cm,24,"Formula richness
+(detected formulae)",1,1,24
+richness,146,3,2021-12-15,control,Control,30,10-30 cm,58,"Formula richness
+(detected formulae)",1,1,58
+richness,110,1,2022-08-23,control,Control,30,10-30 cm,49,"Formula richness
+(detected formulae)",1,1,49
+richness,177,5,2022-08-23,control,Control,30,10-30 cm,28,"Formula richness
+(detected formulae)",1,1,28
+richness,111,1,2022-09-08,control,Control,30,10-30 cm,131,"Formula richness
+(detected formulae)",1,1,131
+richness,178,5,2022-09-08,control,Control,30,10-30 cm,13,"Formula richness
+(detected formulae)",1,1,13
+richness,179,5,2022-11-01,control,Control,30,10-30 cm,96,"Formula richness
+(detected formulae)",1,1,96
+richness,112,1,2022-11-16,control,Control,30,10-30 cm,333,"Formula richness
+(detected formulae)",1,1,333
+richness,113,1,2023-01-12,control,Control,30,10-30 cm,257,"Formula richness
+(detected formulae)",1,1,257
+richness,180,5,2023-01-12,control,Control,30,10-30 cm,280,"Formula richness
+(detected formulae)",1,1,280
+richness,181,5,2023-02-07,control,Control,30,10-30 cm,358,"Formula richness
+(detected formulae)",1,1,358
+richness,182,5,2023-05-02,control,Control,30,10-30 cm,491,"Formula richness
+(detected formulae)",1,1,491
+richness,114,1,2023-05-30,control,Control,30,10-30 cm,160,"Formula richness
+(detected formulae)",1,1,160
+richness,147,3,2023-05-30,control,Control,30,10-30 cm,608,"Formula richness
+(detected formulae)",1,1,608
+richness,115,1,2023-08-22,control,Control,30,10-30 cm,488,"Formula richness
+(detected formulae)",1,1,488
+richness,183,5,2023-10-03,control,Control,30,10-30 cm,650,"Formula richness
+(detected formulae)",1,1,650
+richness,116,1,2023-12-12,control,Control,30,10-30 cm,509,"Formula richness
+(detected formulae)",1,1,509
+richness,184,5,2024-04-30,control,Control,30,10-30 cm,480,"Formula richness
+(detected formulae)",1,1,480
+richness,148,4,2017-05-31,warmed,Warmed,30,10-30 cm,99,"Formula richness
+(detected formulae)",1,1,99
+richness,149,4,2017-11-22,warmed,Warmed,30,10-30 cm,237,"Formula richness
+(detected formulae)",1,1,237
+richness,150,4,2017-12-06,warmed,Warmed,30,10-30 cm,249,"Formula richness
+(detected formulae)",1,1,249
+richness,185,6,2017-12-06,warmed,Warmed,30,10-30 cm,526,"Formula richness
+(detected formulae)",1,1,526
+richness,152,4,2018-01-30,warmed,Warmed,30,10-30 cm,267,"Formula richness
+(detected formulae)",1,1,267
+richness,153,4,2018-02-27,warmed,Warmed,30,10-30 cm,63,"Formula richness
+(detected formulae)",1,1,63
+richness,154,4,2018-05-09,warmed,Warmed,30,10-30 cm,690,"Formula richness
+(detected formulae)",1,1,690
+richness,155,4,2018-11-07,warmed,Warmed,30,10-30 cm,376,"Formula richness
+(detected formulae)",1,1,376
+richness,156,4,2019-09-10,warmed,Warmed,30,10-30 cm,515,"Formula richness
+(detected formulae)",1,1,515
+richness,157,4,2019-12-03,warmed,Warmed,30,10-30 cm,565,"Formula richness
+(detected formulae)",1,1,565
+richness,158,4,2020-01-14,warmed,Warmed,30,10-30 cm,535,"Formula richness
+(detected formulae)",1,1,535
+richness,117,2,2020-02-25,warmed,Warmed,30,10-30 cm,556,"Formula richness
+(detected formulae)",1,1,556
+richness,159,4,2020-02-25,warmed,Warmed,30,10-30 cm,324,"Formula richness
+(detected formulae)",1,1,324
+richness,160,4,2020-03-10,warmed,Warmed,30,10-30 cm,634,"Formula richness
+(detected formulae)",1,1,634
+richness,161,4,2020-07-28,warmed,Warmed,30,10-30 cm,263,"Formula richness
+(detected formulae)",1,1,263
+richness,162,4,2020-09-09,warmed,Warmed,30,10-30 cm,156,"Formula richness
+(detected formulae)",1,1,156
+richness,186,6,2020-09-09,warmed,Warmed,30,10-30 cm,1485,"Formula richness
+(detected formulae)",1,1,1485
+richness,163,4,2020-10-06,warmed,Warmed,30,10-30 cm,437,"Formula richness
+(detected formulae)",1,1,437
+richness,187,6,2020-10-06,warmed,Warmed,30,10-30 cm,426,"Formula richness
+(detected formulae)",1,1,426
+richness,164,4,2020-11-05,warmed,Warmed,30,10-30 cm,214,"Formula richness
+(detected formulae)",1,1,214
+richness,165,4,2020-12-29,warmed,Warmed,30,10-30 cm,261,"Formula richness
+(detected formulae)",1,1,261
+richness,166,4,2021-02-09,warmed,Warmed,30,10-30 cm,282,"Formula richness
+(detected formulae)",1,1,282
+richness,188,6,2021-02-23,warmed,Warmed,30,10-30 cm,1013,"Formula richness
+(detected formulae)",1,1,1013
+richness,167,4,2021-06-03,warmed,Warmed,30,10-30 cm,132,"Formula richness
+(detected formulae)",1,1,132
+richness,118,2,2021-09-21,warmed,Warmed,30,10-30 cm,734,"Formula richness
+(detected formulae)",1,1,734
+richness,168,4,2021-12-15,warmed,Warmed,30,10-30 cm,442,"Formula richness
+(detected formulae)",1,1,442
+richness,119,2,2022-08-23,warmed,Warmed,30,10-30 cm,95,"Formula richness
+(detected formulae)",1,1,95
+richness,189,6,2022-08-23,warmed,Warmed,30,10-30 cm,74,"Formula richness
+(detected formulae)",1,1,74
+richness,120,2,2022-09-08,warmed,Warmed,30,10-30 cm,8,"Formula richness
+(detected formulae)",1,1,8
+richness,190,6,2022-09-08,warmed,Warmed,30,10-30 cm,236,"Formula richness
+(detected formulae)",1,1,236
+richness,191,6,2022-11-01,warmed,Warmed,30,10-30 cm,196,"Formula richness
+(detected formulae)",1,1,196
+richness,121,2,2022-11-16,warmed,Warmed,30,10-30 cm,142,"Formula richness
+(detected formulae)",1,1,142
+richness,122,2,2023-01-12,warmed,Warmed,30,10-30 cm,218,"Formula richness
+(detected formulae)",1,1,218
+richness,192,6,2023-01-12,warmed,Warmed,30,10-30 cm,174,"Formula richness
+(detected formulae)",1,1,174
+richness,193,6,2023-02-07,warmed,Warmed,30,10-30 cm,295,"Formula richness
+(detected formulae)",1,1,295
+richness,194,6,2023-05-02,warmed,Warmed,30,10-30 cm,211,"Formula richness
+(detected formulae)",1,1,211
+richness,123,2,2023-05-30,warmed,Warmed,30,10-30 cm,195,"Formula richness
+(detected formulae)",1,1,195
+richness,169,4,2023-05-30,warmed,Warmed,30,10-30 cm,187,"Formula richness
+(detected formulae)",1,1,187
+richness,124,2,2023-08-22,warmed,Warmed,30,10-30 cm,385,"Formula richness
+(detected formulae)",1,1,385
+richness,195,6,2023-10-03,warmed,Warmed,30,10-30 cm,387,"Formula richness
+(detected formulae)",1,1,387
+richness,125,2,2023-12-12,warmed,Warmed,30,10-30 cm,435,"Formula richness
+(detected formulae)",1,1,435
+richness,196,6,2024-04-30,warmed,Warmed,30,10-30 cm,520,"Formula richness
+(detected formulae)",1,1,520
+mean_nosc,1,1,2017-05-31,control,Control,10,0-10 cm,-0.388599443603992,"Mean NOSC
+(formula-count mean)",1,2,-0.388599443603992
+mean_nosc,70,5,2017-05-31,control,Control,10,0-10 cm,-0.400810628031344,"Mean NOSC
+(formula-count mean)",1,2,-0.400810628031344
+mean_nosc,26,3,2017-10-20,control,Control,10,0-10 cm,-0.551874981065233,"Mean NOSC
+(formula-count mean)",1,2,-0.551874981065233
+mean_nosc,2,1,2017-12-06,control,Control,10,0-10 cm,-0.403394058224192,"Mean NOSC
+(formula-count mean)",1,2,-0.403394058224192
+mean_nosc,27,3,2017-12-06,control,Control,10,0-10 cm,-0.190244149031229,"Mean NOSC
+(formula-count mean)",1,2,-0.190244149031229
+mean_nosc,28,3,2018-01-17,control,Control,10,0-10 cm,-0.512316265567959,"Mean NOSC
+(formula-count mean)",1,2,-0.512316265567959
+mean_nosc,29,3,2018-01-30,control,Control,10,0-10 cm,-0.459527062042587,"Mean NOSC
+(formula-count mean)",1,2,-0.459527062042587
+mean_nosc,30,3,2018-02-13,control,Control,10,0-10 cm,-0.533852423324399,"Mean NOSC
+(formula-count mean)",1,2,-0.533852423324399
+mean_nosc,31,3,2018-02-27,control,Control,10,0-10 cm,-0.589196694465334,"Mean NOSC
+(formula-count mean)",1,2,-0.589196694465334
+mean_nosc,3,1,2018-05-09,control,Control,10,0-10 cm,-0.411312764108134,"Mean NOSC
+(formula-count mean)",1,2,-0.411312764108134
+mean_nosc,32,3,2018-05-09,control,Control,10,0-10 cm,-0.583173129961382,"Mean NOSC
+(formula-count mean)",1,2,-0.583173129961382
+mean_nosc,4,1,2018-05-22,control,Control,10,0-10 cm,-0.401566510771441,"Mean NOSC
+(formula-count mean)",1,2,-0.401566510771441
+mean_nosc,33,3,2018-05-22,control,Control,10,0-10 cm,-0.626206225208024,"Mean NOSC
+(formula-count mean)",1,2,-0.626206225208024
+mean_nosc,5,1,2018-10-10,control,Control,10,0-10 cm,-0.426837569068144,"Mean NOSC
+(formula-count mean)",1,2,-0.426837569068144
+mean_nosc,71,5,2018-10-10,control,Control,10,0-10 cm,-0.467919180870329,"Mean NOSC
+(formula-count mean)",1,2,-0.467919180870329
+mean_nosc,34,3,2018-10-23,control,Control,10,0-10 cm,-0.480966864511532,"Mean NOSC
+(formula-count mean)",1,2,-0.480966864511532
+mean_nosc,72,5,2018-10-23,control,Control,10,0-10 cm,-0.509964138646522,"Mean NOSC
+(formula-count mean)",1,2,-0.509964138646522
+mean_nosc,6,1,2018-11-07,control,Control,10,0-10 cm,-0.434799802768483,"Mean NOSC
+(formula-count mean)",1,2,-0.434799802768483
+mean_nosc,35,3,2018-11-07,control,Control,10,0-10 cm,-0.83802278984964,"Mean NOSC
+(formula-count mean)",1,2,-0.83802278984964
+mean_nosc,7,1,2019-09-10,control,Control,10,0-10 cm,-0.432016965631344,"Mean NOSC
+(formula-count mean)",1,2,-0.432016965631344
+mean_nosc,73,5,2019-09-10,control,Control,10,0-10 cm,-0.406934343554849,"Mean NOSC
+(formula-count mean)",1,2,-0.406934343554849
+mean_nosc,36,3,2019-11-05,control,Control,10,0-10 cm,-0.581581761595171,"Mean NOSC
+(formula-count mean)",1,2,-0.581581761595171
+mean_nosc,8,1,2019-12-03,control,Control,10,0-10 cm,-0.38042659789746,"Mean NOSC
+(formula-count mean)",1,2,-0.38042659789746
+mean_nosc,37,3,2019-12-17,control,Control,10,0-10 cm,-0.690188507669201,"Mean NOSC
+(formula-count mean)",1,2,-0.690188507669201
+mean_nosc,74,5,2019-12-17,control,Control,10,0-10 cm,-0.448535268646629,"Mean NOSC
+(formula-count mean)",1,2,-0.448535268646629
+mean_nosc,38,3,2019-12-31,control,Control,10,0-10 cm,-0.6390764255372,"Mean NOSC
+(formula-count mean)",1,2,-0.6390764255372
+mean_nosc,9,1,2020-01-28,control,Control,10,0-10 cm,-0.309126187446995,"Mean NOSC
+(formula-count mean)",1,2,-0.309126187446995
+mean_nosc,39,3,2020-01-28,control,Control,10,0-10 cm,-0.649285432146859,"Mean NOSC
+(formula-count mean)",1,2,-0.649285432146859
+mean_nosc,75,5,2020-01-28,control,Control,10,0-10 cm,-0.409628099161373,"Mean NOSC
+(formula-count mean)",1,2,-0.409628099161373
+mean_nosc,76,5,2020-02-25,control,Control,10,0-10 cm,-0.478440498841957,"Mean NOSC
+(formula-count mean)",1,2,-0.478440498841957
+mean_nosc,40,3,2020-03-10,control,Control,10,0-10 cm,-0.653666251201886,"Mean NOSC
+(formula-count mean)",1,2,-0.653666251201886
+mean_nosc,77,5,2020-03-10,control,Control,10,0-10 cm,-0.448661982010686,"Mean NOSC
+(formula-count mean)",1,2,-0.448661982010686
+mean_nosc,78,5,2020-07-28,control,Control,10,0-10 cm,-0.381151925975785,"Mean NOSC
+(formula-count mean)",1,2,-0.381151925975785
+mean_nosc,79,5,2020-09-09,control,Control,10,0-10 cm,-0.400050812785564,"Mean NOSC
+(formula-count mean)",1,2,-0.400050812785564
+mean_nosc,80,5,2020-10-06,control,Control,10,0-10 cm,-0.471651626426407,"Mean NOSC
+(formula-count mean)",1,2,-0.471651626426407
+mean_nosc,81,5,2020-11-05,control,Control,10,0-10 cm,-0.443095078793492,"Mean NOSC
+(formula-count mean)",1,2,-0.443095078793492
+mean_nosc,82,5,2021-02-09,control,Control,10,0-10 cm,-0.486639518493949,"Mean NOSC
+(formula-count mean)",1,2,-0.486639518493949
+mean_nosc,83,5,2021-02-23,control,Control,10,0-10 cm,-0.476998850055294,"Mean NOSC
+(formula-count mean)",1,2,-0.476998850055294
+mean_nosc,84,5,2021-06-03,control,Control,10,0-10 cm,-0.506229997455514,"Mean NOSC
+(formula-count mean)",1,2,-0.506229997455514
+mean_nosc,10,1,2021-12-15,control,Control,10,0-10 cm,-0.474290158421361,"Mean NOSC
+(formula-count mean)",1,2,-0.474290158421361
+mean_nosc,41,3,2021-12-15,control,Control,10,0-10 cm,-0.776997867971875,"Mean NOSC
+(formula-count mean)",1,2,-0.776997867971875
+mean_nosc,85,5,2021-12-15,control,Control,10,0-10 cm,-0.491220082567184,"Mean NOSC
+(formula-count mean)",1,2,-0.491220082567184
+mean_nosc,11,1,2022-08-23,control,Control,10,0-10 cm,-0.496581372942867,"Mean NOSC
+(formula-count mean)",1,2,-0.496581372942867
+mean_nosc,86,5,2022-08-23,control,Control,10,0-10 cm,-0.511347091731356,"Mean NOSC
+(formula-count mean)",1,2,-0.511347091731356
+mean_nosc,12,1,2022-09-08,control,Control,10,0-10 cm,-0.461204660410384,"Mean NOSC
+(formula-count mean)",1,2,-0.461204660410384
+mean_nosc,42,3,2022-09-08,control,Control,10,0-10 cm,-0.634009004828006,"Mean NOSC
+(formula-count mean)",1,2,-0.634009004828006
+mean_nosc,87,5,2022-09-08,control,Control,10,0-10 cm,-0.44151202287904,"Mean NOSC
+(formula-count mean)",1,2,-0.44151202287904
+mean_nosc,13,1,2022-11-16,control,Control,10,0-10 cm,-0.528367726324329,"Mean NOSC
+(formula-count mean)",1,2,-0.528367726324329
+mean_nosc,43,3,2022-11-16,control,Control,10,0-10 cm,-0.740700273232085,"Mean NOSC
+(formula-count mean)",1,2,-0.740700273232085
+mean_nosc,88,5,2022-11-16,control,Control,10,0-10 cm,-0.479070082422155,"Mean NOSC
+(formula-count mean)",1,2,-0.479070082422155
+mean_nosc,44,3,2023-05-30,control,Control,10,0-10 cm,-0.616872297119507,"Mean NOSC
+(formula-count mean)",1,2,-0.616872297119507
+mean_nosc,45,3,2023-12-27,control,Control,10,0-10 cm,-0.640834740541875,"Mean NOSC
+(formula-count mean)",1,2,-0.640834740541875
+mean_nosc,46,3,2024-04-16,control,Control,10,0-10 cm,-0.747032284050099,"Mean NOSC
+(formula-count mean)",1,2,-0.747032284050099
+mean_nosc,47,3,2024-04-30,control,Control,10,0-10 cm,-0.534597316433,"Mean NOSC
+(formula-count mean)",1,2,-0.534597316433
+mean_nosc,14,2,2017-05-31,warmed,Warmed,10,0-10 cm,-0.283018626109613,"Mean NOSC
+(formula-count mean)",1,2,-0.283018626109613
+mean_nosc,89,6,2017-05-31,warmed,Warmed,10,0-10 cm,-0.347294797075855,"Mean NOSC
+(formula-count mean)",1,2,-0.347294797075855
+mean_nosc,48,4,2017-10-20,warmed,Warmed,10,0-10 cm,-0.397183813183837,"Mean NOSC
+(formula-count mean)",1,2,-0.397183813183837
+mean_nosc,15,2,2017-12-06,warmed,Warmed,10,0-10 cm,-0.517532183794162,"Mean NOSC
+(formula-count mean)",1,2,-0.517532183794162
+mean_nosc,49,4,2017-12-06,warmed,Warmed,10,0-10 cm,-0.253616689101179,"Mean NOSC
+(formula-count mean)",1,2,-0.253616689101179
+mean_nosc,50,4,2018-01-17,warmed,Warmed,10,0-10 cm,-0.329805262203309,"Mean NOSC
+(formula-count mean)",1,2,-0.329805262203309
+mean_nosc,51,4,2018-01-30,warmed,Warmed,10,0-10 cm,-0.361804217769494,"Mean NOSC
+(formula-count mean)",1,2,-0.361804217769494
+mean_nosc,52,4,2018-02-13,warmed,Warmed,10,0-10 cm,-0.355446873040486,"Mean NOSC
+(formula-count mean)",1,2,-0.355446873040486
+mean_nosc,53,4,2018-02-27,warmed,Warmed,10,0-10 cm,-0.367675801311078,"Mean NOSC
+(formula-count mean)",1,2,-0.367675801311078
+mean_nosc,16,2,2018-05-09,warmed,Warmed,10,0-10 cm,-0.420588565466819,"Mean NOSC
+(formula-count mean)",1,2,-0.420588565466819
+mean_nosc,54,4,2018-05-09,warmed,Warmed,10,0-10 cm,-0.253833433890426,"Mean NOSC
+(formula-count mean)",1,2,-0.253833433890426
+mean_nosc,17,2,2018-05-22,warmed,Warmed,10,0-10 cm,-0.473101061653318,"Mean NOSC
+(formula-count mean)",1,2,-0.473101061653318
+mean_nosc,55,4,2018-05-22,warmed,Warmed,10,0-10 cm,-0.363739031019671,"Mean NOSC
+(formula-count mean)",1,2,-0.363739031019671
+mean_nosc,18,2,2018-10-10,warmed,Warmed,10,0-10 cm,-0.523250572141448,"Mean NOSC
+(formula-count mean)",1,2,-0.523250572141448
+mean_nosc,90,6,2018-10-10,warmed,Warmed,10,0-10 cm,-0.476308859996864,"Mean NOSC
+(formula-count mean)",1,2,-0.476308859996864
+mean_nosc,56,4,2018-10-23,warmed,Warmed,10,0-10 cm,-0.286700411796047,"Mean NOSC
+(formula-count mean)",1,2,-0.286700411796047
+mean_nosc,91,6,2018-10-23,warmed,Warmed,10,0-10 cm,-0.494651235679961,"Mean NOSC
+(formula-count mean)",1,2,-0.494651235679961
+mean_nosc,19,2,2018-11-07,warmed,Warmed,10,0-10 cm,-0.54764555263887,"Mean NOSC
+(formula-count mean)",1,2,-0.54764555263887
+mean_nosc,57,4,2018-11-07,warmed,Warmed,10,0-10 cm,-0.342736628912428,"Mean NOSC
+(formula-count mean)",1,2,-0.342736628912428
+mean_nosc,20,2,2019-09-10,warmed,Warmed,10,0-10 cm,-0.477822637657129,"Mean NOSC
+(formula-count mean)",1,2,-0.477822637657129
+mean_nosc,92,6,2019-09-10,warmed,Warmed,10,0-10 cm,-0.504598377466625,"Mean NOSC
+(formula-count mean)",1,2,-0.504598377466625
+mean_nosc,58,4,2019-11-05,warmed,Warmed,10,0-10 cm,-0.254367417387892,"Mean NOSC
+(formula-count mean)",1,2,-0.254367417387892
+mean_nosc,21,2,2019-12-03,warmed,Warmed,10,0-10 cm,-0.570328960753471,"Mean NOSC
+(formula-count mean)",1,2,-0.570328960753471
+mean_nosc,59,4,2019-12-17,warmed,Warmed,10,0-10 cm,-0.254666395325811,"Mean NOSC
+(formula-count mean)",1,2,-0.254666395325811
+mean_nosc,93,6,2019-12-17,warmed,Warmed,10,0-10 cm,-0.528513609019494,"Mean NOSC
+(formula-count mean)",1,2,-0.528513609019494
+mean_nosc,60,4,2019-12-31,warmed,Warmed,10,0-10 cm,-0.268662448309494,"Mean NOSC
+(formula-count mean)",1,2,-0.268662448309494
+mean_nosc,22,2,2020-01-28,warmed,Warmed,10,0-10 cm,-0.535486153720046,"Mean NOSC
+(formula-count mean)",1,2,-0.535486153720046
+mean_nosc,61,4,2020-01-28,warmed,Warmed,10,0-10 cm,-0.163040391440619,"Mean NOSC
+(formula-count mean)",1,2,-0.163040391440619
+mean_nosc,94,6,2020-01-28,warmed,Warmed,10,0-10 cm,-0.243749216076545,"Mean NOSC
+(formula-count mean)",1,2,-0.243749216076545
+mean_nosc,95,6,2020-02-25,warmed,Warmed,10,0-10 cm,-0.543833574440026,"Mean NOSC
+(formula-count mean)",1,2,-0.543833574440026
+mean_nosc,62,4,2020-03-10,warmed,Warmed,10,0-10 cm,-0.222981209146539,"Mean NOSC
+(formula-count mean)",1,2,-0.222981209146539
+mean_nosc,96,6,2020-03-10,warmed,Warmed,10,0-10 cm,-0.46290647781462,"Mean NOSC
+(formula-count mean)",1,2,-0.46290647781462
+mean_nosc,97,6,2020-07-28,warmed,Warmed,10,0-10 cm,-0.47302877667428,"Mean NOSC
+(formula-count mean)",1,2,-0.47302877667428
+mean_nosc,98,6,2020-09-09,warmed,Warmed,10,0-10 cm,-0.479848164961101,"Mean NOSC
+(formula-count mean)",1,2,-0.479848164961101
+mean_nosc,99,6,2020-10-06,warmed,Warmed,10,0-10 cm,-0.54087770643238,"Mean NOSC
+(formula-count mean)",1,2,-0.54087770643238
+mean_nosc,100,6,2020-11-05,warmed,Warmed,10,0-10 cm,-0.304787741107853,"Mean NOSC
+(formula-count mean)",1,2,-0.304787741107853
+mean_nosc,101,6,2021-02-09,warmed,Warmed,10,0-10 cm,-0.493517188494161,"Mean NOSC
+(formula-count mean)",1,2,-0.493517188494161
+mean_nosc,102,6,2021-02-23,warmed,Warmed,10,0-10 cm,-0.489894123462548,"Mean NOSC
+(formula-count mean)",1,2,-0.489894123462548
+mean_nosc,103,6,2021-06-03,warmed,Warmed,10,0-10 cm,-0.559009405554992,"Mean NOSC
+(formula-count mean)",1,2,-0.559009405554992
+mean_nosc,23,2,2021-12-15,warmed,Warmed,10,0-10 cm,-0.580952277032461,"Mean NOSC
+(formula-count mean)",1,2,-0.580952277032461
+mean_nosc,63,4,2021-12-15,warmed,Warmed,10,0-10 cm,-0.570658001656008,"Mean NOSC
+(formula-count mean)",1,2,-0.570658001656008
+mean_nosc,104,6,2021-12-15,warmed,Warmed,10,0-10 cm,-0.587555794186129,"Mean NOSC
+(formula-count mean)",1,2,-0.587555794186129
+mean_nosc,24,2,2022-08-23,warmed,Warmed,10,0-10 cm,-0.51164721887148,"Mean NOSC
+(formula-count mean)",1,2,-0.51164721887148
+mean_nosc,105,6,2022-08-23,warmed,Warmed,10,0-10 cm,-0.546668672749591,"Mean NOSC
+(formula-count mean)",1,2,-0.546668672749591
+mean_nosc,64,4,2022-09-08,warmed,Warmed,10,0-10 cm,-0.551259436957311,"Mean NOSC
+(formula-count mean)",1,2,-0.551259436957311
+mean_nosc,106,6,2022-09-08,warmed,Warmed,10,0-10 cm,-0.650197811842274,"Mean NOSC
+(formula-count mean)",1,2,-0.650197811842274
+mean_nosc,25,2,2022-11-16,warmed,Warmed,10,0-10 cm,-0.563867681099082,"Mean NOSC
+(formula-count mean)",1,2,-0.563867681099082
+mean_nosc,65,4,2022-11-16,warmed,Warmed,10,0-10 cm,-0.478968382646196,"Mean NOSC
+(formula-count mean)",1,2,-0.478968382646196
+mean_nosc,107,6,2022-11-16,warmed,Warmed,10,0-10 cm,-0.545909673539146,"Mean NOSC
+(formula-count mean)",1,2,-0.545909673539146
+mean_nosc,66,4,2023-05-30,warmed,Warmed,10,0-10 cm,-0.571443510308798,"Mean NOSC
+(formula-count mean)",1,2,-0.571443510308798
+mean_nosc,67,4,2023-12-27,warmed,Warmed,10,0-10 cm,-0.535307648133049,"Mean NOSC
+(formula-count mean)",1,2,-0.535307648133049
+mean_nosc,68,4,2024-04-16,warmed,Warmed,10,0-10 cm,-0.514216594334392,"Mean NOSC
+(formula-count mean)",1,2,-0.514216594334392
+mean_nosc,69,4,2024-04-30,warmed,Warmed,10,0-10 cm,-0.579598478946774,"Mean NOSC
+(formula-count mean)",1,2,-0.579598478946774
+mean_nosc,126,3,2017-05-31,control,Control,30,10-30 cm,-0.636470645960003,"Mean NOSC
+(formula-count mean)",1,2,-0.636470645960003
+mean_nosc,127,3,2017-11-22,control,Control,30,10-30 cm,-0.522869755317081,"Mean NOSC
+(formula-count mean)",1,2,-0.522869755317081
+mean_nosc,128,3,2017-12-06,control,Control,30,10-30 cm,-0.460492549432251,"Mean NOSC
+(formula-count mean)",1,2,-0.460492549432251
+mean_nosc,170,5,2017-12-06,control,Control,30,10-30 cm,-0.644340902287603,"Mean NOSC
+(formula-count mean)",1,2,-0.644340902287603
+mean_nosc,129,3,2018-01-03,control,Control,30,10-30 cm,-0.73311441187431,"Mean NOSC
+(formula-count mean)",1,2,-0.73311441187431
+mean_nosc,130,3,2018-01-30,control,Control,30,10-30 cm,-0.500362670807743,"Mean NOSC
+(formula-count mean)",1,2,-0.500362670807743
+mean_nosc,131,3,2018-02-27,control,Control,30,10-30 cm,-0.755513369139035,"Mean NOSC
+(formula-count mean)",1,2,-0.755513369139035
+mean_nosc,171,5,2018-03-27,control,Control,30,10-30 cm,-0.633425063612576,"Mean NOSC
+(formula-count mean)",1,2,-0.633425063612576
+mean_nosc,132,3,2018-05-09,control,Control,30,10-30 cm,-0.637249834772541,"Mean NOSC
+(formula-count mean)",1,2,-0.637249834772541
+mean_nosc,172,5,2018-05-09,control,Control,30,10-30 cm,-0.655913168806344,"Mean NOSC
+(formula-count mean)",1,2,-0.655913168806344
+mean_nosc,133,3,2018-11-07,control,Control,30,10-30 cm,-0.571190415434055,"Mean NOSC
+(formula-count mean)",1,2,-0.571190415434055
+mean_nosc,134,3,2019-09-10,control,Control,30,10-30 cm,-0.703439003856193,"Mean NOSC
+(formula-count mean)",1,2,-0.703439003856193
+mean_nosc,135,3,2019-12-03,control,Control,30,10-30 cm,-0.558202811275619,"Mean NOSC
+(formula-count mean)",1,2,-0.558202811275619
+mean_nosc,136,3,2020-01-14,control,Control,30,10-30 cm,-0.576170568202168,"Mean NOSC
+(formula-count mean)",1,2,-0.576170568202168
+mean_nosc,108,1,2020-02-25,control,Control,30,10-30 cm,-0.763067851377917,"Mean NOSC
+(formula-count mean)",1,2,-0.763067851377917
+mean_nosc,137,3,2020-02-25,control,Control,30,10-30 cm,-0.526195076614806,"Mean NOSC
+(formula-count mean)",1,2,-0.526195076614806
+mean_nosc,138,3,2020-03-10,control,Control,30,10-30 cm,-0.620204925248282,"Mean NOSC
+(formula-count mean)",1,2,-0.620204925248282
+mean_nosc,139,3,2020-07-28,control,Control,30,10-30 cm,-0.681404553684031,"Mean NOSC
+(formula-count mean)",1,2,-0.681404553684031
+mean_nosc,173,5,2020-07-28,control,Control,30,10-30 cm,-0.643428232590152,"Mean NOSC
+(formula-count mean)",1,2,-0.643428232590152
+mean_nosc,140,3,2020-09-09,control,Control,30,10-30 cm,-0.597782133652118,"Mean NOSC
+(formula-count mean)",1,2,-0.597782133652118
+mean_nosc,141,3,2020-10-06,control,Control,30,10-30 cm,-0.595900258424203,"Mean NOSC
+(formula-count mean)",1,2,-0.595900258424203
+mean_nosc,174,5,2020-10-06,control,Control,30,10-30 cm,-0.669995473087645,"Mean NOSC
+(formula-count mean)",1,2,-0.669995473087645
+mean_nosc,142,3,2020-11-05,control,Control,30,10-30 cm,-0.594193473917519,"Mean NOSC
+(formula-count mean)",1,2,-0.594193473917519
+mean_nosc,175,5,2020-11-05,control,Control,30,10-30 cm,-0.713885569641208,"Mean NOSC
+(formula-count mean)",1,2,-0.713885569641208
+mean_nosc,143,3,2020-12-29,control,Control,30,10-30 cm,-0.616285922559594,"Mean NOSC
+(formula-count mean)",1,2,-0.616285922559594
+mean_nosc,144,3,2021-02-09,control,Control,30,10-30 cm,-0.750693412386368,"Mean NOSC
+(formula-count mean)",1,2,-0.750693412386368
+mean_nosc,176,5,2021-02-23,control,Control,30,10-30 cm,-0.611414787805335,"Mean NOSC
+(formula-count mean)",1,2,-0.611414787805335
+mean_nosc,145,3,2021-06-03,control,Control,30,10-30 cm,-0.702449668299798,"Mean NOSC
+(formula-count mean)",1,2,-0.702449668299798
+mean_nosc,109,1,2021-09-21,control,Control,30,10-30 cm,-0.929023282988013,"Mean NOSC
+(formula-count mean)",1,2,-0.929023282988013
+mean_nosc,146,3,2021-12-15,control,Control,30,10-30 cm,-0.578893493495228,"Mean NOSC
+(formula-count mean)",1,2,-0.578893493495228
+mean_nosc,110,1,2022-08-23,control,Control,30,10-30 cm,-0.652786371583604,"Mean NOSC
+(formula-count mean)",1,2,-0.652786371583604
+mean_nosc,177,5,2022-08-23,control,Control,30,10-30 cm,-0.72312522366713,"Mean NOSC
+(formula-count mean)",1,2,-0.72312522366713
+mean_nosc,111,1,2022-09-08,control,Control,30,10-30 cm,-0.707039462852119,"Mean NOSC
+(formula-count mean)",1,2,-0.707039462852119
+mean_nosc,178,5,2022-09-08,control,Control,30,10-30 cm,-0.269607792834338,"Mean NOSC
+(formula-count mean)",1,2,-0.269607792834338
+mean_nosc,179,5,2022-11-01,control,Control,30,10-30 cm,-0.720707889949507,"Mean NOSC
+(formula-count mean)",1,2,-0.720707889949507
+mean_nosc,112,1,2022-11-16,control,Control,30,10-30 cm,-0.612940607510384,"Mean NOSC
+(formula-count mean)",1,2,-0.612940607510384
+mean_nosc,113,1,2023-01-12,control,Control,30,10-30 cm,-0.630781415416529,"Mean NOSC
+(formula-count mean)",1,2,-0.630781415416529
+mean_nosc,180,5,2023-01-12,control,Control,30,10-30 cm,-0.555356168851548,"Mean NOSC
+(formula-count mean)",1,2,-0.555356168851548
+mean_nosc,181,5,2023-02-07,control,Control,30,10-30 cm,-0.528516211708537,"Mean NOSC
+(formula-count mean)",1,2,-0.528516211708537
+mean_nosc,182,5,2023-05-02,control,Control,30,10-30 cm,-0.56439064272841,"Mean NOSC
+(formula-count mean)",1,2,-0.56439064272841
+mean_nosc,114,1,2023-05-30,control,Control,30,10-30 cm,-0.705393401231405,"Mean NOSC
+(formula-count mean)",1,2,-0.705393401231405
+mean_nosc,147,3,2023-05-30,control,Control,30,10-30 cm,-0.520987551654901,"Mean NOSC
+(formula-count mean)",1,2,-0.520987551654901
+mean_nosc,115,1,2023-08-22,control,Control,30,10-30 cm,-0.5836081598139,"Mean NOSC
+(formula-count mean)",1,2,-0.5836081598139
+mean_nosc,183,5,2023-10-03,control,Control,30,10-30 cm,-0.549486379417149,"Mean NOSC
+(formula-count mean)",1,2,-0.549486379417149
+mean_nosc,116,1,2023-12-12,control,Control,30,10-30 cm,-0.498442897503735,"Mean NOSC
+(formula-count mean)",1,2,-0.498442897503735
+mean_nosc,184,5,2024-04-30,control,Control,30,10-30 cm,-0.557051704480358,"Mean NOSC
+(formula-count mean)",1,2,-0.557051704480358
+mean_nosc,148,4,2017-05-31,warmed,Warmed,30,10-30 cm,-0.60111475825186,"Mean NOSC
+(formula-count mean)",1,2,-0.60111475825186
+mean_nosc,149,4,2017-11-22,warmed,Warmed,30,10-30 cm,-0.527764042584495,"Mean NOSC
+(formula-count mean)",1,2,-0.527764042584495
+mean_nosc,150,4,2017-12-06,warmed,Warmed,30,10-30 cm,-0.571998565845337,"Mean NOSC
+(formula-count mean)",1,2,-0.571998565845337
+mean_nosc,185,6,2017-12-06,warmed,Warmed,30,10-30 cm,-0.367000981420255,"Mean NOSC
+(formula-count mean)",1,2,-0.367000981420255
+mean_nosc,152,4,2018-01-30,warmed,Warmed,30,10-30 cm,-0.479454868214392,"Mean NOSC
+(formula-count mean)",1,2,-0.479454868214392
+mean_nosc,153,4,2018-02-27,warmed,Warmed,30,10-30 cm,-0.411099911352201,"Mean NOSC
+(formula-count mean)",1,2,-0.411099911352201
+mean_nosc,154,4,2018-05-09,warmed,Warmed,30,10-30 cm,-0.558086035546617,"Mean NOSC
+(formula-count mean)",1,2,-0.558086035546617
+mean_nosc,155,4,2018-11-07,warmed,Warmed,30,10-30 cm,-0.514427233166665,"Mean NOSC
+(formula-count mean)",1,2,-0.514427233166665
+mean_nosc,156,4,2019-09-10,warmed,Warmed,30,10-30 cm,-0.550391888244829,"Mean NOSC
+(formula-count mean)",1,2,-0.550391888244829
+mean_nosc,157,4,2019-12-03,warmed,Warmed,30,10-30 cm,-0.498148494581137,"Mean NOSC
+(formula-count mean)",1,2,-0.498148494581137
+mean_nosc,158,4,2020-01-14,warmed,Warmed,30,10-30 cm,-0.551120923098747,"Mean NOSC
+(formula-count mean)",1,2,-0.551120923098747
+mean_nosc,117,2,2020-02-25,warmed,Warmed,30,10-30 cm,-0.623612192821964,"Mean NOSC
+(formula-count mean)",1,2,-0.623612192821964
+mean_nosc,159,4,2020-02-25,warmed,Warmed,30,10-30 cm,-0.543752394768545,"Mean NOSC
+(formula-count mean)",1,2,-0.543752394768545
+mean_nosc,160,4,2020-03-10,warmed,Warmed,30,10-30 cm,-0.592285464067005,"Mean NOSC
+(formula-count mean)",1,2,-0.592285464067005
+mean_nosc,161,4,2020-07-28,warmed,Warmed,30,10-30 cm,-0.501904078611227,"Mean NOSC
+(formula-count mean)",1,2,-0.501904078611227
+mean_nosc,162,4,2020-09-09,warmed,Warmed,30,10-30 cm,-0.558661485166672,"Mean NOSC
+(formula-count mean)",1,2,-0.558661485166672
+mean_nosc,186,6,2020-09-09,warmed,Warmed,30,10-30 cm,-0.443614824831016,"Mean NOSC
+(formula-count mean)",1,2,-0.443614824831016
+mean_nosc,163,4,2020-10-06,warmed,Warmed,30,10-30 cm,-0.495969337828664,"Mean NOSC
+(formula-count mean)",1,2,-0.495969337828664
+mean_nosc,187,6,2020-10-06,warmed,Warmed,30,10-30 cm,-0.348918266727753,"Mean NOSC
+(formula-count mean)",1,2,-0.348918266727753
+mean_nosc,164,4,2020-11-05,warmed,Warmed,30,10-30 cm,-0.485744896643233,"Mean NOSC
+(formula-count mean)",1,2,-0.485744896643233
+mean_nosc,165,4,2020-12-29,warmed,Warmed,30,10-30 cm,-0.528237244702685,"Mean NOSC
+(formula-count mean)",1,2,-0.528237244702685
+mean_nosc,166,4,2021-02-09,warmed,Warmed,30,10-30 cm,-0.557362105387237,"Mean NOSC
+(formula-count mean)",1,2,-0.557362105387237
+mean_nosc,188,6,2021-02-23,warmed,Warmed,30,10-30 cm,-0.232704210044698,"Mean NOSC
+(formula-count mean)",1,2,-0.232704210044698
+mean_nosc,167,4,2021-06-03,warmed,Warmed,30,10-30 cm,-0.550173267233373,"Mean NOSC
+(formula-count mean)",1,2,-0.550173267233373
+mean_nosc,118,2,2021-09-21,warmed,Warmed,30,10-30 cm,-0.548677278489247,"Mean NOSC
+(formula-count mean)",1,2,-0.548677278489247
+mean_nosc,168,4,2021-12-15,warmed,Warmed,30,10-30 cm,-0.510747718106699,"Mean NOSC
+(formula-count mean)",1,2,-0.510747718106699
+mean_nosc,119,2,2022-08-23,warmed,Warmed,30,10-30 cm,-0.619163271137676,"Mean NOSC
+(formula-count mean)",1,2,-0.619163271137676
+mean_nosc,189,6,2022-08-23,warmed,Warmed,30,10-30 cm,-0.576209321353557,"Mean NOSC
+(formula-count mean)",1,2,-0.576209321353557
+mean_nosc,120,2,2022-09-08,warmed,Warmed,30,10-30 cm,-0.43523033126294,"Mean NOSC
+(formula-count mean)",1,2,-0.43523033126294
+mean_nosc,190,6,2022-09-08,warmed,Warmed,30,10-30 cm,-0.514392613179065,"Mean NOSC
+(formula-count mean)",1,2,-0.514392613179065
+mean_nosc,191,6,2022-11-01,warmed,Warmed,30,10-30 cm,-0.675769680083683,"Mean NOSC
+(formula-count mean)",1,2,-0.675769680083683
+mean_nosc,121,2,2022-11-16,warmed,Warmed,30,10-30 cm,-0.609617382673849,"Mean NOSC
+(formula-count mean)",1,2,-0.609617382673849
+mean_nosc,122,2,2023-01-12,warmed,Warmed,30,10-30 cm,-0.655349717107023,"Mean NOSC
+(formula-count mean)",1,2,-0.655349717107023
+mean_nosc,192,6,2023-01-12,warmed,Warmed,30,10-30 cm,-0.593160202947364,"Mean NOSC
+(formula-count mean)",1,2,-0.593160202947364
+mean_nosc,193,6,2023-02-07,warmed,Warmed,30,10-30 cm,-0.617549087306428,"Mean NOSC
+(formula-count mean)",1,2,-0.617549087306428
+mean_nosc,194,6,2023-05-02,warmed,Warmed,30,10-30 cm,-0.541278527851534,"Mean NOSC
+(formula-count mean)",1,2,-0.541278527851534
+mean_nosc,123,2,2023-05-30,warmed,Warmed,30,10-30 cm,-0.566222000212443,"Mean NOSC
+(formula-count mean)",1,2,-0.566222000212443
+mean_nosc,169,4,2023-05-30,warmed,Warmed,30,10-30 cm,-0.532300219730749,"Mean NOSC
+(formula-count mean)",1,2,-0.532300219730749
+mean_nosc,124,2,2023-08-22,warmed,Warmed,30,10-30 cm,-0.624881853822915,"Mean NOSC
+(formula-count mean)",1,2,-0.624881853822915
+mean_nosc,195,6,2023-10-03,warmed,Warmed,30,10-30 cm,-0.565495941880118,"Mean NOSC
+(formula-count mean)",1,2,-0.565495941880118
+mean_nosc,125,2,2023-12-12,warmed,Warmed,30,10-30 cm,-0.613614077173571,"Mean NOSC
+(formula-count mean)",1,2,-0.613614077173571
+mean_nosc,196,6,2024-04-30,warmed,Warmed,30,10-30 cm,-0.523081905692379,"Mean NOSC
+(formula-count mean)",1,2,-0.523081905692379
+mean_hc,1,1,2017-05-31,control,Control,10,0-10 cm,1.14100532911123,"Mean H/C
+(formula-count mean)",1,3,1.14100532911123
+mean_hc,70,5,2017-05-31,control,Control,10,0-10 cm,1.04875056352914,"Mean H/C
+(formula-count mean)",1,3,1.04875056352914
+mean_hc,26,3,2017-10-20,control,Control,10,0-10 cm,1.08611240721997,"Mean H/C
+(formula-count mean)",1,3,1.08611240721997
+mean_hc,2,1,2017-12-06,control,Control,10,0-10 cm,1.15872099143547,"Mean H/C
+(formula-count mean)",1,3,1.15872099143547
+mean_hc,27,3,2017-12-06,control,Control,10,0-10 cm,1.08413655643833,"Mean H/C
+(formula-count mean)",1,3,1.08413655643833
+mean_hc,28,3,2018-01-17,control,Control,10,0-10 cm,1.09052156966777,"Mean H/C
+(formula-count mean)",1,3,1.09052156966777
+mean_hc,29,3,2018-01-30,control,Control,10,0-10 cm,1.07930447668647,"Mean H/C
+(formula-count mean)",1,3,1.07930447668647
+mean_hc,30,3,2018-02-13,control,Control,10,0-10 cm,1.02072426250802,"Mean H/C
+(formula-count mean)",1,3,1.02072426250802
+mean_hc,31,3,2018-02-27,control,Control,10,0-10 cm,1.00828455986373,"Mean H/C
+(formula-count mean)",1,3,1.00828455986373
+mean_hc,3,1,2018-05-09,control,Control,10,0-10 cm,1.13647314814659,"Mean H/C
+(formula-count mean)",1,3,1.13647314814659
+mean_hc,32,3,2018-05-09,control,Control,10,0-10 cm,1.02485706534501,"Mean H/C
+(formula-count mean)",1,3,1.02485706534501
+mean_hc,4,1,2018-05-22,control,Control,10,0-10 cm,1.14480965543383,"Mean H/C
+(formula-count mean)",1,3,1.14480965543383
+mean_hc,33,3,2018-05-22,control,Control,10,0-10 cm,1.08263634596625,"Mean H/C
+(formula-count mean)",1,3,1.08263634596625
+mean_hc,5,1,2018-10-10,control,Control,10,0-10 cm,1.18848923961396,"Mean H/C
+(formula-count mean)",1,3,1.18848923961396
+mean_hc,71,5,2018-10-10,control,Control,10,0-10 cm,1.05206717756322,"Mean H/C
+(formula-count mean)",1,3,1.05206717756322
+mean_hc,34,3,2018-10-23,control,Control,10,0-10 cm,1.14103516466491,"Mean H/C
+(formula-count mean)",1,3,1.14103516466491
+mean_hc,72,5,2018-10-23,control,Control,10,0-10 cm,1.09708293642184,"Mean H/C
+(formula-count mean)",1,3,1.09708293642184
+mean_hc,6,1,2018-11-07,control,Control,10,0-10 cm,1.15352499537689,"Mean H/C
+(formula-count mean)",1,3,1.15352499537689
+mean_hc,35,3,2018-11-07,control,Control,10,0-10 cm,1.56594430225818,"Mean H/C
+(formula-count mean)",1,3,1.56594430225818
+mean_hc,7,1,2019-09-10,control,Control,10,0-10 cm,1.1415742039547,"Mean H/C
+(formula-count mean)",1,3,1.1415742039547
+mean_hc,73,5,2019-09-10,control,Control,10,0-10 cm,1.1110392469724,"Mean H/C
+(formula-count mean)",1,3,1.1110392469724
+mean_hc,36,3,2019-11-05,control,Control,10,0-10 cm,0.951511773058392,"Mean H/C
+(formula-count mean)",1,3,0.951511773058392
+mean_hc,8,1,2019-12-03,control,Control,10,0-10 cm,1.14937284999973,"Mean H/C
+(formula-count mean)",1,3,1.14937284999973
+mean_hc,37,3,2019-12-17,control,Control,10,0-10 cm,1.07115991110181,"Mean H/C
+(formula-count mean)",1,3,1.07115991110181
+mean_hc,74,5,2019-12-17,control,Control,10,0-10 cm,1.03973666776068,"Mean H/C
+(formula-count mean)",1,3,1.03973666776068
+mean_hc,38,3,2019-12-31,control,Control,10,0-10 cm,1.03089882486971,"Mean H/C
+(formula-count mean)",1,3,1.03089882486971
+mean_hc,9,1,2020-01-28,control,Control,10,0-10 cm,1.13288110019671,"Mean H/C
+(formula-count mean)",1,3,1.13288110019671
+mean_hc,39,3,2020-01-28,control,Control,10,0-10 cm,1.08072346049486,"Mean H/C
+(formula-count mean)",1,3,1.08072346049486
+mean_hc,75,5,2020-01-28,control,Control,10,0-10 cm,1.05639285522614,"Mean H/C
+(formula-count mean)",1,3,1.05639285522614
+mean_hc,76,5,2020-02-25,control,Control,10,0-10 cm,1.09625002533608,"Mean H/C
+(formula-count mean)",1,3,1.09625002533608
+mean_hc,40,3,2020-03-10,control,Control,10,0-10 cm,1.05920217567692,"Mean H/C
+(formula-count mean)",1,3,1.05920217567692
+mean_hc,77,5,2020-03-10,control,Control,10,0-10 cm,1.07558088733508,"Mean H/C
+(formula-count mean)",1,3,1.07558088733508
+mean_hc,78,5,2020-07-28,control,Control,10,0-10 cm,1.07028493421283,"Mean H/C
+(formula-count mean)",1,3,1.07028493421283
+mean_hc,79,5,2020-09-09,control,Control,10,0-10 cm,1.08313512470919,"Mean H/C
+(formula-count mean)",1,3,1.08313512470919
+mean_hc,80,5,2020-10-06,control,Control,10,0-10 cm,1.06438363599561,"Mean H/C
+(formula-count mean)",1,3,1.06438363599561
+mean_hc,81,5,2020-11-05,control,Control,10,0-10 cm,1.05681739768027,"Mean H/C
+(formula-count mean)",1,3,1.05681739768027
+mean_hc,82,5,2021-02-09,control,Control,10,0-10 cm,1.06412179365715,"Mean H/C
+(formula-count mean)",1,3,1.06412179365715
+mean_hc,83,5,2021-02-23,control,Control,10,0-10 cm,1.07716268309619,"Mean H/C
+(formula-count mean)",1,3,1.07716268309619
+mean_hc,84,5,2021-06-03,control,Control,10,0-10 cm,1.05897671218542,"Mean H/C
+(formula-count mean)",1,3,1.05897671218542
+mean_hc,10,1,2021-12-15,control,Control,10,0-10 cm,1.07008251772827,"Mean H/C
+(formula-count mean)",1,3,1.07008251772827
+mean_hc,41,3,2021-12-15,control,Control,10,0-10 cm,1.13119759115065,"Mean H/C
+(formula-count mean)",1,3,1.13119759115065
+mean_hc,85,5,2021-12-15,control,Control,10,0-10 cm,1.07049423378533,"Mean H/C
+(formula-count mean)",1,3,1.07049423378533
+mean_hc,11,1,2022-08-23,control,Control,10,0-10 cm,1.0348622750064,"Mean H/C
+(formula-count mean)",1,3,1.0348622750064
+mean_hc,86,5,2022-08-23,control,Control,10,0-10 cm,1.08030440424039,"Mean H/C
+(formula-count mean)",1,3,1.08030440424039
+mean_hc,12,1,2022-09-08,control,Control,10,0-10 cm,1.10837503474318,"Mean H/C
+(formula-count mean)",1,3,1.10837503474318
+mean_hc,42,3,2022-09-08,control,Control,10,0-10 cm,1.05913272912077,"Mean H/C
+(formula-count mean)",1,3,1.05913272912077
+mean_hc,87,5,2022-09-08,control,Control,10,0-10 cm,1.03816981089069,"Mean H/C
+(formula-count mean)",1,3,1.03816981089069
+mean_hc,13,1,2022-11-16,control,Control,10,0-10 cm,1.10368683447025,"Mean H/C
+(formula-count mean)",1,3,1.10368683447025
+mean_hc,43,3,2022-11-16,control,Control,10,0-10 cm,1.12343255459232,"Mean H/C
+(formula-count mean)",1,3,1.12343255459232
+mean_hc,88,5,2022-11-16,control,Control,10,0-10 cm,1.03765422902685,"Mean H/C
+(formula-count mean)",1,3,1.03765422902685
+mean_hc,44,3,2023-05-30,control,Control,10,0-10 cm,1.05076614346713,"Mean H/C
+(formula-count mean)",1,3,1.05076614346713
+mean_hc,45,3,2023-12-27,control,Control,10,0-10 cm,1.01847710851511,"Mean H/C
+(formula-count mean)",1,3,1.01847710851511
+mean_hc,46,3,2024-04-16,control,Control,10,0-10 cm,1.08219744943518,"Mean H/C
+(formula-count mean)",1,3,1.08219744943518
+mean_hc,47,3,2024-04-30,control,Control,10,0-10 cm,0.970763427348319,"Mean H/C
+(formula-count mean)",1,3,0.970763427348319
+mean_hc,14,2,2017-05-31,warmed,Warmed,10,0-10 cm,1.14179275861815,"Mean H/C
+(formula-count mean)",1,3,1.14179275861815
+mean_hc,89,6,2017-05-31,warmed,Warmed,10,0-10 cm,1.05120253119813,"Mean H/C
+(formula-count mean)",1,3,1.05120253119813
+mean_hc,48,4,2017-10-20,warmed,Warmed,10,0-10 cm,1.08202806243334,"Mean H/C
+(formula-count mean)",1,3,1.08202806243334
+mean_hc,15,2,2017-12-06,warmed,Warmed,10,0-10 cm,1.08898170701938,"Mean H/C
+(formula-count mean)",1,3,1.08898170701938
+mean_hc,49,4,2017-12-06,warmed,Warmed,10,0-10 cm,1.10061968479502,"Mean H/C
+(formula-count mean)",1,3,1.10061968479502
+mean_hc,50,4,2018-01-17,warmed,Warmed,10,0-10 cm,1.05658320961457,"Mean H/C
+(formula-count mean)",1,3,1.05658320961457
+mean_hc,51,4,2018-01-30,warmed,Warmed,10,0-10 cm,1.17957785441456,"Mean H/C
+(formula-count mean)",1,3,1.17957785441456
+mean_hc,52,4,2018-02-13,warmed,Warmed,10,0-10 cm,1.09391728698471,"Mean H/C
+(formula-count mean)",1,3,1.09391728698471
+mean_hc,53,4,2018-02-27,warmed,Warmed,10,0-10 cm,1.13532902841995,"Mean H/C
+(formula-count mean)",1,3,1.13532902841995
+mean_hc,16,2,2018-05-09,warmed,Warmed,10,0-10 cm,1.04489661629535,"Mean H/C
+(formula-count mean)",1,3,1.04489661629535
+mean_hc,54,4,2018-05-09,warmed,Warmed,10,0-10 cm,1.08801011828381,"Mean H/C
+(formula-count mean)",1,3,1.08801011828381
+mean_hc,17,2,2018-05-22,warmed,Warmed,10,0-10 cm,1.00318735580449,"Mean H/C
+(formula-count mean)",1,3,1.00318735580449
+mean_hc,55,4,2018-05-22,warmed,Warmed,10,0-10 cm,1.10780137224618,"Mean H/C
+(formula-count mean)",1,3,1.10780137224618
+mean_hc,18,2,2018-10-10,warmed,Warmed,10,0-10 cm,1.04890993251436,"Mean H/C
+(formula-count mean)",1,3,1.04890993251436
+mean_hc,90,6,2018-10-10,warmed,Warmed,10,0-10 cm,1.03268471197836,"Mean H/C
+(formula-count mean)",1,3,1.03268471197836
+mean_hc,56,4,2018-10-23,warmed,Warmed,10,0-10 cm,1.11563244459288,"Mean H/C
+(formula-count mean)",1,3,1.11563244459288
+mean_hc,91,6,2018-10-23,warmed,Warmed,10,0-10 cm,1.05774720103331,"Mean H/C
+(formula-count mean)",1,3,1.05774720103331
+mean_hc,19,2,2018-11-07,warmed,Warmed,10,0-10 cm,1.09554679300642,"Mean H/C
+(formula-count mean)",1,3,1.09554679300642
+mean_hc,57,4,2018-11-07,warmed,Warmed,10,0-10 cm,1.11191257622022,"Mean H/C
+(formula-count mean)",1,3,1.11191257622022
+mean_hc,20,2,2019-09-10,warmed,Warmed,10,0-10 cm,1.17062636810221,"Mean H/C
+(formula-count mean)",1,3,1.17062636810221
+mean_hc,92,6,2019-09-10,warmed,Warmed,10,0-10 cm,1.04538772626483,"Mean H/C
+(formula-count mean)",1,3,1.04538772626483
+mean_hc,58,4,2019-11-05,warmed,Warmed,10,0-10 cm,1.11446601459512,"Mean H/C
+(formula-count mean)",1,3,1.11446601459512
+mean_hc,21,2,2019-12-03,warmed,Warmed,10,0-10 cm,1.07837007090578,"Mean H/C
+(formula-count mean)",1,3,1.07837007090578
+mean_hc,59,4,2019-12-17,warmed,Warmed,10,0-10 cm,1.08819087488073,"Mean H/C
+(formula-count mean)",1,3,1.08819087488073
+mean_hc,93,6,2019-12-17,warmed,Warmed,10,0-10 cm,1.0219624699861,"Mean H/C
+(formula-count mean)",1,3,1.0219624699861
+mean_hc,60,4,2019-12-31,warmed,Warmed,10,0-10 cm,1.09726097913108,"Mean H/C
+(formula-count mean)",1,3,1.09726097913108
+mean_hc,22,2,2020-01-28,warmed,Warmed,10,0-10 cm,1.06463602824626,"Mean H/C
+(formula-count mean)",1,3,1.06463602824626
+mean_hc,61,4,2020-01-28,warmed,Warmed,10,0-10 cm,1.06182819710299,"Mean H/C
+(formula-count mean)",1,3,1.06182819710299
+mean_hc,94,6,2020-01-28,warmed,Warmed,10,0-10 cm,1.0724607473864,"Mean H/C
+(formula-count mean)",1,3,1.0724607473864
+mean_hc,95,6,2020-02-25,warmed,Warmed,10,0-10 cm,1.05783038527975,"Mean H/C
+(formula-count mean)",1,3,1.05783038527975
+mean_hc,62,4,2020-03-10,warmed,Warmed,10,0-10 cm,1.04784123914466,"Mean H/C
+(formula-count mean)",1,3,1.04784123914466
+mean_hc,96,6,2020-03-10,warmed,Warmed,10,0-10 cm,1.07010481468851,"Mean H/C
+(formula-count mean)",1,3,1.07010481468851
+mean_hc,97,6,2020-07-28,warmed,Warmed,10,0-10 cm,1.05088411470018,"Mean H/C
+(formula-count mean)",1,3,1.05088411470018
+mean_hc,98,6,2020-09-09,warmed,Warmed,10,0-10 cm,1.04077585707543,"Mean H/C
+(formula-count mean)",1,3,1.04077585707543
+mean_hc,99,6,2020-10-06,warmed,Warmed,10,0-10 cm,1.03300542527228,"Mean H/C
+(formula-count mean)",1,3,1.03300542527228
+mean_hc,100,6,2020-11-05,warmed,Warmed,10,0-10 cm,1.06015508249113,"Mean H/C
+(formula-count mean)",1,3,1.06015508249113
+mean_hc,101,6,2021-02-09,warmed,Warmed,10,0-10 cm,1.00096681154664,"Mean H/C
+(formula-count mean)",1,3,1.00096681154664
+mean_hc,102,6,2021-02-23,warmed,Warmed,10,0-10 cm,1.0270164220267,"Mean H/C
+(formula-count mean)",1,3,1.0270164220267
+mean_hc,103,6,2021-06-03,warmed,Warmed,10,0-10 cm,1.06970215043669,"Mean H/C
+(formula-count mean)",1,3,1.06970215043669
+mean_hc,23,2,2021-12-15,warmed,Warmed,10,0-10 cm,1.05881577488138,"Mean H/C
+(formula-count mean)",1,3,1.05881577488138
+mean_hc,63,4,2021-12-15,warmed,Warmed,10,0-10 cm,1.06540744405928,"Mean H/C
+(formula-count mean)",1,3,1.06540744405928
+mean_hc,104,6,2021-12-15,warmed,Warmed,10,0-10 cm,0.985445188144702,"Mean H/C
+(formula-count mean)",1,3,0.985445188144702
+mean_hc,24,2,2022-08-23,warmed,Warmed,10,0-10 cm,1.01875884128796,"Mean H/C
+(formula-count mean)",1,3,1.01875884128796
+mean_hc,105,6,2022-08-23,warmed,Warmed,10,0-10 cm,0.959024182587356,"Mean H/C
+(formula-count mean)",1,3,0.959024182587356
+mean_hc,64,4,2022-09-08,warmed,Warmed,10,0-10 cm,1.03981538286093,"Mean H/C
+(formula-count mean)",1,3,1.03981538286093
+mean_hc,106,6,2022-09-08,warmed,Warmed,10,0-10 cm,0.912485281256611,"Mean H/C
+(formula-count mean)",1,3,0.912485281256611
+mean_hc,25,2,2022-11-16,warmed,Warmed,10,0-10 cm,1.02594020527063,"Mean H/C
+(formula-count mean)",1,3,1.02594020527063
+mean_hc,65,4,2022-11-16,warmed,Warmed,10,0-10 cm,1.0503445433786,"Mean H/C
+(formula-count mean)",1,3,1.0503445433786
+mean_hc,107,6,2022-11-16,warmed,Warmed,10,0-10 cm,1.00091072493067,"Mean H/C
+(formula-count mean)",1,3,1.00091072493067
+mean_hc,66,4,2023-05-30,warmed,Warmed,10,0-10 cm,1.03978719677717,"Mean H/C
+(formula-count mean)",1,3,1.03978719677717
+mean_hc,67,4,2023-12-27,warmed,Warmed,10,0-10 cm,1.07513220457498,"Mean H/C
+(formula-count mean)",1,3,1.07513220457498
+mean_hc,68,4,2024-04-16,warmed,Warmed,10,0-10 cm,1.03169804570472,"Mean H/C
+(formula-count mean)",1,3,1.03169804570472
+mean_hc,69,4,2024-04-30,warmed,Warmed,10,0-10 cm,1.06845422753518,"Mean H/C
+(formula-count mean)",1,3,1.06845422753518
+mean_hc,126,3,2017-05-31,control,Control,30,10-30 cm,1.11617322797872,"Mean H/C
+(formula-count mean)",1,3,1.11617322797872
+mean_hc,127,3,2017-11-22,control,Control,30,10-30 cm,1.02184657815175,"Mean H/C
+(formula-count mean)",1,3,1.02184657815175
+mean_hc,128,3,2017-12-06,control,Control,30,10-30 cm,1.43392148695855,"Mean H/C
+(formula-count mean)",1,3,1.43392148695855
+mean_hc,170,5,2017-12-06,control,Control,30,10-30 cm,1.10693612608759,"Mean H/C
+(formula-count mean)",1,3,1.10693612608759
+mean_hc,129,3,2018-01-03,control,Control,30,10-30 cm,1.21295498692573,"Mean H/C
+(formula-count mean)",1,3,1.21295498692573
+mean_hc,130,3,2018-01-30,control,Control,30,10-30 cm,0.962932602635357,"Mean H/C
+(formula-count mean)",1,3,0.962932602635357
+mean_hc,131,3,2018-02-27,control,Control,30,10-30 cm,1.19174946231963,"Mean H/C
+(formula-count mean)",1,3,1.19174946231963
+mean_hc,171,5,2018-03-27,control,Control,30,10-30 cm,1.03336346636405,"Mean H/C
+(formula-count mean)",1,3,1.03336346636405
+mean_hc,132,3,2018-05-09,control,Control,30,10-30 cm,1.09346268227407,"Mean H/C
+(formula-count mean)",1,3,1.09346268227407
+mean_hc,172,5,2018-05-09,control,Control,30,10-30 cm,1.0589013932777,"Mean H/C
+(formula-count mean)",1,3,1.0589013932777
+mean_hc,133,3,2018-11-07,control,Control,30,10-30 cm,1.07559775729346,"Mean H/C
+(formula-count mean)",1,3,1.07559775729346
+mean_hc,134,3,2019-09-10,control,Control,30,10-30 cm,1.11010262309073,"Mean H/C
+(formula-count mean)",1,3,1.11010262309073
+mean_hc,135,3,2019-12-03,control,Control,30,10-30 cm,0.996091939747293,"Mean H/C
+(formula-count mean)",1,3,0.996091939747293
+mean_hc,136,3,2020-01-14,control,Control,30,10-30 cm,1.05535025264123,"Mean H/C
+(formula-count mean)",1,3,1.05535025264123
+mean_hc,108,1,2020-02-25,control,Control,30,10-30 cm,1.11135189129789,"Mean H/C
+(formula-count mean)",1,3,1.11135189129789
+mean_hc,137,3,2020-02-25,control,Control,30,10-30 cm,1.01144301474728,"Mean H/C
+(formula-count mean)",1,3,1.01144301474728
+mean_hc,138,3,2020-03-10,control,Control,30,10-30 cm,1.04982644932488,"Mean H/C
+(formula-count mean)",1,3,1.04982644932488
+mean_hc,139,3,2020-07-28,control,Control,30,10-30 cm,1.05803782531253,"Mean H/C
+(formula-count mean)",1,3,1.05803782531253
+mean_hc,173,5,2020-07-28,control,Control,30,10-30 cm,1.04404572867775,"Mean H/C
+(formula-count mean)",1,3,1.04404572867775
+mean_hc,140,3,2020-09-09,control,Control,30,10-30 cm,1.02746592496917,"Mean H/C
+(formula-count mean)",1,3,1.02746592496917
+mean_hc,141,3,2020-10-06,control,Control,30,10-30 cm,1.00215932160535,"Mean H/C
+(formula-count mean)",1,3,1.00215932160535
+mean_hc,174,5,2020-10-06,control,Control,30,10-30 cm,1.03099517831024,"Mean H/C
+(formula-count mean)",1,3,1.03099517831024
+mean_hc,142,3,2020-11-05,control,Control,30,10-30 cm,0.976083086164012,"Mean H/C
+(formula-count mean)",1,3,0.976083086164012
+mean_hc,175,5,2020-11-05,control,Control,30,10-30 cm,1.05089195426477,"Mean H/C
+(formula-count mean)",1,3,1.05089195426477
+mean_hc,143,3,2020-12-29,control,Control,30,10-30 cm,1.00624379156116,"Mean H/C
+(formula-count mean)",1,3,1.00624379156116
+mean_hc,144,3,2021-02-09,control,Control,30,10-30 cm,1.10235802128939,"Mean H/C
+(formula-count mean)",1,3,1.10235802128939
+mean_hc,176,5,2021-02-23,control,Control,30,10-30 cm,0.994772181047101,"Mean H/C
+(formula-count mean)",1,3,0.994772181047101
+mean_hc,145,3,2021-06-03,control,Control,30,10-30 cm,1.11006164163742,"Mean H/C
+(formula-count mean)",1,3,1.11006164163742
+mean_hc,109,1,2021-09-21,control,Control,30,10-30 cm,1.28286515826519,"Mean H/C
+(formula-count mean)",1,3,1.28286515826519
+mean_hc,146,3,2021-12-15,control,Control,30,10-30 cm,1.04118059901725,"Mean H/C
+(formula-count mean)",1,3,1.04118059901725
+mean_hc,110,1,2022-08-23,control,Control,30,10-30 cm,0.943923566742559,"Mean H/C
+(formula-count mean)",1,3,0.943923566742559
+mean_hc,177,5,2022-08-23,control,Control,30,10-30 cm,1.10220883985858,"Mean H/C
+(formula-count mean)",1,3,1.10220883985858
+mean_hc,111,1,2022-09-08,control,Control,30,10-30 cm,1.04025900034127,"Mean H/C
+(formula-count mean)",1,3,1.04025900034127
+mean_hc,178,5,2022-09-08,control,Control,30,10-30 cm,1.03453462084865,"Mean H/C
+(formula-count mean)",1,3,1.03453462084865
+mean_hc,179,5,2022-11-01,control,Control,30,10-30 cm,1.02317644198318,"Mean H/C
+(formula-count mean)",1,3,1.02317644198318
+mean_hc,112,1,2022-11-16,control,Control,30,10-30 cm,1.01232396614453,"Mean H/C
+(formula-count mean)",1,3,1.01232396614453
+mean_hc,113,1,2023-01-12,control,Control,30,10-30 cm,1.02237555179709,"Mean H/C
+(formula-count mean)",1,3,1.02237555179709
+mean_hc,180,5,2023-01-12,control,Control,30,10-30 cm,1.0147643054757,"Mean H/C
+(formula-count mean)",1,3,1.0147643054757
+mean_hc,181,5,2023-02-07,control,Control,30,10-30 cm,0.99132744610479,"Mean H/C
+(formula-count mean)",1,3,0.99132744610479
+mean_hc,182,5,2023-05-02,control,Control,30,10-30 cm,1.06731871449812,"Mean H/C
+(formula-count mean)",1,3,1.06731871449812
+mean_hc,114,1,2023-05-30,control,Control,30,10-30 cm,1.03345001085689,"Mean H/C
+(formula-count mean)",1,3,1.03345001085689
+mean_hc,147,3,2023-05-30,control,Control,30,10-30 cm,1.02945310741522,"Mean H/C
+(formula-count mean)",1,3,1.02945310741522
+mean_hc,115,1,2023-08-22,control,Control,30,10-30 cm,1.05712574852521,"Mean H/C
+(formula-count mean)",1,3,1.05712574852521
+mean_hc,183,5,2023-10-03,control,Control,30,10-30 cm,1.03553072454769,"Mean H/C
+(formula-count mean)",1,3,1.03553072454769
+mean_hc,116,1,2023-12-12,control,Control,30,10-30 cm,0.996816925757578,"Mean H/C
+(formula-count mean)",1,3,0.996816925757578
+mean_hc,184,5,2024-04-30,control,Control,30,10-30 cm,1.06238318444044,"Mean H/C
+(formula-count mean)",1,3,1.06238318444044
+mean_hc,148,4,2017-05-31,warmed,Warmed,30,10-30 cm,0.938962468946081,"Mean H/C
+(formula-count mean)",1,3,0.938962468946081
+mean_hc,149,4,2017-11-22,warmed,Warmed,30,10-30 cm,0.984621835438741,"Mean H/C
+(formula-count mean)",1,3,0.984621835438741
+mean_hc,150,4,2017-12-06,warmed,Warmed,30,10-30 cm,0.992348006924048,"Mean H/C
+(formula-count mean)",1,3,0.992348006924048
+mean_hc,185,6,2017-12-06,warmed,Warmed,30,10-30 cm,1.12188724858114,"Mean H/C
+(formula-count mean)",1,3,1.12188724858114
+mean_hc,152,4,2018-01-30,warmed,Warmed,30,10-30 cm,1.0400721813304,"Mean H/C
+(formula-count mean)",1,3,1.0400721813304
+mean_hc,153,4,2018-02-27,warmed,Warmed,30,10-30 cm,0.911558623976051,"Mean H/C
+(formula-count mean)",1,3,0.911558623976051
+mean_hc,154,4,2018-05-09,warmed,Warmed,30,10-30 cm,1.04890971136295,"Mean H/C
+(formula-count mean)",1,3,1.04890971136295
+mean_hc,155,4,2018-11-07,warmed,Warmed,30,10-30 cm,1.03080128292945,"Mean H/C
+(formula-count mean)",1,3,1.03080128292945
+mean_hc,156,4,2019-09-10,warmed,Warmed,30,10-30 cm,1.05188856957292,"Mean H/C
+(formula-count mean)",1,3,1.05188856957292
+mean_hc,157,4,2019-12-03,warmed,Warmed,30,10-30 cm,1.00694386461033,"Mean H/C
+(formula-count mean)",1,3,1.00694386461033
+mean_hc,158,4,2020-01-14,warmed,Warmed,30,10-30 cm,1.04464243525741,"Mean H/C
+(formula-count mean)",1,3,1.04464243525741
+mean_hc,117,2,2020-02-25,warmed,Warmed,30,10-30 cm,1.05114509398399,"Mean H/C
+(formula-count mean)",1,3,1.05114509398399
+mean_hc,159,4,2020-02-25,warmed,Warmed,30,10-30 cm,1.0446048921575,"Mean H/C
+(formula-count mean)",1,3,1.0446048921575
+mean_hc,160,4,2020-03-10,warmed,Warmed,30,10-30 cm,1.04580499262742,"Mean H/C
+(formula-count mean)",1,3,1.04580499262742
+mean_hc,161,4,2020-07-28,warmed,Warmed,30,10-30 cm,0.964435732149765,"Mean H/C
+(formula-count mean)",1,3,0.964435732149765
+mean_hc,162,4,2020-09-09,warmed,Warmed,30,10-30 cm,0.954591186669458,"Mean H/C
+(formula-count mean)",1,3,0.954591186669458
+mean_hc,186,6,2020-09-09,warmed,Warmed,30,10-30 cm,1.06723244941067,"Mean H/C
+(formula-count mean)",1,3,1.06723244941067
+mean_hc,163,4,2020-10-06,warmed,Warmed,30,10-30 cm,1.01087017724166,"Mean H/C
+(formula-count mean)",1,3,1.01087017724166
+mean_hc,187,6,2020-10-06,warmed,Warmed,30,10-30 cm,1.13981229295941,"Mean H/C
+(formula-count mean)",1,3,1.13981229295941
+mean_hc,164,4,2020-11-05,warmed,Warmed,30,10-30 cm,0.975032252826926,"Mean H/C
+(formula-count mean)",1,3,0.975032252826926
+mean_hc,165,4,2020-12-29,warmed,Warmed,30,10-30 cm,1.01410957866252,"Mean H/C
+(formula-count mean)",1,3,1.01410957866252
+mean_hc,166,4,2021-02-09,warmed,Warmed,30,10-30 cm,1.00967282138126,"Mean H/C
+(formula-count mean)",1,3,1.00967282138126
+mean_hc,188,6,2021-02-23,warmed,Warmed,30,10-30 cm,1.11015049838269,"Mean H/C
+(formula-count mean)",1,3,1.11015049838269
+mean_hc,167,4,2021-06-03,warmed,Warmed,30,10-30 cm,0.926101345920236,"Mean H/C
+(formula-count mean)",1,3,0.926101345920236
+mean_hc,118,2,2021-09-21,warmed,Warmed,30,10-30 cm,1.06531729266262,"Mean H/C
+(formula-count mean)",1,3,1.06531729266262
+mean_hc,168,4,2021-12-15,warmed,Warmed,30,10-30 cm,0.990763768422906,"Mean H/C
+(formula-count mean)",1,3,0.990763768422906
+mean_hc,119,2,2022-08-23,warmed,Warmed,30,10-30 cm,0.98457400359227,"Mean H/C
+(formula-count mean)",1,3,0.98457400359227
+mean_hc,189,6,2022-08-23,warmed,Warmed,30,10-30 cm,0.967116339453342,"Mean H/C
+(formula-count mean)",1,3,0.967116339453342
+mean_hc,120,2,2022-09-08,warmed,Warmed,30,10-30 cm,1.54422715267824,"Mean H/C
+(formula-count mean)",1,3,1.54422715267824
+mean_hc,190,6,2022-09-08,warmed,Warmed,30,10-30 cm,0.97124054875737,"Mean H/C
+(formula-count mean)",1,3,0.97124054875737
+mean_hc,191,6,2022-11-01,warmed,Warmed,30,10-30 cm,1.10736065411594,"Mean H/C
+(formula-count mean)",1,3,1.10736065411594
+mean_hc,121,2,2022-11-16,warmed,Warmed,30,10-30 cm,1.09216314623301,"Mean H/C
+(formula-count mean)",1,3,1.09216314623301
+mean_hc,122,2,2023-01-12,warmed,Warmed,30,10-30 cm,1.14451454247966,"Mean H/C
+(formula-count mean)",1,3,1.14451454247966
+mean_hc,192,6,2023-01-12,warmed,Warmed,30,10-30 cm,1.05600892587119,"Mean H/C
+(formula-count mean)",1,3,1.05600892587119
+mean_hc,193,6,2023-02-07,warmed,Warmed,30,10-30 cm,1.07777461134773,"Mean H/C
+(formula-count mean)",1,3,1.07777461134773
+mean_hc,194,6,2023-05-02,warmed,Warmed,30,10-30 cm,1.10265434793224,"Mean H/C
+(formula-count mean)",1,3,1.10265434793224
+mean_hc,123,2,2023-05-30,warmed,Warmed,30,10-30 cm,0.984728789224908,"Mean H/C
+(formula-count mean)",1,3,0.984728789224908
+mean_hc,169,4,2023-05-30,warmed,Warmed,30,10-30 cm,0.951241754462144,"Mean H/C
+(formula-count mean)",1,3,0.951241754462144
+mean_hc,124,2,2023-08-22,warmed,Warmed,30,10-30 cm,1.09191650888326,"Mean H/C
+(formula-count mean)",1,3,1.09191650888326
+mean_hc,195,6,2023-10-03,warmed,Warmed,30,10-30 cm,1.02208321615607,"Mean H/C
+(formula-count mean)",1,3,1.02208321615607
+mean_hc,125,2,2023-12-12,warmed,Warmed,30,10-30 cm,1.11417845359149,"Mean H/C
+(formula-count mean)",1,3,1.11417845359149
+mean_hc,196,6,2024-04-30,warmed,Warmed,30,10-30 cm,1.03908720483386,"Mean H/C
+(formula-count mean)",1,3,1.03908720483386
+mean_oc,1,1,2017-05-31,control,Control,10,0-10 cm,0.360781817814691,"Mean O/C
+(formula-count mean)",1,4,0.360781817814691
+mean_oc,70,5,2017-05-31,control,Control,10,0-10 cm,0.302624139036957,"Mean O/C
+(formula-count mean)",1,4,0.302624139036957
+mean_oc,26,3,2017-10-20,control,Control,10,0-10 cm,0.23148949141557,"Mean O/C
+(formula-count mean)",1,4,0.23148949141557
+mean_oc,2,1,2017-12-06,control,Control,10,0-10 cm,0.359691216533092,"Mean O/C
+(formula-count mean)",1,4,0.359691216533092
+mean_oc,27,3,2017-12-06,control,Control,10,0-10 cm,0.411295492713163,"Mean O/C
+(formula-count mean)",1,4,0.411295492713163
+mean_oc,28,3,2018-01-17,control,Control,10,0-10 cm,0.263838318228226,"Mean O/C
+(formula-count mean)",1,4,0.263838318228226
+mean_oc,29,3,2018-01-30,control,Control,10,0-10 cm,0.289649201847256,"Mean O/C
+(formula-count mean)",1,4,0.289649201847256
+mean_oc,30,3,2018-02-13,control,Control,10,0-10 cm,0.210161190711178,"Mean O/C
+(formula-count mean)",1,4,0.210161190711178
+mean_oc,31,3,2018-02-27,control,Control,10,0-10 cm,0.182138588455439,"Mean O/C
+(formula-count mean)",1,4,0.182138588455439
+mean_oc,3,1,2018-05-09,control,Control,10,0-10 cm,0.339909502940581,"Mean O/C
+(formula-count mean)",1,4,0.339909502940581
+mean_oc,32,3,2018-05-09,control,Control,10,0-10 cm,0.184420796644248,"Mean O/C
+(formula-count mean)",1,4,0.184420796644248
+mean_oc,4,1,2018-05-22,control,Control,10,0-10 cm,0.357072167217379,"Mean O/C
+(formula-count mean)",1,4,0.357072167217379
+mean_oc,33,3,2018-05-22,control,Control,10,0-10 cm,0.158824848261525,"Mean O/C
+(formula-count mean)",1,4,0.158824848261525
+mean_oc,5,1,2018-10-10,control,Control,10,0-10 cm,0.362084779791827,"Mean O/C
+(formula-count mean)",1,4,0.362084779791827
+mean_oc,71,5,2018-10-10,control,Control,10,0-10 cm,0.277329280232401,"Mean O/C
+(formula-count mean)",1,4,0.277329280232401
+mean_oc,34,3,2018-10-23,control,Control,10,0-10 cm,0.296589275751935,"Mean O/C
+(formula-count mean)",1,4,0.296589275751935
+mean_oc,72,5,2018-10-23,control,Control,10,0-10 cm,0.258902817615776,"Mean O/C
+(formula-count mean)",1,4,0.258902817615776
+mean_oc,6,1,2018-11-07,control,Control,10,0-10 cm,0.339995573572565,"Mean O/C
+(formula-count mean)",1,4,0.339995573572565
+mean_oc,35,3,2018-11-07,control,Control,10,0-10 cm,0.265222458630163,"Mean O/C
+(formula-count mean)",1,4,0.265222458630163
+mean_oc,7,1,2019-09-10,control,Control,10,0-10 cm,0.334149027678319,"Mean O/C
+(formula-count mean)",1,4,0.334149027678319
+mean_oc,73,5,2019-09-10,control,Control,10,0-10 cm,0.319374890382,"Mean O/C
+(formula-count mean)",1,4,0.319374890382
+mean_oc,36,3,2019-11-05,control,Control,10,0-10 cm,0.156308171016363,"Mean O/C
+(formula-count mean)",1,4,0.156308171016363
+mean_oc,8,1,2019-12-03,control,Control,10,0-10 cm,0.375015606951208,"Mean O/C
+(formula-count mean)",1,4,0.375015606951208
+mean_oc,37,3,2019-12-17,control,Control,10,0-10 cm,0.163599243251485,"Mean O/C
+(formula-count mean)",1,4,0.163599243251485
+mean_oc,74,5,2019-12-17,control,Control,10,0-10 cm,0.276991310434168,"Mean O/C
+(formula-count mean)",1,4,0.276991310434168
+mean_oc,38,3,2019-12-31,control,Control,10,0-10 cm,0.164985989257553,"Mean O/C
+(formula-count mean)",1,4,0.164985989257553
+mean_oc,9,1,2020-01-28,control,Control,10,0-10 cm,0.399328541045965,"Mean O/C
+(formula-count mean)",1,4,0.399328541045965
+mean_oc,39,3,2020-01-28,control,Control,10,0-10 cm,0.181159998592894,"Mean O/C
+(formula-count mean)",1,4,0.181159998592894
+mean_oc,75,5,2020-01-28,control,Control,10,0-10 cm,0.308369530753758,"Mean O/C
+(formula-count mean)",1,4,0.308369530753758
+mean_oc,76,5,2020-02-25,control,Control,10,0-10 cm,0.291750083726194,"Mean O/C
+(formula-count mean)",1,4,0.291750083726194
+mean_oc,40,3,2020-03-10,control,Control,10,0-10 cm,0.166456783176818,"Mean O/C
+(formula-count mean)",1,4,0.166456783176818
+mean_oc,77,5,2020-03-10,control,Control,10,0-10 cm,0.295983794420518,"Mean O/C
+(formula-count mean)",1,4,0.295983794420518
+mean_oc,78,5,2020-07-28,control,Control,10,0-10 cm,0.320320145627103,"Mean O/C
+(formula-count mean)",1,4,0.320320145627103
+mean_oc,79,5,2020-09-09,control,Control,10,0-10 cm,0.320029069690771,"Mean O/C
+(formula-count mean)",1,4,0.320029069690771
+mean_oc,80,5,2020-10-06,control,Control,10,0-10 cm,0.278319465239662,"Mean O/C
+(formula-count mean)",1,4,0.278319465239662
+mean_oc,81,5,2020-11-05,control,Control,10,0-10 cm,0.280209502964677,"Mean O/C
+(formula-count mean)",1,4,0.280209502964677
+mean_oc,82,5,2021-02-09,control,Control,10,0-10 cm,0.261338605136796,"Mean O/C
+(formula-count mean)",1,4,0.261338605136796
+mean_oc,83,5,2021-02-23,control,Control,10,0-10 cm,0.268481897177113,"Mean O/C
+(formula-count mean)",1,4,0.268481897177113
+mean_oc,84,5,2021-06-03,control,Control,10,0-10 cm,0.250271539820038,"Mean O/C
+(formula-count mean)",1,4,0.250271539820038
+mean_oc,10,1,2021-12-15,control,Control,10,0-10 cm,0.268099124861696,"Mean O/C
+(formula-count mean)",1,4,0.268099124861696
+mean_oc,41,3,2021-12-15,control,Control,10,0-10 cm,0.144628004588314,"Mean O/C
+(formula-count mean)",1,4,0.144628004588314
+mean_oc,85,5,2021-12-15,control,Control,10,0-10 cm,0.248623859693026,"Mean O/C
+(formula-count mean)",1,4,0.248623859693026
+mean_oc,11,1,2022-08-23,control,Control,10,0-10 cm,0.245126064527353,"Mean O/C
+(formula-count mean)",1,4,0.245126064527353
+mean_oc,86,5,2022-08-23,control,Control,10,0-10 cm,0.263515500172885,"Mean O/C
+(formula-count mean)",1,4,0.263515500172885
+mean_oc,12,1,2022-09-08,control,Control,10,0-10 cm,0.308184183959695,"Mean O/C
+(formula-count mean)",1,4,0.308184183959695
+mean_oc,42,3,2022-09-08,control,Control,10,0-10 cm,0.176968983500091,"Mean O/C
+(formula-count mean)",1,4,0.176968983500091
+mean_oc,87,5,2022-09-08,control,Control,10,0-10 cm,0.279864094070934,"Mean O/C
+(formula-count mean)",1,4,0.279864094070934
+mean_oc,13,1,2022-11-16,control,Control,10,0-10 cm,0.263056708993543,"Mean O/C
+(formula-count mean)",1,4,0.263056708993543
+mean_oc,43,3,2022-11-16,control,Control,10,0-10 cm,0.161952742345003,"Mean O/C
+(formula-count mean)",1,4,0.161952742345003
+mean_oc,88,5,2022-11-16,control,Control,10,0-10 cm,0.252933280167026,"Mean O/C
+(formula-count mean)",1,4,0.252933280167026
+mean_oc,44,3,2023-05-30,control,Control,10,0-10 cm,0.142933814376134,"Mean O/C
+(formula-count mean)",1,4,0.142933814376134
+mean_oc,45,3,2023-12-27,control,Control,10,0-10 cm,0.152356408507488,"Mean O/C
+(formula-count mean)",1,4,0.152356408507488
+mean_oc,46,3,2024-04-16,control,Control,10,0-10 cm,0.127816570594021,"Mean O/C
+(formula-count mean)",1,4,0.127816570594021
+mean_oc,47,3,2024-04-30,control,Control,10,0-10 cm,0.141865291925424,"Mean O/C
+(formula-count mean)",1,4,0.141865291925424
+mean_oc,14,2,2017-05-31,warmed,Warmed,10,0-10 cm,0.406442126878686,"Mean O/C
+(formula-count mean)",1,4,0.406442126878686
+mean_oc,89,6,2017-05-31,warmed,Warmed,10,0-10 cm,0.333415187018446,"Mean O/C
+(formula-count mean)",1,4,0.333415187018446
+mean_oc,48,4,2017-10-20,warmed,Warmed,10,0-10 cm,0.322274600854291,"Mean O/C
+(formula-count mean)",1,4,0.322274600854291
+mean_oc,15,2,2017-12-06,warmed,Warmed,10,0-10 cm,0.255260975348103,"Mean O/C
+(formula-count mean)",1,4,0.255260975348103
+mean_oc,49,4,2017-12-06,warmed,Warmed,10,0-10 cm,0.387205972493032,"Mean O/C
+(formula-count mean)",1,4,0.387205972493032
+mean_oc,50,4,2018-01-17,warmed,Warmed,10,0-10 cm,0.339305156188006,"Mean O/C
+(formula-count mean)",1,4,0.339305156188006
+mean_oc,51,4,2018-01-30,warmed,Warmed,10,0-10 cm,0.371667772954534,"Mean O/C
+(formula-count mean)",1,4,0.371667772954534
+mean_oc,52,4,2018-02-13,warmed,Warmed,10,0-10 cm,0.338738587766987,"Mean O/C
+(formula-count mean)",1,4,0.338738587766987
+mean_oc,53,4,2018-02-27,warmed,Warmed,10,0-10 cm,0.351180040465763,"Mean O/C
+(formula-count mean)",1,4,0.351180040465763
+mean_oc,16,2,2018-05-09,warmed,Warmed,10,0-10 cm,0.291941468240253,"Mean O/C
+(formula-count mean)",1,4,0.291941468240253
+mean_oc,54,4,2018-05-09,warmed,Warmed,10,0-10 cm,0.390970258063096,"Mean O/C
+(formula-count mean)",1,4,0.390970258063096
+mean_oc,17,2,2018-05-22,warmed,Warmed,10,0-10 cm,0.2237302845921,"Mean O/C
+(formula-count mean)",1,4,0.2237302845921
+mean_oc,55,4,2018-05-22,warmed,Warmed,10,0-10 cm,0.338596708386893,"Mean O/C
+(formula-count mean)",1,4,0.338596708386893
+mean_oc,18,2,2018-10-10,warmed,Warmed,10,0-10 cm,0.240891388752363,"Mean O/C
+(formula-count mean)",1,4,0.240891388752363
+mean_oc,90,6,2018-10-10,warmed,Warmed,10,0-10 cm,0.240306059878742,"Mean O/C
+(formula-count mean)",1,4,0.240306059878742
+mean_oc,56,4,2018-10-23,warmed,Warmed,10,0-10 cm,0.374426115237001,"Mean O/C
+(formula-count mean)",1,4,0.374426115237001
+mean_oc,91,6,2018-10-23,warmed,Warmed,10,0-10 cm,0.236749131859206,"Mean O/C
+(formula-count mean)",1,4,0.236749131859206
+mean_oc,19,2,2018-11-07,warmed,Warmed,10,0-10 cm,0.232763716060944,"Mean O/C
+(formula-count mean)",1,4,0.232763716060944
+mean_oc,57,4,2018-11-07,warmed,Warmed,10,0-10 cm,0.361313849350207,"Mean O/C
+(formula-count mean)",1,4,0.361313849350207
+mean_oc,20,2,2019-09-10,warmed,Warmed,10,0-10 cm,0.297710947694713,"Mean O/C
+(formula-count mean)",1,4,0.297710947694713
+mean_oc,92,6,2019-09-10,warmed,Warmed,10,0-10 cm,0.247217872806388,"Mean O/C
+(formula-count mean)",1,4,0.247217872806388
+mean_oc,58,4,2019-11-05,warmed,Warmed,10,0-10 cm,0.395190418816446,"Mean O/C
+(formula-count mean)",1,4,0.395190418816446
+mean_oc,21,2,2019-12-03,warmed,Warmed,10,0-10 cm,0.229635640385615,"Mean O/C
+(formula-count mean)",1,4,0.229635640385615
+mean_oc,59,4,2019-12-17,warmed,Warmed,10,0-10 cm,0.388675794177611,"Mean O/C
+(formula-count mean)",1,4,0.388675794177611
+mean_oc,93,6,2019-12-17,warmed,Warmed,10,0-10 cm,0.222283715949976,"Mean O/C
+(formula-count mean)",1,4,0.222283715949976
+mean_oc,60,4,2019-12-31,warmed,Warmed,10,0-10 cm,0.374048876519972,"Mean O/C
+(formula-count mean)",1,4,0.374048876519972
+mean_oc,22,2,2020-01-28,warmed,Warmed,10,0-10 cm,0.230184782758697,"Mean O/C
+(formula-count mean)",1,4,0.230184782758697
+mean_oc,61,4,2020-01-28,warmed,Warmed,10,0-10 cm,0.401814037946551,"Mean O/C
+(formula-count mean)",1,4,0.401814037946551
+mean_oc,94,6,2020-01-28,warmed,Warmed,10,0-10 cm,0.392329889905819,"Mean O/C
+(formula-count mean)",1,4,0.392329889905819
+mean_oc,95,6,2020-02-25,warmed,Warmed,10,0-10 cm,0.239371619485082,"Mean O/C
+(formula-count mean)",1,4,0.239371619485082
+mean_oc,62,4,2020-03-10,warmed,Warmed,10,0-10 cm,0.365497791227899,"Mean O/C
+(formula-count mean)",1,4,0.365497791227899
+mean_oc,96,6,2020-03-10,warmed,Warmed,10,0-10 cm,0.277231786703224,"Mean O/C
+(formula-count mean)",1,4,0.277231786703224
+mean_oc,97,6,2020-07-28,warmed,Warmed,10,0-10 cm,0.266742183802616,"Mean O/C
+(formula-count mean)",1,4,0.266742183802616
+mean_oc,98,6,2020-09-09,warmed,Warmed,10,0-10 cm,0.25839473779677,"Mean O/C
+(formula-count mean)",1,4,0.25839473779677
+mean_oc,99,6,2020-10-06,warmed,Warmed,10,0-10 cm,0.223836066035054,"Mean O/C
+(formula-count mean)",1,4,0.223836066035054
+mean_oc,100,6,2020-11-05,warmed,Warmed,10,0-10 cm,0.346887083606243,"Mean O/C
+(formula-count mean)",1,4,0.346887083606243
+mean_oc,101,6,2021-02-09,warmed,Warmed,10,0-10 cm,0.235991487853036,"Mean O/C
+(formula-count mean)",1,4,0.235991487853036
+mean_oc,102,6,2021-02-23,warmed,Warmed,10,0-10 cm,0.248832491472253,"Mean O/C
+(formula-count mean)",1,4,0.248832491472253
+mean_oc,103,6,2021-06-03,warmed,Warmed,10,0-10 cm,0.232377067330196,"Mean O/C
+(formula-count mean)",1,4,0.232377067330196
+mean_oc,23,2,2021-12-15,warmed,Warmed,10,0-10 cm,0.213433240582353,"Mean O/C
+(formula-count mean)",1,4,0.213433240582353
+mean_oc,63,4,2021-12-15,warmed,Warmed,10,0-10 cm,0.216801868058104,"Mean O/C
+(formula-count mean)",1,4,0.216801868058104
+mean_oc,104,6,2021-12-15,warmed,Warmed,10,0-10 cm,0.174145970053199,"Mean O/C
+(formula-count mean)",1,4,0.174145970053199
+mean_oc,24,2,2022-08-23,warmed,Warmed,10,0-10 cm,0.230865279247857,"Mean O/C
+(formula-count mean)",1,4,0.230865279247857
+mean_oc,105,6,2022-08-23,warmed,Warmed,10,0-10 cm,0.184073452647485,"Mean O/C
+(formula-count mean)",1,4,0.184073452647485
+mean_oc,64,4,2022-09-08,warmed,Warmed,10,0-10 cm,0.215970235371011,"Mean O/C
+(formula-count mean)",1,4,0.215970235371011
+mean_oc,106,6,2022-09-08,warmed,Warmed,10,0-10 cm,0.10363433621045,"Mean O/C
+(formula-count mean)",1,4,0.10363433621045
+mean_oc,25,2,2022-11-16,warmed,Warmed,10,0-10 cm,0.207802558085511,"Mean O/C
+(formula-count mean)",1,4,0.207802558085511
+mean_oc,65,4,2022-11-16,warmed,Warmed,10,0-10 cm,0.258909988314364,"Mean O/C
+(formula-count mean)",1,4,0.258909988314364
+mean_oc,107,6,2022-11-16,warmed,Warmed,10,0-10 cm,0.201320952573703,"Mean O/C
+(formula-count mean)",1,4,0.201320952573703
+mean_oc,66,4,2023-05-30,warmed,Warmed,10,0-10 cm,0.20586013951361,"Mean O/C
+(formula-count mean)",1,4,0.20586013951361
+mean_oc,67,4,2023-12-27,warmed,Warmed,10,0-10 cm,0.242508067712709,"Mean O/C
+(formula-count mean)",1,4,0.242508067712709
+mean_oc,68,4,2024-04-16,warmed,Warmed,10,0-10 cm,0.227225781661129,"Mean O/C
+(formula-count mean)",1,4,0.227225781661129
+mean_oc,69,4,2024-04-30,warmed,Warmed,10,0-10 cm,0.212756967785091,"Mean O/C
+(formula-count mean)",1,4,0.212756967785091
+mean_oc,126,3,2017-05-31,control,Control,30,10-30 cm,0.171325807906562,"Mean O/C
+(formula-count mean)",1,4,0.171325807906562
+mean_oc,127,3,2017-11-22,control,Control,30,10-30 cm,0.192254853048264,"Mean O/C
+(formula-count mean)",1,4,0.192254853048264
+mean_oc,128,3,2017-12-06,control,Control,30,10-30 cm,0.381275969098208,"Mean O/C
+(formula-count mean)",1,4,0.381275969098208
+mean_oc,170,5,2017-12-06,control,Control,30,10-30 cm,0.175816579201482,"Mean O/C
+(formula-count mean)",1,4,0.175816579201482
+mean_oc,129,3,2018-01-03,control,Control,30,10-30 cm,0.202228213026581,"Mean O/C
+(formula-count mean)",1,4,0.202228213026581
+mean_oc,130,3,2018-01-30,control,Control,30,10-30 cm,0.187552173124859,"Mean O/C
+(formula-count mean)",1,4,0.187552173124859
+mean_oc,131,3,2018-02-27,control,Control,30,10-30 cm,0.189348065049131,"Mean O/C
+(formula-count mean)",1,4,0.189348065049131
+mean_oc,171,5,2018-03-27,control,Control,30,10-30 cm,0.148893803414514,"Mean O/C
+(formula-count mean)",1,4,0.148893803414514
+mean_oc,132,3,2018-05-09,control,Control,30,10-30 cm,0.201980916407467,"Mean O/C
+(formula-count mean)",1,4,0.201980916407467
+mean_oc,172,5,2018-05-09,control,Control,30,10-30 cm,0.170243176455514,"Mean O/C
+(formula-count mean)",1,4,0.170243176455514
+mean_oc,133,3,2018-11-07,control,Control,30,10-30 cm,0.222171516974203,"Mean O/C
+(formula-count mean)",1,4,0.222171516974203
+mean_oc,134,3,2019-09-10,control,Control,30,10-30 cm,0.168666969920173,"Mean O/C
+(formula-count mean)",1,4,0.168666969920173
+mean_oc,135,3,2019-12-03,control,Control,30,10-30 cm,0.178268126890318,"Mean O/C
+(formula-count mean)",1,4,0.178268126890318
+mean_oc,136,3,2020-01-14,control,Control,30,10-30 cm,0.20913411747856,"Mean O/C
+(formula-count mean)",1,4,0.20913411747856
+mean_oc,108,1,2020-02-25,control,Control,30,10-30 cm,0.143274819838341,"Mean O/C
+(formula-count mean)",1,4,0.143274819838341
+mean_oc,137,3,2020-02-25,control,Control,30,10-30 cm,0.211300202664588,"Mean O/C
+(formula-count mean)",1,4,0.211300202664588
+mean_oc,138,3,2020-03-10,control,Control,30,10-30 cm,0.189525467722657,"Mean O/C
+(formula-count mean)",1,4,0.189525467722657
+mean_oc,139,3,2020-07-28,control,Control,30,10-30 cm,0.167921359644493,"Mean O/C
+(formula-count mean)",1,4,0.167921359644493
+mean_oc,173,5,2020-07-28,control,Control,30,10-30 cm,0.177032069082153,"Mean O/C
+(formula-count mean)",1,4,0.177032069082153
+mean_oc,140,3,2020-09-09,control,Control,30,10-30 cm,0.187559810520721,"Mean O/C
+(formula-count mean)",1,4,0.187559810520721
+mean_oc,141,3,2020-10-06,control,Control,30,10-30 cm,0.17083802203727,"Mean O/C
+(formula-count mean)",1,4,0.17083802203727
+mean_oc,174,5,2020-10-06,control,Control,30,10-30 cm,0.155313854211858,"Mean O/C
+(formula-count mean)",1,4,0.155313854211858
+mean_oc,142,3,2020-11-05,control,Control,30,10-30 cm,0.159629255357506,"Mean O/C
+(formula-count mean)",1,4,0.159629255357506
+mean_oc,175,5,2020-11-05,control,Control,30,10-30 cm,0.1443693195903,"Mean O/C
+(formula-count mean)",1,4,0.1443693195903
+mean_oc,143,3,2020-12-29,control,Control,30,10-30 cm,0.157662708367314,"Mean O/C
+(formula-count mean)",1,4,0.157662708367314
+mean_oc,144,3,2021-02-09,control,Control,30,10-30 cm,0.144895712245039,"Mean O/C
+(formula-count mean)",1,4,0.144895712245039
+mean_oc,176,5,2021-02-23,control,Control,30,10-30 cm,0.165002511253273,"Mean O/C
+(formula-count mean)",1,4,0.165002511253273
+mean_oc,145,3,2021-06-03,control,Control,30,10-30 cm,0.171139755747323,"Mean O/C
+(formula-count mean)",1,4,0.171139755747323
+mean_oc,109,1,2021-09-21,control,Control,30,10-30 cm,0.147860940450028,"Mean O/C
+(formula-count mean)",1,4,0.147860940450028
+mean_oc,146,3,2021-12-15,control,Control,30,10-30 cm,0.18286790765662,"Mean O/C
+(formula-count mean)",1,4,0.18286790765662
+mean_oc,110,1,2022-08-23,control,Control,30,10-30 cm,0.110893735592903,"Mean O/C
+(formula-count mean)",1,4,0.110893735592903
+mean_oc,177,5,2022-08-23,control,Control,30,10-30 cm,0.168197603195599,"Mean O/C
+(formula-count mean)",1,4,0.168197603195599
+mean_oc,111,1,2022-09-08,control,Control,30,10-30 cm,0.133735033388791,"Mean O/C
+(formula-count mean)",1,4,0.133735033388791
+mean_oc,178,5,2022-09-08,control,Control,30,10-30 cm,0.316082913416129,"Mean O/C
+(formula-count mean)",1,4,0.316082913416129
+mean_oc,179,5,2022-11-01,control,Control,30,10-30 cm,0.127248235643834,"Mean O/C
+(formula-count mean)",1,4,0.127248235643834
+mean_oc,112,1,2022-11-16,control,Control,30,10-30 cm,0.169762303591929,"Mean O/C
+(formula-count mean)",1,4,0.169762303591929
+mean_oc,113,1,2023-01-12,control,Control,30,10-30 cm,0.163099117145006,"Mean O/C
+(formula-count mean)",1,4,0.163099117145006
+mean_oc,180,5,2023-01-12,control,Control,30,10-30 cm,0.210417848861928,"Mean O/C
+(formula-count mean)",1,4,0.210417848861928
+mean_oc,181,5,2023-02-07,control,Control,30,10-30 cm,0.212192219838742,"Mean O/C
+(formula-count mean)",1,4,0.212192219838742
+mean_oc,182,5,2023-05-02,control,Control,30,10-30 cm,0.229582717113419,"Mean O/C
+(formula-count mean)",1,4,0.229582717113419
+mean_oc,114,1,2023-05-30,control,Control,30,10-30 cm,0.120702633507657,"Mean O/C
+(formula-count mean)",1,4,0.120702633507657
+mean_oc,147,3,2023-05-30,control,Control,30,10-30 cm,0.187429060156901,"Mean O/C
+(formula-count mean)",1,4,0.187429060156901
+mean_oc,115,1,2023-08-22,control,Control,30,10-30 cm,0.175603070536192,"Mean O/C
+(formula-count mean)",1,4,0.175603070536192
+mean_oc,183,5,2023-10-03,control,Control,30,10-30 cm,0.213026990125812,"Mean O/C
+(formula-count mean)",1,4,0.213026990125812
+mean_oc,116,1,2023-12-12,control,Control,30,10-30 cm,0.180456222412462,"Mean O/C
+(formula-count mean)",1,4,0.180456222412462
+mean_oc,184,5,2024-04-30,control,Control,30,10-30 cm,0.22236754031546,"Mean O/C
+(formula-count mean)",1,4,0.22236754031546
+mean_oc,148,4,2017-05-31,warmed,Warmed,30,10-30 cm,0.126380220974058,"Mean O/C
+(formula-count mean)",1,4,0.126380220974058
+mean_oc,149,4,2017-11-22,warmed,Warmed,30,10-30 cm,0.175871029033874,"Mean O/C
+(formula-count mean)",1,4,0.175871029033874
+mean_oc,150,4,2017-12-06,warmed,Warmed,30,10-30 cm,0.184335105386364,"Mean O/C
+(formula-count mean)",1,4,0.184335105386364
+mean_oc,185,6,2017-12-06,warmed,Warmed,30,10-30 cm,0.35713348571292,"Mean O/C
+(formula-count mean)",1,4,0.35713348571292
+mean_oc,152,4,2018-01-30,warmed,Warmed,30,10-30 cm,0.253351533095699,"Mean O/C
+(formula-count mean)",1,4,0.253351533095699
+mean_oc,153,4,2018-02-27,warmed,Warmed,30,10-30 cm,0.214969019512818,"Mean O/C
+(formula-count mean)",1,4,0.214969019512818
+mean_oc,154,4,2018-05-09,warmed,Warmed,30,10-30 cm,0.217739783699688,"Mean O/C
+(formula-count mean)",1,4,0.217739783699688
+mean_oc,155,4,2018-11-07,warmed,Warmed,30,10-30 cm,0.234497226937173,"Mean O/C
+(formula-count mean)",1,4,0.234497226937173
+mean_oc,156,4,2019-09-10,warmed,Warmed,30,10-30 cm,0.23029936914787,"Mean O/C
+(formula-count mean)",1,4,0.23029936914787
+mean_oc,157,4,2019-12-03,warmed,Warmed,30,10-30 cm,0.23609433218512,"Mean O/C
+(formula-count mean)",1,4,0.23609433218512
+mean_oc,158,4,2020-01-14,warmed,Warmed,30,10-30 cm,0.223758208372308,"Mean O/C
+(formula-count mean)",1,4,0.223758208372308
+mean_oc,117,2,2020-02-25,warmed,Warmed,30,10-30 cm,0.181275630620691,"Mean O/C
+(formula-count mean)",1,4,0.181275630620691
+mean_oc,159,4,2020-02-25,warmed,Warmed,30,10-30 cm,0.227793691607062,"Mean O/C
+(formula-count mean)",1,4,0.227793691607062
+mean_oc,160,4,2020-03-10,warmed,Warmed,30,10-30 cm,0.205701756472572,"Mean O/C
+(formula-count mean)",1,4,0.205701756472572
+mean_oc,161,4,2020-07-28,warmed,Warmed,30,10-30 cm,0.212524828536125,"Mean O/C
+(formula-count mean)",1,4,0.212524828536125
+mean_oc,162,4,2020-09-09,warmed,Warmed,30,10-30 cm,0.180237639698635,"Mean O/C
+(formula-count mean)",1,4,0.180237639698635
+mean_oc,186,6,2020-09-09,warmed,Warmed,30,10-30 cm,0.284501243949486,"Mean O/C
+(formula-count mean)",1,4,0.284501243949486
+mean_oc,163,4,2020-10-06,warmed,Warmed,30,10-30 cm,0.218544168122678,"Mean O/C
+(formula-count mean)",1,4,0.218544168122678
+mean_oc,187,6,2020-10-06,warmed,Warmed,30,10-30 cm,0.383338846299381,"Mean O/C
+(formula-count mean)",1,4,0.383338846299381
+mean_oc,164,4,2020-11-05,warmed,Warmed,30,10-30 cm,0.230475320728265,"Mean O/C
+(formula-count mean)",1,4,0.230475320728265
+mean_oc,165,4,2020-12-29,warmed,Warmed,30,10-30 cm,0.220550309099072,"Mean O/C
+(formula-count mean)",1,4,0.220550309099072
+mean_oc,166,4,2021-02-09,warmed,Warmed,30,10-30 cm,0.202102781248335,"Mean O/C
+(formula-count mean)",1,4,0.202102781248335
+mean_oc,188,6,2021-02-23,warmed,Warmed,30,10-30 cm,0.422033506513252,"Mean O/C
+(formula-count mean)",1,4,0.422033506513252
+mean_oc,167,4,2021-06-03,warmed,Warmed,30,10-30 cm,0.164245887448424,"Mean O/C
+(formula-count mean)",1,4,0.164245887448424
+mean_oc,118,2,2021-09-21,warmed,Warmed,30,10-30 cm,0.214495858990485,"Mean O/C
+(formula-count mean)",1,4,0.214495858990485
+mean_oc,168,4,2021-12-15,warmed,Warmed,30,10-30 cm,0.22245059727384,"Mean O/C
+(formula-count mean)",1,4,0.22245059727384
+mean_oc,119,2,2022-08-23,warmed,Warmed,30,10-30 cm,0.144493721666843,"Mean O/C
+(formula-count mean)",1,4,0.144493721666843
+mean_oc,189,6,2022-08-23,warmed,Warmed,30,10-30 cm,0.141073413165057,"Mean O/C
+(formula-count mean)",1,4,0.141073413165057
+mean_oc,120,2,2022-09-08,warmed,Warmed,30,10-30 cm,0.370635086531826,"Mean O/C
+(formula-count mean)",1,4,0.370635086531826
+mean_oc,190,6,2022-09-08,warmed,Warmed,30,10-30 cm,0.192046884712667,"Mean O/C
+(formula-count mean)",1,4,0.192046884712667
+mean_oc,191,6,2022-11-01,warmed,Warmed,30,10-30 cm,0.161022085130744,"Mean O/C
+(formula-count mean)",1,4,0.161022085130744
+mean_oc,121,2,2022-11-16,warmed,Warmed,30,10-30 cm,0.202455520956482,"Mean O/C
+(formula-count mean)",1,4,0.202455520956482
+mean_oc,122,2,2023-01-12,warmed,Warmed,30,10-30 cm,0.205204150910625,"Mean O/C
+(formula-count mean)",1,4,0.205204150910625
+mean_oc,192,6,2023-01-12,warmed,Warmed,30,10-30 cm,0.178904069011797,"Mean O/C
+(formula-count mean)",1,4,0.178904069011797
+mean_oc,193,6,2023-02-07,warmed,Warmed,30,10-30 cm,0.18336986600369,"Mean O/C
+(formula-count mean)",1,4,0.18336986600369
+mean_oc,194,6,2023-05-02,warmed,Warmed,30,10-30 cm,0.20128446190218,"Mean O/C
+(formula-count mean)",1,4,0.20128446190218
+mean_oc,123,2,2023-05-30,warmed,Warmed,30,10-30 cm,0.171116979406319,"Mean O/C
+(formula-count mean)",1,4,0.171116979406319
+mean_oc,169,4,2023-05-30,warmed,Warmed,30,10-30 cm,0.184797536608049,"Mean O/C
+(formula-count mean)",1,4,0.184797536608049
+mean_oc,124,2,2023-08-22,warmed,Warmed,30,10-30 cm,0.189369768132045,"Mean O/C
+(formula-count mean)",1,4,0.189369768132045
+mean_oc,195,6,2023-10-03,warmed,Warmed,30,10-30 cm,0.179887806542478,"Mean O/C
+(formula-count mean)",1,4,0.179887806542478
+mean_oc,125,2,2023-12-12,warmed,Warmed,30,10-30 cm,0.203476705986283,"Mean O/C
+(formula-count mean)",1,4,0.203476705986283
+mean_oc,196,6,2024-04-30,warmed,Warmed,30,10-30 cm,0.197073601774007,"Mean O/C
+(formula-count mean)",1,4,0.197073601774007
+mean_ai,1,1,2017-05-31,control,Control,10,0-10 cm,0.195103022409745,"Aromaticity
+(mean AI_mod)",1,5,0.195103022409745
+mean_ai,70,5,2017-05-31,control,Control,10,0-10 cm,0.280710439996859,"Aromaticity
+(mean AI_mod)",1,5,0.280710439996859
+mean_ai,26,3,2017-10-20,control,Control,10,0-10 cm,0.34349502648951,"Aromaticity
+(mean AI_mod)",1,5,0.34349502648951
+mean_ai,2,1,2017-12-06,control,Control,10,0-10 cm,0.192157378554492,"Aromaticity
+(mean AI_mod)",1,5,0.192157378554492
+mean_ai,27,3,2017-12-06,control,Control,10,0-10 cm,0.170648218192842,"Aromaticity
+(mean AI_mod)",1,5,0.170648218192842
+mean_ai,28,3,2018-01-17,control,Control,10,0-10 cm,0.301687246123248,"Aromaticity
+(mean AI_mod)",1,5,0.301687246123248
+mean_ai,29,3,2018-01-30,control,Control,10,0-10 cm,0.276352717608352,"Aromaticity
+(mean AI_mod)",1,5,0.276352717608352
+mean_ai,30,3,2018-02-13,control,Control,10,0-10 cm,0.386948154066251,"Aromaticity
+(mean AI_mod)",1,5,0.386948154066251
+mean_ai,31,3,2018-02-27,control,Control,10,0-10 cm,0.410288730947968,"Aromaticity
+(mean AI_mod)",1,5,0.410288730947968
+mean_ai,3,1,2018-05-09,control,Control,10,0-10 cm,0.230472247170234,"Aromaticity
+(mean AI_mod)",1,5,0.230472247170234
+mean_ai,32,3,2018-05-09,control,Control,10,0-10 cm,0.405421237518041,"Aromaticity
+(mean AI_mod)",1,5,0.405421237518041
+mean_ai,4,1,2018-05-22,control,Control,10,0-10 cm,0.182207816439277,"Aromaticity
+(mean AI_mod)",1,5,0.182207816439277
+mean_ai,33,3,2018-05-22,control,Control,10,0-10 cm,0.427676945445693,"Aromaticity
+(mean AI_mod)",1,5,0.427676945445693
+mean_ai,5,1,2018-10-10,control,Control,10,0-10 cm,0.167546154923433,"Aromaticity
+(mean AI_mod)",1,5,0.167546154923433
+mean_ai,71,5,2018-10-10,control,Control,10,0-10 cm,0.286216420451146,"Aromaticity
+(mean AI_mod)",1,5,0.286216420451146
+mean_ai,34,3,2018-10-23,control,Control,10,0-10 cm,0.267130056106299,"Aromaticity
+(mean AI_mod)",1,5,0.267130056106299
+mean_ai,72,5,2018-10-23,control,Control,10,0-10 cm,0.300377697513272,"Aromaticity
+(mean AI_mod)",1,5,0.300377697513272
+mean_ai,6,1,2018-11-07,control,Control,10,0-10 cm,0.211023259941419,"Aromaticity
+(mean AI_mod)",1,5,0.211023259941419
+mean_ai,35,3,2018-11-07,control,Control,10,0-10 cm,0.200973851698489,"Aromaticity
+(mean AI_mod)",1,5,0.200973851698489
+mean_ai,7,1,2019-09-10,control,Control,10,0-10 cm,0.224495417277017,"Aromaticity
+(mean AI_mod)",1,5,0.224495417277017
+mean_ai,73,5,2019-09-10,control,Control,10,0-10 cm,0.229678217071432,"Aromaticity
+(mean AI_mod)",1,5,0.229678217071432
+mean_ai,36,3,2019-11-05,control,Control,10,0-10 cm,0.453262346876718,"Aromaticity
+(mean AI_mod)",1,5,0.453262346876718
+mean_ai,8,1,2019-12-03,control,Control,10,0-10 cm,0.161596323451567,"Aromaticity
+(mean AI_mod)",1,5,0.161596323451567
+mean_ai,37,3,2019-12-17,control,Control,10,0-10 cm,0.390530278634891,"Aromaticity
+(mean AI_mod)",1,5,0.390530278634891
+mean_ai,74,5,2019-12-17,control,Control,10,0-10 cm,0.305408107204636,"Aromaticity
+(mean AI_mod)",1,5,0.305408107204636
+mean_ai,38,3,2019-12-31,control,Control,10,0-10 cm,0.415331724866819,"Aromaticity
+(mean AI_mod)",1,5,0.415331724866819
+mean_ai,9,1,2020-01-28,control,Control,10,0-10 cm,0.152880431064524,"Aromaticity
+(mean AI_mod)",1,5,0.152880431064524
+mean_ai,39,3,2020-01-28,control,Control,10,0-10 cm,0.385901869354046,"Aromaticity
+(mean AI_mod)",1,5,0.385901869354046
+mean_ai,75,5,2020-01-28,control,Control,10,0-10 cm,0.263817512213931,"Aromaticity
+(mean AI_mod)",1,5,0.263817512213931
+mean_ai,76,5,2020-02-25,control,Control,10,0-10 cm,0.265027763639178,"Aromaticity
+(mean AI_mod)",1,5,0.265027763639178
+mean_ai,40,3,2020-03-10,control,Control,10,0-10 cm,0.398119427702703,"Aromaticity
+(mean AI_mod)",1,5,0.398119427702703
+mean_ai,77,5,2020-03-10,control,Control,10,0-10 cm,0.269461210017762,"Aromaticity
+(mean AI_mod)",1,5,0.269461210017762
+mean_ai,78,5,2020-07-28,control,Control,10,0-10 cm,0.248495882968206,"Aromaticity
+(mean AI_mod)",1,5,0.248495882968206
+mean_ai,79,5,2020-09-09,control,Control,10,0-10 cm,0.244770496103161,"Aromaticity
+(mean AI_mod)",1,5,0.244770496103161
+mean_ai,80,5,2020-10-06,control,Control,10,0-10 cm,0.289715111986819,"Aromaticity
+(mean AI_mod)",1,5,0.289715111986819
+mean_ai,81,5,2020-11-05,control,Control,10,0-10 cm,0.29673545287314,"Aromaticity
+(mean AI_mod)",1,5,0.29673545287314
+mean_ai,82,5,2021-02-09,control,Control,10,0-10 cm,0.313935921795452,"Aromaticity
+(mean AI_mod)",1,5,0.313935921795452
+mean_ai,83,5,2021-02-23,control,Control,10,0-10 cm,0.30367960198975,"Aromaticity
+(mean AI_mod)",1,5,0.30367960198975
+mean_ai,84,5,2021-06-03,control,Control,10,0-10 cm,0.316994737258228,"Aromaticity
+(mean AI_mod)",1,5,0.316994737258228
+mean_ai,10,1,2021-12-15,control,Control,10,0-10 cm,0.30273251635885,"Aromaticity
+(mean AI_mod)",1,5,0.30273251635885
+mean_ai,41,3,2021-12-15,control,Control,10,0-10 cm,0.368874924207963,"Aromaticity
+(mean AI_mod)",1,5,0.368874924207963
+mean_ai,85,5,2021-12-15,control,Control,10,0-10 cm,0.328031907010744,"Aromaticity
+(mean AI_mod)",1,5,0.328031907010744
+mean_ai,11,1,2022-08-23,control,Control,10,0-10 cm,0.331853738374839,"Aromaticity
+(mean AI_mod)",1,5,0.331853738374839
+mean_ai,86,5,2022-08-23,control,Control,10,0-10 cm,0.300134054369023,"Aromaticity
+(mean AI_mod)",1,5,0.300134054369023
+mean_ai,12,1,2022-09-08,control,Control,10,0-10 cm,0.229157741570436,"Aromaticity
+(mean AI_mod)",1,5,0.229157741570436
+mean_ai,42,3,2022-09-08,control,Control,10,0-10 cm,0.400566409405439,"Aromaticity
+(mean AI_mod)",1,5,0.400566409405439
+mean_ai,87,5,2022-09-08,control,Control,10,0-10 cm,0.289509267329254,"Aromaticity
+(mean AI_mod)",1,5,0.289509267329254
+mean_ai,13,1,2022-11-16,control,Control,10,0-10 cm,0.288061853638995,"Aromaticity
+(mean AI_mod)",1,5,0.288061853638995
+mean_ai,43,3,2022-11-16,control,Control,10,0-10 cm,0.367268572269993,"Aromaticity
+(mean AI_mod)",1,5,0.367268572269993
+mean_ai,88,5,2022-11-16,control,Control,10,0-10 cm,0.329283871848823,"Aromaticity
+(mean AI_mod)",1,5,0.329283871848823
+mean_ai,44,3,2023-05-30,control,Control,10,0-10 cm,0.443490495865145,"Aromaticity
+(mean AI_mod)",1,5,0.443490495865145
+mean_ai,45,3,2023-12-27,control,Control,10,0-10 cm,0.418268102480814,"Aromaticity
+(mean AI_mod)",1,5,0.418268102480814
+mean_ai,46,3,2024-04-16,control,Control,10,0-10 cm,0.411510564484792,"Aromaticity
+(mean AI_mod)",1,5,0.411510564484792
+mean_ai,47,3,2024-04-30,control,Control,10,0-10 cm,0.468110439363527,"Aromaticity
+(mean AI_mod)",1,5,0.468110439363527
+mean_ai,14,2,2017-05-31,warmed,Warmed,10,0-10 cm,0.158675570557609,"Aromaticity
+(mean AI_mod)",1,5,0.158675570557609
+mean_ai,89,6,2017-05-31,warmed,Warmed,10,0-10 cm,0.255023159340681,"Aromaticity
+(mean AI_mod)",1,5,0.255023159340681
+mean_ai,48,4,2017-10-20,warmed,Warmed,10,0-10 cm,0.242731072225305,"Aromaticity
+(mean AI_mod)",1,5,0.242731072225305
+mean_ai,15,2,2017-12-06,warmed,Warmed,10,0-10 cm,0.307614272511809,"Aromaticity
+(mean AI_mod)",1,5,0.307614272511809
+mean_ai,49,4,2017-12-06,warmed,Warmed,10,0-10 cm,0.171952207070271,"Aromaticity
+(mean AI_mod)",1,5,0.171952207070271
+mean_ai,50,4,2018-01-17,warmed,Warmed,10,0-10 cm,0.239399775460842,"Aromaticity
+(mean AI_mod)",1,5,0.239399775460842
+mean_ai,51,4,2018-01-30,warmed,Warmed,10,0-10 cm,0.151314812006896,"Aromaticity
+(mean AI_mod)",1,5,0.151314812006896
+mean_ai,52,4,2018-02-13,warmed,Warmed,10,0-10 cm,0.228552230150856,"Aromaticity
+(mean AI_mod)",1,5,0.228552230150856
+mean_ai,53,4,2018-02-27,warmed,Warmed,10,0-10 cm,0.192724101253054,"Aromaticity
+(mean AI_mod)",1,5,0.192724101253054
+mean_ai,16,2,2018-05-09,warmed,Warmed,10,0-10 cm,0.291704778721419,"Aromaticity
+(mean AI_mod)",1,5,0.291704778721419
+mean_ai,54,4,2018-05-09,warmed,Warmed,10,0-10 cm,0.187529792108267,"Aromaticity
+(mean AI_mod)",1,5,0.187529792108267
+mean_ai,17,2,2018-05-22,warmed,Warmed,10,0-10 cm,0.378553020585768,"Aromaticity
+(mean AI_mod)",1,5,0.378553020585768
+mean_ai,55,4,2018-05-22,warmed,Warmed,10,0-10 cm,0.217157035607724,"Aromaticity
+(mean AI_mod)",1,5,0.217157035607724
+mean_ai,18,2,2018-10-10,warmed,Warmed,10,0-10 cm,0.327342750388283,"Aromaticity
+(mean AI_mod)",1,5,0.327342750388283
+mean_ai,90,6,2018-10-10,warmed,Warmed,10,0-10 cm,0.353522311065948,"Aromaticity
+(mean AI_mod)",1,5,0.353522311065948
+mean_ai,56,4,2018-10-23,warmed,Warmed,10,0-10 cm,0.185417705148208,"Aromaticity
+(mean AI_mod)",1,5,0.185417705148208
+mean_ai,91,6,2018-10-23,warmed,Warmed,10,0-10 cm,0.339473227201711,"Aromaticity
+(mean AI_mod)",1,5,0.339473227201711
+mean_ai,19,2,2018-11-07,warmed,Warmed,10,0-10 cm,0.325029434695226,"Aromaticity
+(mean AI_mod)",1,5,0.325029434695226
+mean_ai,57,4,2018-11-07,warmed,Warmed,10,0-10 cm,0.202955616680932,"Aromaticity
+(mean AI_mod)",1,5,0.202955616680932
+mean_ai,20,2,2019-09-10,warmed,Warmed,10,0-10 cm,0.248724752744029,"Aromaticity
+(mean AI_mod)",1,5,0.248724752744029
+mean_ai,92,6,2019-09-10,warmed,Warmed,10,0-10 cm,0.324548784507111,"Aromaticity
+(mean AI_mod)",1,5,0.324548784507111
+mean_ai,58,4,2019-11-05,warmed,Warmed,10,0-10 cm,0.164338835661443,"Aromaticity
+(mean AI_mod)",1,5,0.164338835661443
+mean_ai,21,2,2019-12-03,warmed,Warmed,10,0-10 cm,0.32850647411297,"Aromaticity
+(mean AI_mod)",1,5,0.32850647411297
+mean_ai,59,4,2019-12-17,warmed,Warmed,10,0-10 cm,0.189235727073361,"Aromaticity
+(mean AI_mod)",1,5,0.189235727073361
+mean_ai,93,6,2019-12-17,warmed,Warmed,10,0-10 cm,0.357907034208932,"Aromaticity
+(mean AI_mod)",1,5,0.357907034208932
+mean_ai,60,4,2019-12-31,warmed,Warmed,10,0-10 cm,0.199250394232162,"Aromaticity
+(mean AI_mod)",1,5,0.199250394232162
+mean_ai,22,2,2020-01-28,warmed,Warmed,10,0-10 cm,0.334864171765526,"Aromaticity
+(mean AI_mod)",1,5,0.334864171765526
+mean_ai,61,4,2020-01-28,warmed,Warmed,10,0-10 cm,0.178672763391676,"Aromaticity
+(mean AI_mod)",1,5,0.178672763391676
+mean_ai,94,6,2020-01-28,warmed,Warmed,10,0-10 cm,0.191800137896808,"Aromaticity
+(mean AI_mod)",1,5,0.191800137896808
+mean_ai,95,6,2020-02-25,warmed,Warmed,10,0-10 cm,0.31728553115832,"Aromaticity
+(mean AI_mod)",1,5,0.31728553115832
+mean_ai,62,4,2020-03-10,warmed,Warmed,10,0-10 cm,0.229256202676883,"Aromaticity
+(mean AI_mod)",1,5,0.229256202676883
+mean_ai,96,6,2020-03-10,warmed,Warmed,10,0-10 cm,0.293538346085942,"Aromaticity
+(mean AI_mod)",1,5,0.293538346085942
+mean_ai,97,6,2020-07-28,warmed,Warmed,10,0-10 cm,0.306957965310073,"Aromaticity
+(mean AI_mod)",1,5,0.306957965310073
+mean_ai,98,6,2020-09-09,warmed,Warmed,10,0-10 cm,0.317104098401129,"Aromaticity
+(mean AI_mod)",1,5,0.317104098401129
+mean_ai,99,6,2020-10-06,warmed,Warmed,10,0-10 cm,0.349217992440026,"Aromaticity
+(mean AI_mod)",1,5,0.349217992440026
+mean_ai,100,6,2020-11-05,warmed,Warmed,10,0-10 cm,0.24304401663648,"Aromaticity
+(mean AI_mod)",1,5,0.24304401663648
+mean_ai,101,6,2021-02-09,warmed,Warmed,10,0-10 cm,0.354129406858293,"Aromaticity
+(mean AI_mod)",1,5,0.354129406858293
+mean_ai,102,6,2021-02-23,warmed,Warmed,10,0-10 cm,0.336641260853693,"Aromaticity
+(mean AI_mod)",1,5,0.336641260853693
+mean_ai,103,6,2021-06-03,warmed,Warmed,10,0-10 cm,0.332088331764407,"Aromaticity
+(mean AI_mod)",1,5,0.332088331764407
+mean_ai,23,2,2021-12-15,warmed,Warmed,10,0-10 cm,0.35598808033434,"Aromaticity
+(mean AI_mod)",1,5,0.35598808033434
+mean_ai,63,4,2021-12-15,warmed,Warmed,10,0-10 cm,0.351780354691493,"Aromaticity
+(mean AI_mod)",1,5,0.351780354691493
+mean_ai,104,6,2021-12-15,warmed,Warmed,10,0-10 cm,0.418942671239169,"Aromaticity
+(mean AI_mod)",1,5,0.418942671239169
+mean_ai,24,2,2022-08-23,warmed,Warmed,10,0-10 cm,0.352859843853683,"Aromaticity
+(mean AI_mod)",1,5,0.352859843853683
+mean_ai,105,6,2022-08-23,warmed,Warmed,10,0-10 cm,0.418299148137821,"Aromaticity
+(mean AI_mod)",1,5,0.418299148137821
+mean_ai,64,4,2022-09-08,warmed,Warmed,10,0-10 cm,0.357766173923057,"Aromaticity
+(mean AI_mod)",1,5,0.357766173923057
+mean_ai,106,6,2022-09-08,warmed,Warmed,10,0-10 cm,0.506661274479838,"Aromaticity
+(mean AI_mod)",1,5,0.506661274479838
+mean_ai,25,2,2022-11-16,warmed,Warmed,10,0-10 cm,0.371384460410303,"Aromaticity
+(mean AI_mod)",1,5,0.371384460410303
+mean_ai,65,4,2022-11-16,warmed,Warmed,10,0-10 cm,0.335200288193618,"Aromaticity
+(mean AI_mod)",1,5,0.335200288193618
+mean_ai,107,6,2022-11-16,warmed,Warmed,10,0-10 cm,0.391972934910907,"Aromaticity
+(mean AI_mod)",1,5,0.391972934910907
+mean_ai,66,4,2023-05-30,warmed,Warmed,10,0-10 cm,0.373461879746884,"Aromaticity
+(mean AI_mod)",1,5,0.373461879746884
+mean_ai,67,4,2023-12-27,warmed,Warmed,10,0-10 cm,0.337892586325357,"Aromaticity
+(mean AI_mod)",1,5,0.337892586325357
+mean_ai,68,4,2024-04-16,warmed,Warmed,10,0-10 cm,0.367354365934156,"Aromaticity
+(mean AI_mod)",1,5,0.367354365934156
+mean_ai,69,4,2024-04-30,warmed,Warmed,10,0-10 cm,0.354086266677145,"Aromaticity
+(mean AI_mod)",1,5,0.354086266677145
+mean_ai,126,3,2017-05-31,control,Control,30,10-30 cm,0.396945719586217,"Aromaticity
+(mean AI_mod)",1,5,0.396945719586217
+mean_ai,127,3,2017-11-22,control,Control,30,10-30 cm,0.430059607202479,"Aromaticity
+(mean AI_mod)",1,5,0.430059607202479
+mean_ai,128,3,2017-12-06,control,Control,30,10-30 cm,0.197287247757467,"Aromaticity
+(mean AI_mod)",1,5,0.197287247757467
+mean_ai,170,5,2017-12-06,control,Control,30,10-30 cm,0.405370801773448,"Aromaticity
+(mean AI_mod)",1,5,0.405370801773448
+mean_ai,129,3,2018-01-03,control,Control,30,10-30 cm,0.313242106957265,"Aromaticity
+(mean AI_mod)",1,5,0.313242106957265
+mean_ai,130,3,2018-01-30,control,Control,30,10-30 cm,0.460642087831261,"Aromaticity
+(mean AI_mod)",1,5,0.460642087831261
+mean_ai,131,3,2018-02-27,control,Control,30,10-30 cm,0.362080760790396,"Aromaticity
+(mean AI_mod)",1,5,0.362080760790396
+mean_ai,171,5,2018-03-27,control,Control,30,10-30 cm,0.450971197047889,"Aromaticity
+(mean AI_mod)",1,5,0.450971197047889
+mean_ai,132,3,2018-05-09,control,Control,30,10-30 cm,0.373141605543494,"Aromaticity
+(mean AI_mod)",1,5,0.373141605543494
+mean_ai,172,5,2018-05-09,control,Control,30,10-30 cm,0.3784870204861,"Aromaticity
+(mean AI_mod)",1,5,0.3784870204861
+mean_ai,133,3,2018-11-07,control,Control,30,10-30 cm,0.37892034129111,"Aromaticity
+(mean AI_mod)",1,5,0.37892034129111
+mean_ai,134,3,2019-09-10,control,Control,30,10-30 cm,0.385593219156948,"Aromaticity
+(mean AI_mod)",1,5,0.385593219156948
+mean_ai,135,3,2019-12-03,control,Control,30,10-30 cm,0.451817471983369,"Aromaticity
+(mean AI_mod)",1,5,0.451817471983369
+mean_ai,136,3,2020-01-14,control,Control,30,10-30 cm,0.385612583533471,"Aromaticity
+(mean AI_mod)",1,5,0.385612583533471
+mean_ai,108,1,2020-02-25,control,Control,30,10-30 cm,0.387611154003204,"Aromaticity
+(mean AI_mod)",1,5,0.387611154003204
+mean_ai,137,3,2020-02-25,control,Control,30,10-30 cm,0.410331735191356,"Aromaticity
+(mean AI_mod)",1,5,0.410331735191356
+mean_ai,138,3,2020-03-10,control,Control,30,10-30 cm,0.413825408918754,"Aromaticity
+(mean AI_mod)",1,5,0.413825408918754
+mean_ai,139,3,2020-07-28,control,Control,30,10-30 cm,0.425741254252389,"Aromaticity
+(mean AI_mod)",1,5,0.425741254252389
+mean_ai,173,5,2020-07-28,control,Control,30,10-30 cm,0.382837826239879,"Aromaticity
+(mean AI_mod)",1,5,0.382837826239879
+mean_ai,140,3,2020-09-09,control,Control,30,10-30 cm,0.412904113622024,"Aromaticity
+(mean AI_mod)",1,5,0.412904113622024
+mean_ai,141,3,2020-10-06,control,Control,30,10-30 cm,0.436483129315905,"Aromaticity
+(mean AI_mod)",1,5,0.436483129315905
+mean_ai,174,5,2020-10-06,control,Control,30,10-30 cm,0.406637566940857,"Aromaticity
+(mean AI_mod)",1,5,0.406637566940857
+mean_ai,142,3,2020-11-05,control,Control,30,10-30 cm,0.443343714644679,"Aromaticity
+(mean AI_mod)",1,5,0.443343714644679
+mean_ai,175,5,2020-11-05,control,Control,30,10-30 cm,0.397943687859302,"Aromaticity
+(mean AI_mod)",1,5,0.397943687859302
+mean_ai,143,3,2020-12-29,control,Control,30,10-30 cm,0.432471480785076,"Aromaticity
+(mean AI_mod)",1,5,0.432471480785076
+mean_ai,144,3,2021-02-09,control,Control,30,10-30 cm,0.393977429873982,"Aromaticity
+(mean AI_mod)",1,5,0.393977429873982
+mean_ai,176,5,2021-02-23,control,Control,30,10-30 cm,0.416275508829032,"Aromaticity
+(mean AI_mod)",1,5,0.416275508829032
+mean_ai,145,3,2021-06-03,control,Control,30,10-30 cm,0.375999970944111,"Aromaticity
+(mean AI_mod)",1,5,0.375999970944111
+mean_ai,109,1,2021-09-21,control,Control,30,10-30 cm,0.302524565074836,"Aromaticity
+(mean AI_mod)",1,5,0.302524565074836
+mean_ai,146,3,2021-12-15,control,Control,30,10-30 cm,0.427280412404715,"Aromaticity
+(mean AI_mod)",1,5,0.427280412404715
+mean_ai,110,1,2022-08-23,control,Control,30,10-30 cm,0.486417129650679,"Aromaticity
+(mean AI_mod)",1,5,0.486417129650679
+mean_ai,177,5,2022-08-23,control,Control,30,10-30 cm,0.400159855845777,"Aromaticity
+(mean AI_mod)",1,5,0.400159855845777
+mean_ai,111,1,2022-09-08,control,Control,30,10-30 cm,0.435294963579448,"Aromaticity
+(mean AI_mod)",1,5,0.435294963579448
+mean_ai,178,5,2022-09-08,control,Control,30,10-30 cm,0.357330153881878,"Aromaticity
+(mean AI_mod)",1,5,0.357330153881878
+mean_ai,179,5,2022-11-01,control,Control,30,10-30 cm,0.431755064675466,"Aromaticity
+(mean AI_mod)",1,5,0.431755064675466
+mean_ai,112,1,2022-11-16,control,Control,30,10-30 cm,0.415680682252643,"Aromaticity
+(mean AI_mod)",1,5,0.415680682252643
+mean_ai,113,1,2023-01-12,control,Control,30,10-30 cm,0.42393373543597,"Aromaticity
+(mean AI_mod)",1,5,0.42393373543597
+mean_ai,180,5,2023-01-12,control,Control,30,10-30 cm,0.366656105512635,"Aromaticity
+(mean AI_mod)",1,5,0.366656105512635
+mean_ai,181,5,2023-02-07,control,Control,30,10-30 cm,0.375744062047734,"Aromaticity
+(mean AI_mod)",1,5,0.375744062047734
+mean_ai,182,5,2023-05-02,control,Control,30,10-30 cm,0.323971679399101,"Aromaticity
+(mean AI_mod)",1,5,0.323971679399101
+mean_ai,114,1,2023-05-30,control,Control,30,10-30 cm,0.450332072273732,"Aromaticity
+(mean AI_mod)",1,5,0.450332072273732
+mean_ai,147,3,2023-05-30,control,Control,30,10-30 cm,0.411768592920374,"Aromaticity
+(mean AI_mod)",1,5,0.411768592920374
+mean_ai,115,1,2023-08-22,control,Control,30,10-30 cm,0.39694100142961,"Aromaticity
+(mean AI_mod)",1,5,0.39694100142961
+mean_ai,183,5,2023-10-03,control,Control,30,10-30 cm,0.355648634758467,"Aromaticity
+(mean AI_mod)",1,5,0.355648634758467
+mean_ai,116,1,2023-12-12,control,Control,30,10-30 cm,0.43759739846151,"Aromaticity
+(mean AI_mod)",1,5,0.43759739846151
+mean_ai,184,5,2024-04-30,control,Control,30,10-30 cm,0.339901467498423,"Aromaticity
+(mean AI_mod)",1,5,0.339901467498423
+mean_ai,148,4,2017-05-31,warmed,Warmed,30,10-30 cm,0.496728376950273,"Aromaticity
+(mean AI_mod)",1,5,0.496728376950273
+mean_ai,149,4,2017-11-22,warmed,Warmed,30,10-30 cm,0.440289682938801,"Aromaticity
+(mean AI_mod)",1,5,0.440289682938801
+mean_ai,150,4,2017-12-06,warmed,Warmed,30,10-30 cm,0.404105591426889,"Aromaticity
+(mean AI_mod)",1,5,0.404105591426889
+mean_ai,185,6,2017-12-06,warmed,Warmed,30,10-30 cm,0.194627962661491,"Aromaticity
+(mean AI_mod)",1,5,0.194627962661491
+mean_ai,152,4,2018-01-30,warmed,Warmed,30,10-30 cm,0.336175447474111,"Aromaticity
+(mean AI_mod)",1,5,0.336175447474111
+mean_ai,153,4,2018-02-27,warmed,Warmed,30,10-30 cm,0.418937706284672,"Aromaticity
+(mean AI_mod)",1,5,0.418937706284672
+mean_ai,154,4,2018-05-09,warmed,Warmed,30,10-30 cm,0.353140095315824,"Aromaticity
+(mean AI_mod)",1,5,0.353140095315824
+mean_ai,155,4,2018-11-07,warmed,Warmed,30,10-30 cm,0.34847821962647,"Aromaticity
+(mean AI_mod)",1,5,0.34847821962647
+mean_ai,156,4,2019-09-10,warmed,Warmed,30,10-30 cm,0.334029879868421,"Aromaticity
+(mean AI_mod)",1,5,0.334029879868421
+mean_ai,157,4,2019-12-03,warmed,Warmed,30,10-30 cm,0.35046286782684,"Aromaticity
+(mean AI_mod)",1,5,0.35046286782684
+mean_ai,158,4,2020-01-14,warmed,Warmed,30,10-30 cm,0.346104690033676,"Aromaticity
+(mean AI_mod)",1,5,0.346104690033676
+mean_ai,117,2,2020-02-25,warmed,Warmed,30,10-30 cm,0.392285837164694,"Aromaticity
+(mean AI_mod)",1,5,0.392285837164694
+mean_ai,159,4,2020-02-25,warmed,Warmed,30,10-30 cm,0.343916801099788,"Aromaticity
+(mean AI_mod)",1,5,0.343916801099788
+mean_ai,160,4,2020-03-10,warmed,Warmed,30,10-30 cm,0.361751128151278,"Aromaticity
+(mean AI_mod)",1,5,0.361751128151278
+mean_ai,161,4,2020-07-28,warmed,Warmed,30,10-30 cm,0.383378043058354,"Aromaticity
+(mean AI_mod)",1,5,0.383378043058354
+mean_ai,162,4,2020-09-09,warmed,Warmed,30,10-30 cm,0.416030130974144,"Aromaticity
+(mean AI_mod)",1,5,0.416030130974144
+mean_ai,186,6,2020-09-09,warmed,Warmed,30,10-30 cm,0.287755232375756,"Aromaticity
+(mean AI_mod)",1,5,0.287755232375756
+mean_ai,163,4,2020-10-06,warmed,Warmed,30,10-30 cm,0.371270407473543,"Aromaticity
+(mean AI_mod)",1,5,0.371270407473543
+mean_ai,187,6,2020-10-06,warmed,Warmed,30,10-30 cm,0.157743106986438,"Aromaticity
+(mean AI_mod)",1,5,0.157743106986438
+mean_ai,164,4,2020-11-05,warmed,Warmed,30,10-30 cm,0.359501240668602,"Aromaticity
+(mean AI_mod)",1,5,0.359501240668602
+mean_ai,165,4,2020-12-29,warmed,Warmed,30,10-30 cm,0.353117005904267,"Aromaticity
+(mean AI_mod)",1,5,0.353117005904267
+mean_ai,166,4,2021-02-09,warmed,Warmed,30,10-30 cm,0.372679867759219,"Aromaticity
+(mean AI_mod)",1,5,0.372679867759219
+mean_ai,188,6,2021-02-23,warmed,Warmed,30,10-30 cm,0.158482244142738,"Aromaticity
+(mean AI_mod)",1,5,0.158482244142738
+mean_ai,167,4,2021-06-03,warmed,Warmed,30,10-30 cm,0.44800934260887,"Aromaticity
+(mean AI_mod)",1,5,0.44800934260887
+mean_ai,118,2,2021-09-21,warmed,Warmed,30,10-30 cm,0.363029271043461,"Aromaticity
+(mean AI_mod)",1,5,0.363029271043461
+mean_ai,168,4,2021-12-15,warmed,Warmed,30,10-30 cm,0.363773518538664,"Aromaticity
+(mean AI_mod)",1,5,0.363773518538664
+mean_ai,119,2,2022-08-23,warmed,Warmed,30,10-30 cm,0.45107353011876,"Aromaticity
+(mean AI_mod)",1,5,0.45107353011876
+mean_ai,189,6,2022-08-23,warmed,Warmed,30,10-30 cm,0.474291693582046,"Aromaticity
+(mean AI_mod)",1,5,0.474291693582046
+mean_ai,120,2,2022-09-08,warmed,Warmed,30,10-30 cm,0.258890597706387,"Aromaticity
+(mean AI_mod)",1,5,0.258890597706387
+mean_ai,190,6,2022-09-08,warmed,Warmed,30,10-30 cm,0.415653710678779,"Aromaticity
+(mean AI_mod)",1,5,0.415653710678779
+mean_ai,191,6,2022-11-01,warmed,Warmed,30,10-30 cm,0.388574540621424,"Aromaticity
+(mean AI_mod)",1,5,0.388574540621424
+mean_ai,121,2,2022-11-16,warmed,Warmed,30,10-30 cm,0.36471942616342,"Aromaticity
+(mean AI_mod)",1,5,0.36471942616342
+mean_ai,122,2,2023-01-12,warmed,Warmed,30,10-30 cm,0.345163048686426,"Aromaticity
+(mean AI_mod)",1,5,0.345163048686426
+mean_ai,192,6,2023-01-12,warmed,Warmed,30,10-30 cm,0.40600461920106,"Aromaticity
+(mean AI_mod)",1,5,0.40600461920106
+mean_ai,193,6,2023-02-07,warmed,Warmed,30,10-30 cm,0.387108691802611,"Aromaticity
+(mean AI_mod)",1,5,0.387108691802611
+mean_ai,194,6,2023-05-02,warmed,Warmed,30,10-30 cm,0.383066290331761,"Aromaticity
+(mean AI_mod)",1,5,0.383066290331761
+mean_ai,123,2,2023-05-30,warmed,Warmed,30,10-30 cm,0.439906799379093,"Aromaticity
+(mean AI_mod)",1,5,0.439906799379093
+mean_ai,169,4,2023-05-30,warmed,Warmed,30,10-30 cm,0.415430403849716,"Aromaticity
+(mean AI_mod)",1,5,0.415430403849716
+mean_ai,124,2,2023-08-22,warmed,Warmed,30,10-30 cm,0.377104524647903,"Aromaticity
+(mean AI_mod)",1,5,0.377104524647903
+mean_ai,195,6,2023-10-03,warmed,Warmed,30,10-30 cm,0.414579136362201,"Aromaticity
+(mean AI_mod)",1,5,0.414579136362201
+mean_ai,125,2,2023-12-12,warmed,Warmed,30,10-30 cm,0.36531115333152,"Aromaticity
+(mean AI_mod)",1,5,0.36531115333152
+mean_ai,196,6,2024-04-30,warmed,Warmed,30,10-30 cm,0.393522259257159,"Aromaticity
+(mean AI_mod)",1,5,0.393522259257159
+frac_lignin,1,1,2017-05-31,control,Control,10,0-10 cm,0.638036809815951,"Lignin-like formulae
+(%)",100,6,63.8036809815951
+frac_lignin,70,5,2017-05-31,control,Control,10,0-10 cm,0.522776572668113,"Lignin-like formulae
+(%)",100,6,52.2776572668113
+frac_lignin,26,3,2017-10-20,control,Control,10,0-10 cm,0.365030674846626,"Lignin-like formulae
+(%)",100,6,36.5030674846626
+frac_lignin,2,1,2017-12-06,control,Control,10,0-10 cm,0.648148148148148,"Lignin-like formulae
+(%)",100,6,64.8148148148148
+frac_lignin,27,3,2017-12-06,control,Control,10,0-10 cm,0.603193376700177,"Lignin-like formulae
+(%)",100,6,60.3193376700177
+frac_lignin,28,3,2018-01-17,control,Control,10,0-10 cm,0.453900709219858,"Lignin-like formulae
+(%)",100,6,45.3900709219858
+frac_lignin,29,3,2018-01-30,control,Control,10,0-10 cm,0.496062992125984,"Lignin-like formulae
+(%)",100,6,49.6062992125984
+frac_lignin,30,3,2018-02-13,control,Control,10,0-10 cm,0.316666666666667,"Lignin-like formulae
+(%)",100,6,31.6666666666667
+frac_lignin,31,3,2018-02-27,control,Control,10,0-10 cm,0.276422764227642,"Lignin-like formulae
+(%)",100,6,27.6422764227642
+frac_lignin,3,1,2018-05-09,control,Control,10,0-10 cm,0.554307116104869,"Lignin-like formulae
+(%)",100,6,55.4307116104869
+frac_lignin,32,3,2018-05-09,control,Control,10,0-10 cm,0.252380952380952,"Lignin-like formulae
+(%)",100,6,25.2380952380952
+frac_lignin,4,1,2018-05-22,control,Control,10,0-10 cm,0.691860465116279,"Lignin-like formulae
+(%)",100,6,69.1860465116279
+frac_lignin,33,3,2018-05-22,control,Control,10,0-10 cm,0.283018867924528,"Lignin-like formulae
+(%)",100,6,28.3018867924528
+frac_lignin,5,1,2018-10-10,control,Control,10,0-10 cm,0.679611650485437,"Lignin-like formulae
+(%)",100,6,67.9611650485437
+frac_lignin,71,5,2018-10-10,control,Control,10,0-10 cm,0.509933774834437,"Lignin-like formulae
+(%)",100,6,50.9933774834437
+frac_lignin,34,3,2018-10-23,control,Control,10,0-10 cm,0.481481481481482,"Lignin-like formulae
+(%)",100,6,48.1481481481482
+frac_lignin,72,5,2018-10-23,control,Control,10,0-10 cm,0.486222222222222,"Lignin-like formulae
+(%)",100,6,48.6222222222222
+frac_lignin,6,1,2018-11-07,control,Control,10,0-10 cm,0.594405594405594,"Lignin-like formulae
+(%)",100,6,59.4405594405594
+frac_lignin,35,3,2018-11-07,control,Control,10,0-10 cm,0.166666666666667,"Lignin-like formulae
+(%)",100,6,16.6666666666667
+frac_lignin,7,1,2019-09-10,control,Control,10,0-10 cm,0.575704225352113,"Lignin-like formulae
+(%)",100,6,57.5704225352113
+frac_lignin,73,5,2019-09-10,control,Control,10,0-10 cm,0.564968152866242,"Lignin-like formulae
+(%)",100,6,56.4968152866242
+frac_lignin,36,3,2019-11-05,control,Control,10,0-10 cm,0.236363636363636,"Lignin-like formulae
+(%)",100,6,23.6363636363636
+frac_lignin,8,1,2019-12-03,control,Control,10,0-10 cm,0.715789473684211,"Lignin-like formulae
+(%)",100,6,71.5789473684211
+frac_lignin,37,3,2019-12-17,control,Control,10,0-10 cm,0.240963855421687,"Lignin-like formulae
+(%)",100,6,24.0963855421687
+frac_lignin,74,5,2019-12-17,control,Control,10,0-10 cm,0.485074626865672,"Lignin-like formulae
+(%)",100,6,48.5074626865672
+frac_lignin,38,3,2019-12-31,control,Control,10,0-10 cm,0.192708333333333,"Lignin-like formulae
+(%)",100,6,19.2708333333333
+frac_lignin,9,1,2020-01-28,control,Control,10,0-10 cm,0.674958540630183,"Lignin-like formulae
+(%)",100,6,67.4958540630183
+frac_lignin,39,3,2020-01-28,control,Control,10,0-10 cm,0.181818181818182,"Lignin-like formulae
+(%)",100,6,18.1818181818182
+frac_lignin,75,5,2020-01-28,control,Control,10,0-10 cm,0.554054054054054,"Lignin-like formulae
+(%)",100,6,55.4054054054054
+frac_lignin,76,5,2020-02-25,control,Control,10,0-10 cm,0.523224043715847,"Lignin-like formulae
+(%)",100,6,52.3224043715847
+frac_lignin,40,3,2020-03-10,control,Control,10,0-10 cm,0.232558139534884,"Lignin-like formulae
+(%)",100,6,23.2558139534884
+frac_lignin,77,5,2020-03-10,control,Control,10,0-10 cm,0.545323741007194,"Lignin-like formulae
+(%)",100,6,54.5323741007194
+frac_lignin,78,5,2020-07-28,control,Control,10,0-10 cm,0.575532900834106,"Lignin-like formulae
+(%)",100,6,57.5532900834106
+frac_lignin,79,5,2020-09-09,control,Control,10,0-10 cm,0.564334085778781,"Lignin-like formulae
+(%)",100,6,56.4334085778781
+frac_lignin,80,5,2020-10-06,control,Control,10,0-10 cm,0.506702412868633,"Lignin-like formulae
+(%)",100,6,50.6702412868633
+frac_lignin,81,5,2020-11-05,control,Control,10,0-10 cm,0.493939393939394,"Lignin-like formulae
+(%)",100,6,49.3939393939394
+frac_lignin,82,5,2021-02-09,control,Control,10,0-10 cm,0.447702834799609,"Lignin-like formulae
+(%)",100,6,44.7702834799609
+frac_lignin,83,5,2021-02-23,control,Control,10,0-10 cm,0.459667852906287,"Lignin-like formulae
+(%)",100,6,45.9667852906287
+frac_lignin,84,5,2021-06-03,control,Control,10,0-10 cm,0.482931726907631,"Lignin-like formulae
+(%)",100,6,48.2931726907631
+frac_lignin,10,1,2021-12-15,control,Control,10,0-10 cm,0.492857142857143,"Lignin-like formulae
+(%)",100,6,49.2857142857143
+frac_lignin,41,3,2021-12-15,control,Control,10,0-10 cm,0.286231884057971,"Lignin-like formulae
+(%)",100,6,28.6231884057971
+frac_lignin,85,5,2021-12-15,control,Control,10,0-10 cm,0.444918872758326,"Lignin-like formulae
+(%)",100,6,44.4918872758326
+frac_lignin,11,1,2022-08-23,control,Control,10,0-10 cm,0.432203389830509,"Lignin-like formulae
+(%)",100,6,43.2203389830509
+frac_lignin,86,5,2022-08-23,control,Control,10,0-10 cm,0.498015873015873,"Lignin-like formulae
+(%)",100,6,49.8015873015873
+frac_lignin,12,1,2022-09-08,control,Control,10,0-10 cm,0.626297577854671,"Lignin-like formulae
+(%)",100,6,62.6297577854671
+frac_lignin,42,3,2022-09-08,control,Control,10,0-10 cm,0.198019801980198,"Lignin-like formulae
+(%)",100,6,19.8019801980198
+frac_lignin,87,5,2022-09-08,control,Control,10,0-10 cm,0.520408163265306,"Lignin-like formulae
+(%)",100,6,52.0408163265306
+frac_lignin,13,1,2022-11-16,control,Control,10,0-10 cm,0.485868102288022,"Lignin-like formulae
+(%)",100,6,48.5868102288022
+frac_lignin,43,3,2022-11-16,control,Control,10,0-10 cm,0.294840294840295,"Lignin-like formulae
+(%)",100,6,29.4840294840295
+frac_lignin,88,5,2022-11-16,control,Control,10,0-10 cm,0.459911894273128,"Lignin-like formulae
+(%)",100,6,45.9911894273128
+frac_lignin,44,3,2023-05-30,control,Control,10,0-10 cm,0.255555555555556,"Lignin-like formulae
+(%)",100,6,25.5555555555556
+frac_lignin,45,3,2023-12-27,control,Control,10,0-10 cm,0.272727272727273,"Lignin-like formulae
+(%)",100,6,27.2727272727273
+frac_lignin,46,3,2024-04-16,control,Control,10,0-10 cm,0.266932270916335,"Lignin-like formulae
+(%)",100,6,26.6932270916335
+frac_lignin,47,3,2024-04-30,control,Control,10,0-10 cm,0.277397260273973,"Lignin-like formulae
+(%)",100,6,27.7397260273973
+frac_lignin,14,2,2017-05-31,warmed,Warmed,10,0-10 cm,0.604872881355932,"Lignin-like formulae
+(%)",100,6,60.4872881355932
+frac_lignin,89,6,2017-05-31,warmed,Warmed,10,0-10 cm,0.513178294573643,"Lignin-like formulae
+(%)",100,6,51.3178294573643
+frac_lignin,48,4,2017-10-20,warmed,Warmed,10,0-10 cm,0.578659370725034,"Lignin-like formulae
+(%)",100,6,57.8659370725034
+frac_lignin,15,2,2017-12-06,warmed,Warmed,10,0-10 cm,0.451697127937337,"Lignin-like formulae
+(%)",100,6,45.1697127937337
+frac_lignin,49,4,2017-12-06,warmed,Warmed,10,0-10 cm,0.670722977809592,"Lignin-like formulae
+(%)",100,6,67.0722977809592
+frac_lignin,50,4,2018-01-17,warmed,Warmed,10,0-10 cm,0.593394077448747,"Lignin-like formulae
+(%)",100,6,59.3394077448747
+frac_lignin,51,4,2018-01-30,warmed,Warmed,10,0-10 cm,0.680149812734082,"Lignin-like formulae
+(%)",100,6,68.0149812734082
+frac_lignin,52,4,2018-02-13,warmed,Warmed,10,0-10 cm,0.581861958266453,"Lignin-like formulae
+(%)",100,6,58.1861958266453
+frac_lignin,53,4,2018-02-27,warmed,Warmed,10,0-10 cm,0.629858657243816,"Lignin-like formulae
+(%)",100,6,62.9858657243816
+frac_lignin,16,2,2018-05-09,warmed,Warmed,10,0-10 cm,0.468134414831981,"Lignin-like formulae
+(%)",100,6,46.8134414831981
+frac_lignin,54,4,2018-05-09,warmed,Warmed,10,0-10 cm,0.603096984515077,"Lignin-like formulae
+(%)",100,6,60.3096984515077
+frac_lignin,17,2,2018-05-22,warmed,Warmed,10,0-10 cm,0.438839848675914,"Lignin-like formulae
+(%)",100,6,43.8839848675914
+frac_lignin,55,4,2018-05-22,warmed,Warmed,10,0-10 cm,0.573082489146165,"Lignin-like formulae
+(%)",100,6,57.3082489146165
+frac_lignin,18,2,2018-10-10,warmed,Warmed,10,0-10 cm,0.437923250564334,"Lignin-like formulae
+(%)",100,6,43.7923250564334
+frac_lignin,90,6,2018-10-10,warmed,Warmed,10,0-10 cm,0.420249653259362,"Lignin-like formulae
+(%)",100,6,42.0249653259362
+frac_lignin,56,4,2018-10-23,warmed,Warmed,10,0-10 cm,0.615983393876492,"Lignin-like formulae
+(%)",100,6,61.5983393876492
+frac_lignin,91,6,2018-10-23,warmed,Warmed,10,0-10 cm,0.456617002629273,"Lignin-like formulae
+(%)",100,6,45.6617002629273
+frac_lignin,19,2,2018-11-07,warmed,Warmed,10,0-10 cm,0.496842105263158,"Lignin-like formulae
+(%)",100,6,49.6842105263158
+frac_lignin,57,4,2018-11-07,warmed,Warmed,10,0-10 cm,0.599038461538462,"Lignin-like formulae
+(%)",100,6,59.9038461538462
+frac_lignin,20,2,2019-09-10,warmed,Warmed,10,0-10 cm,0.52514367816092,"Lignin-like formulae
+(%)",100,6,52.514367816092
+frac_lignin,92,6,2019-09-10,warmed,Warmed,10,0-10 cm,0.453333333333333,"Lignin-like formulae
+(%)",100,6,45.3333333333333
+frac_lignin,58,4,2019-11-05,warmed,Warmed,10,0-10 cm,0.650335570469799,"Lignin-like formulae
+(%)",100,6,65.0335570469799
+frac_lignin,21,2,2019-12-03,warmed,Warmed,10,0-10 cm,0.410611303344867,"Lignin-like formulae
+(%)",100,6,41.0611303344867
+frac_lignin,59,4,2019-12-17,warmed,Warmed,10,0-10 cm,0.597684515195369,"Lignin-like formulae
+(%)",100,6,59.7684515195369
+frac_lignin,93,6,2019-12-17,warmed,Warmed,10,0-10 cm,0.408432147562582,"Lignin-like formulae
+(%)",100,6,40.8432147562582
+frac_lignin,60,4,2019-12-31,warmed,Warmed,10,0-10 cm,0.587294117647059,"Lignin-like formulae
+(%)",100,6,58.7294117647059
+frac_lignin,22,2,2020-01-28,warmed,Warmed,10,0-10 cm,0.425614489003881,"Lignin-like formulae
+(%)",100,6,42.5614489003881
+frac_lignin,61,4,2020-01-28,warmed,Warmed,10,0-10 cm,0.633240223463687,"Lignin-like formulae
+(%)",100,6,63.3240223463687
+frac_lignin,94,6,2020-01-28,warmed,Warmed,10,0-10 cm,0.587010824313072,"Lignin-like formulae
+(%)",100,6,58.7010824313072
+frac_lignin,95,6,2020-02-25,warmed,Warmed,10,0-10 cm,0.493670886075949,"Lignin-like formulae
+(%)",100,6,49.3670886075949
+frac_lignin,62,4,2020-03-10,warmed,Warmed,10,0-10 cm,0.556603773584906,"Lignin-like formulae
+(%)",100,6,55.6603773584906
+frac_lignin,96,6,2020-03-10,warmed,Warmed,10,0-10 cm,0.478651685393258,"Lignin-like formulae
+(%)",100,6,47.8651685393258
+frac_lignin,97,6,2020-07-28,warmed,Warmed,10,0-10 cm,0.481338481338481,"Lignin-like formulae
+(%)",100,6,48.1338481338481
+frac_lignin,98,6,2020-09-09,warmed,Warmed,10,0-10 cm,0.464197530864198,"Lignin-like formulae
+(%)",100,6,46.4197530864198
+frac_lignin,99,6,2020-10-06,warmed,Warmed,10,0-10 cm,0.407754010695187,"Lignin-like formulae
+(%)",100,6,40.7754010695187
+frac_lignin,100,6,2020-11-05,warmed,Warmed,10,0-10 cm,0.541793776693106,"Lignin-like formulae
+(%)",100,6,54.1793776693106
+frac_lignin,101,6,2021-02-09,warmed,Warmed,10,0-10 cm,0.405144694533762,"Lignin-like formulae
+(%)",100,6,40.5144694533762
+frac_lignin,102,6,2021-02-23,warmed,Warmed,10,0-10 cm,0.424479166666667,"Lignin-like formulae
+(%)",100,6,42.4479166666667
+frac_lignin,103,6,2021-06-03,warmed,Warmed,10,0-10 cm,0.420595533498759,"Lignin-like formulae
+(%)",100,6,42.0595533498759
+frac_lignin,23,2,2021-12-15,warmed,Warmed,10,0-10 cm,0.344322344322344,"Lignin-like formulae
+(%)",100,6,34.4322344322344
+frac_lignin,63,4,2021-12-15,warmed,Warmed,10,0-10 cm,0.328282828282828,"Lignin-like formulae
+(%)",100,6,32.8282828282828
+frac_lignin,104,6,2021-12-15,warmed,Warmed,10,0-10 cm,0.264550264550265,"Lignin-like formulae
+(%)",100,6,26.4550264550265
+frac_lignin,24,2,2022-08-23,warmed,Warmed,10,0-10 cm,0.415316642120766,"Lignin-like formulae
+(%)",100,6,41.5316642120766
+frac_lignin,105,6,2022-08-23,warmed,Warmed,10,0-10 cm,0.310344827586207,"Lignin-like formulae
+(%)",100,6,31.0344827586207
+frac_lignin,64,4,2022-09-08,warmed,Warmed,10,0-10 cm,0.375586854460094,"Lignin-like formulae
+(%)",100,6,37.5586854460094
+frac_lignin,106,6,2022-09-08,warmed,Warmed,10,0-10 cm,0.125,"Lignin-like formulae
+(%)",100,6,12.5
+frac_lignin,25,2,2022-11-16,warmed,Warmed,10,0-10 cm,0.336492890995261,"Lignin-like formulae
+(%)",100,6,33.6492890995261
+frac_lignin,65,4,2022-11-16,warmed,Warmed,10,0-10 cm,0.374485596707819,"Lignin-like formulae
+(%)",100,6,37.4485596707819
+frac_lignin,107,6,2022-11-16,warmed,Warmed,10,0-10 cm,0.321100917431193,"Lignin-like formulae
+(%)",100,6,32.1100917431193
+frac_lignin,66,4,2023-05-30,warmed,Warmed,10,0-10 cm,0.333333333333333,"Lignin-like formulae
+(%)",100,6,33.3333333333333
+frac_lignin,67,4,2023-12-27,warmed,Warmed,10,0-10 cm,0.342696629213483,"Lignin-like formulae
+(%)",100,6,34.2696629213483
+frac_lignin,68,4,2024-04-16,warmed,Warmed,10,0-10 cm,0.304347826086957,"Lignin-like formulae
+(%)",100,6,30.4347826086957
+frac_lignin,69,4,2024-04-30,warmed,Warmed,10,0-10 cm,0.340836012861736,"Lignin-like formulae
+(%)",100,6,34.0836012861736
+frac_lignin,126,3,2017-05-31,control,Control,30,10-30 cm,0.226415094339623,"Lignin-like formulae
+(%)",100,6,22.6415094339623
+frac_lignin,127,3,2017-11-22,control,Control,30,10-30 cm,0.2,"Lignin-like formulae
+(%)",100,6,20
+frac_lignin,128,3,2017-12-06,control,Control,30,10-30 cm,0.272727272727273,"Lignin-like formulae
+(%)",100,6,27.2727272727273
+frac_lignin,170,5,2017-12-06,control,Control,30,10-30 cm,0.206896551724138,"Lignin-like formulae
+(%)",100,6,20.6896551724138
+frac_lignin,129,3,2018-01-03,control,Control,30,10-30 cm,0.268817204301075,"Lignin-like formulae
+(%)",100,6,26.8817204301075
+frac_lignin,130,3,2018-01-30,control,Control,30,10-30 cm,0.152173913043478,"Lignin-like formulae
+(%)",100,6,15.2173913043478
+frac_lignin,131,3,2018-02-27,control,Control,30,10-30 cm,0.152542372881356,"Lignin-like formulae
+(%)",100,6,15.2542372881356
+frac_lignin,171,5,2018-03-27,control,Control,30,10-30 cm,0.205128205128205,"Lignin-like formulae
+(%)",100,6,20.5128205128205
+frac_lignin,132,3,2018-05-09,control,Control,30,10-30 cm,0.265486725663717,"Lignin-like formulae
+(%)",100,6,26.5486725663717
+frac_lignin,172,5,2018-05-09,control,Control,30,10-30 cm,0.320634920634921,"Lignin-like formulae
+(%)",100,6,32.0634920634921
+frac_lignin,133,3,2018-11-07,control,Control,30,10-30 cm,0.252669039145908,"Lignin-like formulae
+(%)",100,6,25.2669039145908
+frac_lignin,134,3,2019-09-10,control,Control,30,10-30 cm,0.173913043478261,"Lignin-like formulae
+(%)",100,6,17.3913043478261
+frac_lignin,135,3,2019-12-03,control,Control,30,10-30 cm,0.166666666666667,"Lignin-like formulae
+(%)",100,6,16.6666666666667
+frac_lignin,136,3,2020-01-14,control,Control,30,10-30 cm,0.220472440944882,"Lignin-like formulae
+(%)",100,6,22.0472440944882
+frac_lignin,108,1,2020-02-25,control,Control,30,10-30 cm,0.164021164021164,"Lignin-like formulae
+(%)",100,6,16.4021164021164
+frac_lignin,137,3,2020-02-25,control,Control,30,10-30 cm,0.244318181818182,"Lignin-like formulae
+(%)",100,6,24.4318181818182
+frac_lignin,138,3,2020-03-10,control,Control,30,10-30 cm,0.152542372881356,"Lignin-like formulae
+(%)",100,6,15.2542372881356
+frac_lignin,139,3,2020-07-28,control,Control,30,10-30 cm,0.154639175257732,"Lignin-like formulae
+(%)",100,6,15.4639175257732
+frac_lignin,173,5,2020-07-28,control,Control,30,10-30 cm,0.288409703504043,"Lignin-like formulae
+(%)",100,6,28.8409703504043
+frac_lignin,140,3,2020-09-09,control,Control,30,10-30 cm,0.194736842105263,"Lignin-like formulae
+(%)",100,6,19.4736842105263
+frac_lignin,141,3,2020-10-06,control,Control,30,10-30 cm,0.197452229299363,"Lignin-like formulae
+(%)",100,6,19.7452229299363
+frac_lignin,174,5,2020-10-06,control,Control,30,10-30 cm,0.237931034482759,"Lignin-like formulae
+(%)",100,6,23.7931034482759
+frac_lignin,142,3,2020-11-05,control,Control,30,10-30 cm,0.222222222222222,"Lignin-like formulae
+(%)",100,6,22.2222222222222
+frac_lignin,175,5,2020-11-05,control,Control,30,10-30 cm,0.274193548387097,"Lignin-like formulae
+(%)",100,6,27.4193548387097
+frac_lignin,143,3,2020-12-29,control,Control,30,10-30 cm,0.215767634854772,"Lignin-like formulae
+(%)",100,6,21.5767634854772
+frac_lignin,144,3,2021-02-09,control,Control,30,10-30 cm,0.224299065420561,"Lignin-like formulae
+(%)",100,6,22.4299065420561
+frac_lignin,176,5,2021-02-23,control,Control,30,10-30 cm,0.223076923076923,"Lignin-like formulae
+(%)",100,6,22.3076923076923
+frac_lignin,145,3,2021-06-03,control,Control,30,10-30 cm,0.242290748898678,"Lignin-like formulae
+(%)",100,6,24.2290748898678
+frac_lignin,109,1,2021-09-21,control,Control,30,10-30 cm,0.25,"Lignin-like formulae
+(%)",100,6,25
+frac_lignin,146,3,2021-12-15,control,Control,30,10-30 cm,0.0862068965517242,"Lignin-like formulae
+(%)",100,6,8.62068965517242
+frac_lignin,110,1,2022-08-23,control,Control,30,10-30 cm,0.102040816326531,"Lignin-like formulae
+(%)",100,6,10.2040816326531
+frac_lignin,177,5,2022-08-23,control,Control,30,10-30 cm,0.214285714285714,"Lignin-like formulae
+(%)",100,6,21.4285714285714
+frac_lignin,111,1,2022-09-08,control,Control,30,10-30 cm,0.206106870229008,"Lignin-like formulae
+(%)",100,6,20.6106870229008
+frac_lignin,178,5,2022-09-08,control,Control,30,10-30 cm,0.153846153846154,"Lignin-like formulae
+(%)",100,6,15.3846153846154
+frac_lignin,179,5,2022-11-01,control,Control,30,10-30 cm,0.15625,"Lignin-like formulae
+(%)",100,6,15.625
+frac_lignin,112,1,2022-11-16,control,Control,30,10-30 cm,0.216216216216216,"Lignin-like formulae
+(%)",100,6,21.6216216216216
+frac_lignin,113,1,2023-01-12,control,Control,30,10-30 cm,0.233463035019455,"Lignin-like formulae
+(%)",100,6,23.3463035019455
+frac_lignin,180,5,2023-01-12,control,Control,30,10-30 cm,0.346428571428571,"Lignin-like formulae
+(%)",100,6,34.6428571428571
+frac_lignin,181,5,2023-02-07,control,Control,30,10-30 cm,0.365921787709497,"Lignin-like formulae
+(%)",100,6,36.5921787709497
+frac_lignin,182,5,2023-05-02,control,Control,30,10-30 cm,0.474541751527495,"Lignin-like formulae
+(%)",100,6,47.4541751527495
+frac_lignin,114,1,2023-05-30,control,Control,30,10-30 cm,0.2375,"Lignin-like formulae
+(%)",100,6,23.75
+frac_lignin,147,3,2023-05-30,control,Control,30,10-30 cm,0.361842105263158,"Lignin-like formulae
+(%)",100,6,36.1842105263158
+frac_lignin,115,1,2023-08-22,control,Control,30,10-30 cm,0.327868852459016,"Lignin-like formulae
+(%)",100,6,32.7868852459016
+frac_lignin,183,5,2023-10-03,control,Control,30,10-30 cm,0.447692307692308,"Lignin-like formulae
+(%)",100,6,44.7692307692308
+frac_lignin,116,1,2023-12-12,control,Control,30,10-30 cm,0.324165029469548,"Lignin-like formulae
+(%)",100,6,32.4165029469548
+frac_lignin,184,5,2024-04-30,control,Control,30,10-30 cm,0.43125,"Lignin-like formulae
+(%)",100,6,43.125
+frac_lignin,148,4,2017-05-31,warmed,Warmed,30,10-30 cm,0.101010101010101,"Lignin-like formulae
+(%)",100,6,10.1010101010101
+frac_lignin,149,4,2017-11-22,warmed,Warmed,30,10-30 cm,0.232067510548523,"Lignin-like formulae
+(%)",100,6,23.2067510548523
+frac_lignin,150,4,2017-12-06,warmed,Warmed,30,10-30 cm,0.293172690763052,"Lignin-like formulae
+(%)",100,6,29.3172690763052
+frac_lignin,185,6,2017-12-06,warmed,Warmed,30,10-30 cm,0.581749049429658,"Lignin-like formulae
+(%)",100,6,58.1749049429658
+frac_lignin,152,4,2018-01-30,warmed,Warmed,30,10-30 cm,0.389513108614232,"Lignin-like formulae
+(%)",100,6,38.9513108614232
+frac_lignin,153,4,2018-02-27,warmed,Warmed,30,10-30 cm,0.301587301587302,"Lignin-like formulae
+(%)",100,6,30.1587301587302
+frac_lignin,154,4,2018-05-09,warmed,Warmed,30,10-30 cm,0.381159420289855,"Lignin-like formulae
+(%)",100,6,38.1159420289855
+frac_lignin,155,4,2018-11-07,warmed,Warmed,30,10-30 cm,0.36436170212766,"Lignin-like formulae
+(%)",100,6,36.436170212766
+frac_lignin,156,4,2019-09-10,warmed,Warmed,30,10-30 cm,0.415533980582524,"Lignin-like formulae
+(%)",100,6,41.5533980582524
+frac_lignin,157,4,2019-12-03,warmed,Warmed,30,10-30 cm,0.433628318584071,"Lignin-like formulae
+(%)",100,6,43.3628318584071
+frac_lignin,158,4,2020-01-14,warmed,Warmed,30,10-30 cm,0.381308411214953,"Lignin-like formulae
+(%)",100,6,38.1308411214953
+frac_lignin,117,2,2020-02-25,warmed,Warmed,30,10-30 cm,0.267985611510791,"Lignin-like formulae
+(%)",100,6,26.7985611510791
+frac_lignin,159,4,2020-02-25,warmed,Warmed,30,10-30 cm,0.373456790123457,"Lignin-like formulae
+(%)",100,6,37.3456790123457
+frac_lignin,160,4,2020-03-10,warmed,Warmed,30,10-30 cm,0.372239747634069,"Lignin-like formulae
+(%)",100,6,37.2239747634069
+frac_lignin,161,4,2020-07-28,warmed,Warmed,30,10-30 cm,0.349809885931559,"Lignin-like formulae
+(%)",100,6,34.9809885931559
+frac_lignin,162,4,2020-09-09,warmed,Warmed,30,10-30 cm,0.288461538461538,"Lignin-like formulae
+(%)",100,6,28.8461538461538
+frac_lignin,186,6,2020-09-09,warmed,Warmed,30,10-30 cm,0.496296296296296,"Lignin-like formulae
+(%)",100,6,49.6296296296296
+frac_lignin,163,4,2020-10-06,warmed,Warmed,30,10-30 cm,0.393592677345538,"Lignin-like formulae
+(%)",100,6,39.3592677345538
+frac_lignin,187,6,2020-10-06,warmed,Warmed,30,10-30 cm,0.669014084507042,"Lignin-like formulae
+(%)",100,6,66.9014084507042
+frac_lignin,164,4,2020-11-05,warmed,Warmed,30,10-30 cm,0.406542056074766,"Lignin-like formulae
+(%)",100,6,40.6542056074766
+frac_lignin,165,4,2020-12-29,warmed,Warmed,30,10-30 cm,0.379310344827586,"Lignin-like formulae
+(%)",100,6,37.9310344827586
+frac_lignin,166,4,2021-02-09,warmed,Warmed,30,10-30 cm,0.365248226950355,"Lignin-like formulae
+(%)",100,6,36.5248226950355
+frac_lignin,188,6,2021-02-23,warmed,Warmed,30,10-30 cm,0.618953603158934,"Lignin-like formulae
+(%)",100,6,61.8953603158934
+frac_lignin,167,4,2021-06-03,warmed,Warmed,30,10-30 cm,0.242424242424242,"Lignin-like formulae
+(%)",100,6,24.2424242424242
+frac_lignin,118,2,2021-09-21,warmed,Warmed,30,10-30 cm,0.35558583106267,"Lignin-like formulae
+(%)",100,6,35.558583106267
+frac_lignin,168,4,2021-12-15,warmed,Warmed,30,10-30 cm,0.411764705882353,"Lignin-like formulae
+(%)",100,6,41.1764705882353
+frac_lignin,119,2,2022-08-23,warmed,Warmed,30,10-30 cm,0.242105263157895,"Lignin-like formulae
+(%)",100,6,24.2105263157895
+frac_lignin,189,6,2022-08-23,warmed,Warmed,30,10-30 cm,0.202702702702703,"Lignin-like formulae
+(%)",100,6,20.2702702702703
+frac_lignin,120,2,2022-09-08,warmed,Warmed,30,10-30 cm,0.375,"Lignin-like formulae
+(%)",100,6,37.5
+frac_lignin,190,6,2022-09-08,warmed,Warmed,30,10-30 cm,0.292372881355932,"Lignin-like formulae
+(%)",100,6,29.2372881355932
+frac_lignin,191,6,2022-11-01,warmed,Warmed,30,10-30 cm,0.193877551020408,"Lignin-like formulae
+(%)",100,6,19.3877551020408
+frac_lignin,121,2,2022-11-16,warmed,Warmed,30,10-30 cm,0.232394366197183,"Lignin-like formulae
+(%)",100,6,23.2394366197183
+frac_lignin,122,2,2023-01-12,warmed,Warmed,30,10-30 cm,0.215596330275229,"Lignin-like formulae
+(%)",100,6,21.5596330275229
+frac_lignin,192,6,2023-01-12,warmed,Warmed,30,10-30 cm,0.201149425287356,"Lignin-like formulae
+(%)",100,6,20.1149425287356
+frac_lignin,193,6,2023-02-07,warmed,Warmed,30,10-30 cm,0.28135593220339,"Lignin-like formulae
+(%)",100,6,28.135593220339
+frac_lignin,194,6,2023-05-02,warmed,Warmed,30,10-30 cm,0.279620853080569,"Lignin-like formulae
+(%)",100,6,27.9620853080569
+frac_lignin,123,2,2023-05-30,warmed,Warmed,30,10-30 cm,0.205128205128205,"Lignin-like formulae
+(%)",100,6,20.5128205128205
+frac_lignin,169,4,2023-05-30,warmed,Warmed,30,10-30 cm,0.315508021390374,"Lignin-like formulae
+(%)",100,6,31.5508021390374
+frac_lignin,124,2,2023-08-22,warmed,Warmed,30,10-30 cm,0.314285714285714,"Lignin-like formulae
+(%)",100,6,31.4285714285714
+frac_lignin,195,6,2023-10-03,warmed,Warmed,30,10-30 cm,0.304909560723514,"Lignin-like formulae
+(%)",100,6,30.4909560723514
+frac_lignin,125,2,2023-12-12,warmed,Warmed,30,10-30 cm,0.248275862068966,"Lignin-like formulae
+(%)",100,6,24.8275862068966
+frac_lignin,196,6,2024-04-30,warmed,Warmed,30,10-30 cm,0.421153846153846,"Lignin-like formulae
+(%)",100,6,42.1153846153846
+frac_n_containing,1,1,2017-05-31,control,Control,10,0-10 cm,0.141104294478528,"N-containing formulae
+(%)",100,7,14.1104294478528
+frac_n_containing,70,5,2017-05-31,control,Control,10,0-10 cm,0.0976138828633406,"N-containing formulae
+(%)",100,7,9.76138828633406
+frac_n_containing,26,3,2017-10-20,control,Control,10,0-10 cm,0.245398773006135,"N-containing formulae
+(%)",100,7,24.5398773006135
+frac_n_containing,2,1,2017-12-06,control,Control,10,0-10 cm,0.168981481481482,"N-containing formulae
+(%)",100,7,16.8981481481482
+frac_n_containing,27,3,2017-12-06,control,Control,10,0-10 cm,0.219988172678888,"N-containing formulae
+(%)",100,7,21.9988172678888
+frac_n_containing,28,3,2018-01-17,control,Control,10,0-10 cm,0.163120567375887,"N-containing formulae
+(%)",100,7,16.3120567375887
+frac_n_containing,29,3,2018-01-30,control,Control,10,0-10 cm,0.151181102362205,"N-containing formulae
+(%)",100,7,15.1181102362205
+frac_n_containing,30,3,2018-02-13,control,Control,10,0-10 cm,0.15,"N-containing formulae
+(%)",100,7,15
+frac_n_containing,31,3,2018-02-27,control,Control,10,0-10 cm,0.195121951219512,"N-containing formulae
+(%)",100,7,19.5121951219512
+frac_n_containing,3,1,2018-05-09,control,Control,10,0-10 cm,0.224719101123596,"N-containing formulae
+(%)",100,7,22.4719101123595
+frac_n_containing,32,3,2018-05-09,control,Control,10,0-10 cm,0.261904761904762,"N-containing formulae
+(%)",100,7,26.1904761904762
+frac_n_containing,4,1,2018-05-22,control,Control,10,0-10 cm,0.13953488372093,"N-containing formulae
+(%)",100,7,13.953488372093
+frac_n_containing,33,3,2018-05-22,control,Control,10,0-10 cm,0.660377358490566,"N-containing formulae
+(%)",100,7,66.0377358490566
+frac_n_containing,5,1,2018-10-10,control,Control,10,0-10 cm,0.140776699029126,"N-containing formulae
+(%)",100,7,14.0776699029126
+frac_n_containing,71,5,2018-10-10,control,Control,10,0-10 cm,0.0264900662251656,"N-containing formulae
+(%)",100,7,2.64900662251656
+frac_n_containing,34,3,2018-10-23,control,Control,10,0-10 cm,0.222222222222222,"N-containing formulae
+(%)",100,7,22.2222222222222
+frac_n_containing,72,5,2018-10-23,control,Control,10,0-10 cm,0.247111111111111,"N-containing formulae
+(%)",100,7,24.7111111111111
+frac_n_containing,6,1,2018-11-07,control,Control,10,0-10 cm,0.153846153846154,"N-containing formulae
+(%)",100,7,15.3846153846154
+frac_n_containing,35,3,2018-11-07,control,Control,10,0-10 cm,0.666666666666667,"N-containing formulae
+(%)",100,7,66.6666666666667
+frac_n_containing,7,1,2019-09-10,control,Control,10,0-10 cm,0.193661971830986,"N-containing formulae
+(%)",100,7,19.3661971830986
+frac_n_containing,73,5,2019-09-10,control,Control,10,0-10 cm,0.215923566878981,"N-containing formulae
+(%)",100,7,21.5923566878981
+frac_n_containing,36,3,2019-11-05,control,Control,10,0-10 cm,0.345454545454545,"N-containing formulae
+(%)",100,7,34.5454545454546
+frac_n_containing,8,1,2019-12-03,control,Control,10,0-10 cm,0.0807017543859649,"N-containing formulae
+(%)",100,7,8.07017543859649
+frac_n_containing,37,3,2019-12-17,control,Control,10,0-10 cm,0.367469879518072,"N-containing formulae
+(%)",100,7,36.7469879518072
+frac_n_containing,74,5,2019-12-17,control,Control,10,0-10 cm,0.0858208955223881,"N-containing formulae
+(%)",100,7,8.58208955223881
+frac_n_containing,38,3,2019-12-31,control,Control,10,0-10 cm,0.28125,"N-containing formulae
+(%)",100,7,28.125
+frac_n_containing,9,1,2020-01-28,control,Control,10,0-10 cm,0.101160862354892,"N-containing formulae
+(%)",100,7,10.1160862354892
+frac_n_containing,39,3,2020-01-28,control,Control,10,0-10 cm,0.237762237762238,"N-containing formulae
+(%)",100,7,23.7762237762238
+frac_n_containing,75,5,2020-01-28,control,Control,10,0-10 cm,0.0486486486486487,"N-containing formulae
+(%)",100,7,4.86486486486487
+frac_n_containing,76,5,2020-02-25,control,Control,10,0-10 cm,0.101092896174863,"N-containing formulae
+(%)",100,7,10.1092896174863
+frac_n_containing,40,3,2020-03-10,control,Control,10,0-10 cm,0.343023255813954,"N-containing formulae
+(%)",100,7,34.3023255813954
+frac_n_containing,77,5,2020-03-10,control,Control,10,0-10 cm,0.0705035971223022,"N-containing formulae
+(%)",100,7,7.05035971223022
+frac_n_containing,78,5,2020-07-28,control,Control,10,0-10 cm,0.14643188137164,"N-containing formulae
+(%)",100,7,14.643188137164
+frac_n_containing,79,5,2020-09-09,control,Control,10,0-10 cm,0.127539503386005,"N-containing formulae
+(%)",100,7,12.7539503386005
+frac_n_containing,80,5,2020-10-06,control,Control,10,0-10 cm,0.103217158176944,"N-containing formulae
+(%)",100,7,10.3217158176944
+frac_n_containing,81,5,2020-11-05,control,Control,10,0-10 cm,0.178030303030303,"N-containing formulae
+(%)",100,7,17.8030303030303
+frac_n_containing,82,5,2021-02-09,control,Control,10,0-10 cm,0.20039100684262,"N-containing formulae
+(%)",100,7,20.039100684262
+frac_n_containing,83,5,2021-02-23,control,Control,10,0-10 cm,0.247924080664294,"N-containing formulae
+(%)",100,7,24.7924080664294
+frac_n_containing,84,5,2021-06-03,control,Control,10,0-10 cm,0.172690763052209,"N-containing formulae
+(%)",100,7,17.2690763052209
+frac_n_containing,10,1,2021-12-15,control,Control,10,0-10 cm,0.178571428571429,"N-containing formulae
+(%)",100,7,17.8571428571429
+frac_n_containing,41,3,2021-12-15,control,Control,10,0-10 cm,0.416666666666667,"N-containing formulae
+(%)",100,7,41.6666666666667
+frac_n_containing,85,5,2021-12-15,control,Control,10,0-10 cm,0.333475661827498,"N-containing formulae
+(%)",100,7,33.3475661827498
+frac_n_containing,11,1,2022-08-23,control,Control,10,0-10 cm,0.200564971751412,"N-containing formulae
+(%)",100,7,20.0564971751412
+frac_n_containing,86,5,2022-08-23,control,Control,10,0-10 cm,0.123015873015873,"N-containing formulae
+(%)",100,7,12.3015873015873
+frac_n_containing,12,1,2022-09-08,control,Control,10,0-10 cm,0.0622837370242215,"N-containing formulae
+(%)",100,7,6.22837370242215
+frac_n_containing,42,3,2022-09-08,control,Control,10,0-10 cm,0.287128712871287,"N-containing formulae
+(%)",100,7,28.7128712871287
+frac_n_containing,87,5,2022-09-08,control,Control,10,0-10 cm,0.054421768707483,"N-containing formulae
+(%)",100,7,5.4421768707483
+frac_n_containing,13,1,2022-11-16,control,Control,10,0-10 cm,0.231493943472409,"N-containing formulae
+(%)",100,7,23.1493943472409
+frac_n_containing,43,3,2022-11-16,control,Control,10,0-10 cm,0.432432432432432,"N-containing formulae
+(%)",100,7,43.2432432432432
+frac_n_containing,88,5,2022-11-16,control,Control,10,0-10 cm,0.183259911894273,"N-containing formulae
+(%)",100,7,18.3259911894273
+frac_n_containing,44,3,2023-05-30,control,Control,10,0-10 cm,0.511111111111111,"N-containing formulae
+(%)",100,7,51.1111111111111
+frac_n_containing,45,3,2023-12-27,control,Control,10,0-10 cm,0.388429752066116,"N-containing formulae
+(%)",100,7,38.8429752066116
+frac_n_containing,46,3,2024-04-16,control,Control,10,0-10 cm,0.314741035856574,"N-containing formulae
+(%)",100,7,31.4741035856574
+frac_n_containing,47,3,2024-04-30,control,Control,10,0-10 cm,0.5,"N-containing formulae
+(%)",100,7,50
+frac_n_containing,14,2,2017-05-31,warmed,Warmed,10,0-10 cm,0.168432203389831,"N-containing formulae
+(%)",100,7,16.8432203389831
+frac_n_containing,89,6,2017-05-31,warmed,Warmed,10,0-10 cm,0.111627906976744,"N-containing formulae
+(%)",100,7,11.1627906976744
+frac_n_containing,48,4,2017-10-20,warmed,Warmed,10,0-10 cm,0.105335157318741,"N-containing formulae
+(%)",100,7,10.5335157318741
+frac_n_containing,15,2,2017-12-06,warmed,Warmed,10,0-10 cm,0.237597911227154,"N-containing formulae
+(%)",100,7,23.7597911227154
+frac_n_containing,49,4,2017-12-06,warmed,Warmed,10,0-10 cm,0.208303507516106,"N-containing formulae
+(%)",100,7,20.8303507516106
+frac_n_containing,50,4,2018-01-17,warmed,Warmed,10,0-10 cm,0.12870159453303,"N-containing formulae
+(%)",100,7,12.870159453303
+frac_n_containing,51,4,2018-01-30,warmed,Warmed,10,0-10 cm,0.210486891385768,"N-containing formulae
+(%)",100,7,21.0486891385768
+frac_n_containing,52,4,2018-02-13,warmed,Warmed,10,0-10 cm,0.178170144462279,"N-containing formulae
+(%)",100,7,17.8170144462279
+frac_n_containing,53,4,2018-02-27,warmed,Warmed,10,0-10 cm,0.192579505300353,"N-containing formulae
+(%)",100,7,19.2579505300353
+frac_n_containing,16,2,2018-05-09,warmed,Warmed,10,0-10 cm,0.12630359212051,"N-containing formulae
+(%)",100,7,12.630359212051
+frac_n_containing,54,4,2018-05-09,warmed,Warmed,10,0-10 cm,0.153219233903831,"N-containing formulae
+(%)",100,7,15.321923390383
+frac_n_containing,17,2,2018-05-22,warmed,Warmed,10,0-10 cm,0.274905422446406,"N-containing formulae
+(%)",100,7,27.4905422446406
+frac_n_containing,55,4,2018-05-22,warmed,Warmed,10,0-10 cm,0.215629522431259,"N-containing formulae
+(%)",100,7,21.5629522431259
+frac_n_containing,18,2,2018-10-10,warmed,Warmed,10,0-10 cm,0.117381489841986,"N-containing formulae
+(%)",100,7,11.7381489841986
+frac_n_containing,90,6,2018-10-10,warmed,Warmed,10,0-10 cm,0.260748959778086,"N-containing formulae
+(%)",100,7,26.0748959778086
+frac_n_containing,56,4,2018-10-23,warmed,Warmed,10,0-10 cm,0.228334198235599,"N-containing formulae
+(%)",100,7,22.8334198235599
+frac_n_containing,91,6,2018-10-23,warmed,Warmed,10,0-10 cm,0.35056967572305,"N-containing formulae
+(%)",100,7,35.056967572305
+frac_n_containing,19,2,2018-11-07,warmed,Warmed,10,0-10 cm,0.301052631578947,"N-containing formulae
+(%)",100,7,30.1052631578947
+frac_n_containing,57,4,2018-11-07,warmed,Warmed,10,0-10 cm,0.132692307692308,"N-containing formulae
+(%)",100,7,13.2692307692308
+frac_n_containing,20,2,2019-09-10,warmed,Warmed,10,0-10 cm,0.321120689655172,"N-containing formulae
+(%)",100,7,32.1120689655172
+frac_n_containing,92,6,2019-09-10,warmed,Warmed,10,0-10 cm,0.174545454545455,"N-containing formulae
+(%)",100,7,17.4545454545455
+frac_n_containing,58,4,2019-11-05,warmed,Warmed,10,0-10 cm,0.193959731543624,"N-containing formulae
+(%)",100,7,19.3959731543624
+frac_n_containing,21,2,2019-12-03,warmed,Warmed,10,0-10 cm,0.241061130334487,"N-containing formulae
+(%)",100,7,24.1061130334487
+frac_n_containing,59,4,2019-12-17,warmed,Warmed,10,0-10 cm,0.188856729377713,"N-containing formulae
+(%)",100,7,18.8856729377713
+frac_n_containing,93,6,2019-12-17,warmed,Warmed,10,0-10 cm,0.151515151515152,"N-containing formulae
+(%)",100,7,15.1515151515152
+frac_n_containing,60,4,2019-12-31,warmed,Warmed,10,0-10 cm,0.243764705882353,"N-containing formulae
+(%)",100,7,24.3764705882353
+frac_n_containing,22,2,2020-01-28,warmed,Warmed,10,0-10 cm,0.241914618369987,"N-containing formulae
+(%)",100,7,24.1914618369987
+frac_n_containing,61,4,2020-01-28,warmed,Warmed,10,0-10 cm,0.245530726256983,"N-containing formulae
+(%)",100,7,24.5530726256983
+frac_n_containing,94,6,2020-01-28,warmed,Warmed,10,0-10 cm,0.128226477935054,"N-containing formulae
+(%)",100,7,12.8226477935054
+frac_n_containing,95,6,2020-02-25,warmed,Warmed,10,0-10 cm,0.0556962025316456,"N-containing formulae
+(%)",100,7,5.56962025316456
+frac_n_containing,62,4,2020-03-10,warmed,Warmed,10,0-10 cm,0.293710691823899,"N-containing formulae
+(%)",100,7,29.3710691823899
+frac_n_containing,96,6,2020-03-10,warmed,Warmed,10,0-10 cm,0.174531835205993,"N-containing formulae
+(%)",100,7,17.4531835205993
+frac_n_containing,97,6,2020-07-28,warmed,Warmed,10,0-10 cm,0.133848133848134,"N-containing formulae
+(%)",100,7,13.3848133848134
+frac_n_containing,98,6,2020-09-09,warmed,Warmed,10,0-10 cm,0.141975308641975,"N-containing formulae
+(%)",100,7,14.1975308641975
+frac_n_containing,99,6,2020-10-06,warmed,Warmed,10,0-10 cm,0.176470588235294,"N-containing formulae
+(%)",100,7,17.6470588235294
+frac_n_containing,100,6,2020-11-05,warmed,Warmed,10,0-10 cm,0.198291641244661,"N-containing formulae
+(%)",100,7,19.8291641244661
+frac_n_containing,101,6,2021-02-09,warmed,Warmed,10,0-10 cm,0.0771704180064309,"N-containing formulae
+(%)",100,7,7.71704180064309
+frac_n_containing,102,6,2021-02-23,warmed,Warmed,10,0-10 cm,0.138020833333333,"N-containing formulae
+(%)",100,7,13.8020833333333
+frac_n_containing,103,6,2021-06-03,warmed,Warmed,10,0-10 cm,0.163771712158809,"N-containing formulae
+(%)",100,7,16.3771712158809
+frac_n_containing,23,2,2021-12-15,warmed,Warmed,10,0-10 cm,0.168498168498169,"N-containing formulae
+(%)",100,7,16.8498168498169
+frac_n_containing,63,4,2021-12-15,warmed,Warmed,10,0-10 cm,0.186868686868687,"N-containing formulae
+(%)",100,7,18.6868686868687
+frac_n_containing,104,6,2021-12-15,warmed,Warmed,10,0-10 cm,0.158730158730159,"N-containing formulae
+(%)",100,7,15.8730158730159
+frac_n_containing,24,2,2022-08-23,warmed,Warmed,10,0-10 cm,0.116347569955817,"N-containing formulae
+(%)",100,7,11.6347569955817
+frac_n_containing,105,6,2022-08-23,warmed,Warmed,10,0-10 cm,0.0996168582375479,"N-containing formulae
+(%)",100,7,9.96168582375479
+frac_n_containing,64,4,2022-09-08,warmed,Warmed,10,0-10 cm,0.122065727699531,"N-containing formulae
+(%)",100,7,12.2065727699531
+frac_n_containing,106,6,2022-09-08,warmed,Warmed,10,0-10 cm,0.0555555555555556,"N-containing formulae
+(%)",100,7,5.55555555555556
+frac_n_containing,25,2,2022-11-16,warmed,Warmed,10,0-10 cm,0.109004739336493,"N-containing formulae
+(%)",100,7,10.9004739336493
+frac_n_containing,65,4,2022-11-16,warmed,Warmed,10,0-10 cm,0.139917695473251,"N-containing formulae
+(%)",100,7,13.9917695473251
+frac_n_containing,107,6,2022-11-16,warmed,Warmed,10,0-10 cm,0.196330275229358,"N-containing formulae
+(%)",100,7,19.6330275229358
+frac_n_containing,66,4,2023-05-30,warmed,Warmed,10,0-10 cm,0.126016260162602,"N-containing formulae
+(%)",100,7,12.6016260162602
+frac_n_containing,67,4,2023-12-27,warmed,Warmed,10,0-10 cm,0.187265917602996,"N-containing formulae
+(%)",100,7,18.7265917602996
+frac_n_containing,68,4,2024-04-16,warmed,Warmed,10,0-10 cm,0.195652173913043,"N-containing formulae
+(%)",100,7,19.5652173913043
+frac_n_containing,69,4,2024-04-30,warmed,Warmed,10,0-10 cm,0.192926045016077,"N-containing formulae
+(%)",100,7,19.2926045016077
+frac_n_containing,126,3,2017-05-31,control,Control,30,10-30 cm,0.39622641509434,"N-containing formulae
+(%)",100,7,39.622641509434
+frac_n_containing,127,3,2017-11-22,control,Control,30,10-30 cm,0.4,"N-containing formulae
+(%)",100,7,40
+frac_n_containing,128,3,2017-12-06,control,Control,30,10-30 cm,0.636363636363636,"N-containing formulae
+(%)",100,7,63.6363636363636
+frac_n_containing,170,5,2017-12-06,control,Control,30,10-30 cm,0.379310344827586,"N-containing formulae
+(%)",100,7,37.9310344827586
+frac_n_containing,129,3,2018-01-03,control,Control,30,10-30 cm,0.483870967741936,"N-containing formulae
+(%)",100,7,48.3870967741936
+frac_n_containing,130,3,2018-01-30,control,Control,30,10-30 cm,0.33695652173913,"N-containing formulae
+(%)",100,7,33.695652173913
+frac_n_containing,131,3,2018-02-27,control,Control,30,10-30 cm,0.406779661016949,"N-containing formulae
+(%)",100,7,40.6779661016949
+frac_n_containing,171,5,2018-03-27,control,Control,30,10-30 cm,0.346153846153846,"N-containing formulae
+(%)",100,7,34.6153846153846
+frac_n_containing,132,3,2018-05-09,control,Control,30,10-30 cm,0.225663716814159,"N-containing formulae
+(%)",100,7,22.5663716814159
+frac_n_containing,172,5,2018-05-09,control,Control,30,10-30 cm,0.26984126984127,"N-containing formulae
+(%)",100,7,26.984126984127
+frac_n_containing,133,3,2018-11-07,control,Control,30,10-30 cm,0.195729537366548,"N-containing formulae
+(%)",100,7,19.5729537366548
+frac_n_containing,134,3,2019-09-10,control,Control,30,10-30 cm,0.295652173913044,"N-containing formulae
+(%)",100,7,29.5652173913044
+frac_n_containing,135,3,2019-12-03,control,Control,30,10-30 cm,0.365079365079365,"N-containing formulae
+(%)",100,7,36.5079365079365
+frac_n_containing,136,3,2020-01-14,control,Control,30,10-30 cm,0.188976377952756,"N-containing formulae
+(%)",100,7,18.8976377952756
+frac_n_containing,108,1,2020-02-25,control,Control,30,10-30 cm,0.380952380952381,"N-containing formulae
+(%)",100,7,38.0952380952381
+frac_n_containing,137,3,2020-02-25,control,Control,30,10-30 cm,0.204545454545455,"N-containing formulae
+(%)",100,7,20.4545454545455
+frac_n_containing,138,3,2020-03-10,control,Control,30,10-30 cm,0.211864406779661,"N-containing formulae
+(%)",100,7,21.1864406779661
+frac_n_containing,139,3,2020-07-28,control,Control,30,10-30 cm,0.22680412371134,"N-containing formulae
+(%)",100,7,22.680412371134
+frac_n_containing,173,5,2020-07-28,control,Control,30,10-30 cm,0.274932614555256,"N-containing formulae
+(%)",100,7,27.4932614555256
+frac_n_containing,140,3,2020-09-09,control,Control,30,10-30 cm,0.173684210526316,"N-containing formulae
+(%)",100,7,17.3684210526316
+frac_n_containing,141,3,2020-10-06,control,Control,30,10-30 cm,0.312101910828025,"N-containing formulae
+(%)",100,7,31.2101910828025
+frac_n_containing,174,5,2020-10-06,control,Control,30,10-30 cm,0.268965517241379,"N-containing formulae
+(%)",100,7,26.8965517241379
+frac_n_containing,142,3,2020-11-05,control,Control,30,10-30 cm,0.251207729468599,"N-containing formulae
+(%)",100,7,25.1207729468599
+frac_n_containing,175,5,2020-11-05,control,Control,30,10-30 cm,0.204301075268817,"N-containing formulae
+(%)",100,7,20.4301075268817
+frac_n_containing,143,3,2020-12-29,control,Control,30,10-30 cm,0.323651452282158,"N-containing formulae
+(%)",100,7,32.3651452282158
+frac_n_containing,144,3,2021-02-09,control,Control,30,10-30 cm,0.327102803738318,"N-containing formulae
+(%)",100,7,32.7102803738318
+frac_n_containing,176,5,2021-02-23,control,Control,30,10-30 cm,0.176923076923077,"N-containing formulae
+(%)",100,7,17.6923076923077
+frac_n_containing,145,3,2021-06-03,control,Control,30,10-30 cm,0.39647577092511,"N-containing formulae
+(%)",100,7,39.647577092511
+frac_n_containing,109,1,2021-09-21,control,Control,30,10-30 cm,0.458333333333333,"N-containing formulae
+(%)",100,7,45.8333333333333
+frac_n_containing,146,3,2021-12-15,control,Control,30,10-30 cm,0.517241379310345,"N-containing formulae
+(%)",100,7,51.7241379310345
+frac_n_containing,110,1,2022-08-23,control,Control,30,10-30 cm,0.163265306122449,"N-containing formulae
+(%)",100,7,16.3265306122449
+frac_n_containing,177,5,2022-08-23,control,Control,30,10-30 cm,0.321428571428571,"N-containing formulae
+(%)",100,7,32.1428571428572
+frac_n_containing,111,1,2022-09-08,control,Control,30,10-30 cm,0.213740458015267,"N-containing formulae
+(%)",100,7,21.3740458015267
+frac_n_containing,178,5,2022-09-08,control,Control,30,10-30 cm,0.538461538461538,"N-containing formulae
+(%)",100,7,53.8461538461539
+frac_n_containing,179,5,2022-11-01,control,Control,30,10-30 cm,0.197916666666667,"N-containing formulae
+(%)",100,7,19.7916666666667
+frac_n_containing,112,1,2022-11-16,control,Control,30,10-30 cm,0.321321321321321,"N-containing formulae
+(%)",100,7,32.1321321321321
+frac_n_containing,113,1,2023-01-12,control,Control,30,10-30 cm,0.276264591439689,"N-containing formulae
+(%)",100,7,27.6264591439689
+frac_n_containing,180,5,2023-01-12,control,Control,30,10-30 cm,0.0535714285714286,"N-containing formulae
+(%)",100,7,5.35714285714286
+frac_n_containing,181,5,2023-02-07,control,Control,30,10-30 cm,0.0837988826815642,"N-containing formulae
+(%)",100,7,8.37988826815642
+frac_n_containing,182,5,2023-05-02,control,Control,30,10-30 cm,0.109979633401222,"N-containing formulae
+(%)",100,7,10.9979633401222
+frac_n_containing,114,1,2023-05-30,control,Control,30,10-30 cm,0.3125,"N-containing formulae
+(%)",100,7,31.25
+frac_n_containing,147,3,2023-05-30,control,Control,30,10-30 cm,0.473684210526316,"N-containing formulae
+(%)",100,7,47.3684210526316
+frac_n_containing,115,1,2023-08-22,control,Control,30,10-30 cm,0.461065573770492,"N-containing formulae
+(%)",100,7,46.1065573770492
+frac_n_containing,183,5,2023-10-03,control,Control,30,10-30 cm,0.166153846153846,"N-containing formulae
+(%)",100,7,16.6153846153846
+frac_n_containing,116,1,2023-12-12,control,Control,30,10-30 cm,0.455795677799607,"N-containing formulae
+(%)",100,7,45.5795677799607
+frac_n_containing,184,5,2024-04-30,control,Control,30,10-30 cm,0.175,"N-containing formulae
+(%)",100,7,17.5
+frac_n_containing,148,4,2017-05-31,warmed,Warmed,30,10-30 cm,0.181818181818182,"N-containing formulae
+(%)",100,7,18.1818181818182
+frac_n_containing,149,4,2017-11-22,warmed,Warmed,30,10-30 cm,0.345991561181435,"N-containing formulae
+(%)",100,7,34.5991561181435
+frac_n_containing,150,4,2017-12-06,warmed,Warmed,30,10-30 cm,0.192771084337349,"N-containing formulae
+(%)",100,7,19.2771084337349
+frac_n_containing,185,6,2017-12-06,warmed,Warmed,30,10-30 cm,0.136882129277567,"N-containing formulae
+(%)",100,7,13.6882129277567
+frac_n_containing,152,4,2018-01-30,warmed,Warmed,30,10-30 cm,0.149812734082397,"N-containing formulae
+(%)",100,7,14.9812734082397
+frac_n_containing,153,4,2018-02-27,warmed,Warmed,30,10-30 cm,0.0952380952380952,"N-containing formulae
+(%)",100,7,9.52380952380952
+frac_n_containing,154,4,2018-05-09,warmed,Warmed,30,10-30 cm,0.233333333333333,"N-containing formulae
+(%)",100,7,23.3333333333333
+frac_n_containing,155,4,2018-11-07,warmed,Warmed,30,10-30 cm,0.167553191489362,"N-containing formulae
+(%)",100,7,16.7553191489362
+frac_n_containing,156,4,2019-09-10,warmed,Warmed,30,10-30 cm,0.139805825242718,"N-containing formulae
+(%)",100,7,13.9805825242718
+frac_n_containing,157,4,2019-12-03,warmed,Warmed,30,10-30 cm,0.0707964601769912,"N-containing formulae
+(%)",100,7,7.07964601769912
+frac_n_containing,158,4,2020-01-14,warmed,Warmed,30,10-30 cm,0.166355140186916,"N-containing formulae
+(%)",100,7,16.6355140186916
+frac_n_containing,117,2,2020-02-25,warmed,Warmed,30,10-30 cm,0.33273381294964,"N-containing formulae
+(%)",100,7,33.273381294964
+frac_n_containing,159,4,2020-02-25,warmed,Warmed,30,10-30 cm,0.111111111111111,"N-containing formulae
+(%)",100,7,11.1111111111111
+frac_n_containing,160,4,2020-03-10,warmed,Warmed,30,10-30 cm,0.184542586750789,"N-containing formulae
+(%)",100,7,18.4542586750789
+frac_n_containing,161,4,2020-07-28,warmed,Warmed,30,10-30 cm,0.0494296577946768,"N-containing formulae
+(%)",100,7,4.94296577946768
+frac_n_containing,162,4,2020-09-09,warmed,Warmed,30,10-30 cm,0.0576923076923077,"N-containing formulae
+(%)",100,7,5.76923076923077
+frac_n_containing,186,6,2020-09-09,warmed,Warmed,30,10-30 cm,0.206734006734007,"N-containing formulae
+(%)",100,7,20.6734006734007
+frac_n_containing,163,4,2020-10-06,warmed,Warmed,30,10-30 cm,0.224256292906178,"N-containing formulae
+(%)",100,7,22.4256292906178
+frac_n_containing,187,6,2020-10-06,warmed,Warmed,30,10-30 cm,0.0821596244131455,"N-containing formulae
+(%)",100,7,8.21596244131455
+frac_n_containing,164,4,2020-11-05,warmed,Warmed,30,10-30 cm,0.014018691588785,"N-containing formulae
+(%)",100,7,1.4018691588785
+frac_n_containing,165,4,2020-12-29,warmed,Warmed,30,10-30 cm,0.122605363984674,"N-containing formulae
+(%)",100,7,12.2605363984674
+frac_n_containing,166,4,2021-02-09,warmed,Warmed,30,10-30 cm,0.102836879432624,"N-containing formulae
+(%)",100,7,10.2836879432624
+frac_n_containing,188,6,2021-02-23,warmed,Warmed,30,10-30 cm,0.0977295162882527,"N-containing formulae
+(%)",100,7,9.77295162882527
+frac_n_containing,167,4,2021-06-03,warmed,Warmed,30,10-30 cm,0.053030303030303,"N-containing formulae
+(%)",100,7,5.3030303030303
+frac_n_containing,118,2,2021-09-21,warmed,Warmed,30,10-30 cm,0.313351498637602,"N-containing formulae
+(%)",100,7,31.3351498637602
+frac_n_containing,168,4,2021-12-15,warmed,Warmed,30,10-30 cm,0.0656108597285068,"N-containing formulae
+(%)",100,7,6.56108597285068
+frac_n_containing,119,2,2022-08-23,warmed,Warmed,30,10-30 cm,0.210526315789474,"N-containing formulae
+(%)",100,7,21.0526315789474
+frac_n_containing,189,6,2022-08-23,warmed,Warmed,30,10-30 cm,0.283783783783784,"N-containing formulae
+(%)",100,7,28.3783783783784
+frac_n_containing,120,2,2022-09-08,warmed,Warmed,30,10-30 cm,0.875,"N-containing formulae
+(%)",100,7,87.5
+frac_n_containing,190,6,2022-09-08,warmed,Warmed,30,10-30 cm,0.186440677966102,"N-containing formulae
+(%)",100,7,18.6440677966102
+frac_n_containing,191,6,2022-11-01,warmed,Warmed,30,10-30 cm,0.403061224489796,"N-containing formulae
+(%)",100,7,40.3061224489796
+frac_n_containing,121,2,2022-11-16,warmed,Warmed,30,10-30 cm,0.267605633802817,"N-containing formulae
+(%)",100,7,26.7605633802817
+frac_n_containing,122,2,2023-01-12,warmed,Warmed,30,10-30 cm,0.279816513761468,"N-containing formulae
+(%)",100,7,27.9816513761468
+frac_n_containing,192,6,2023-01-12,warmed,Warmed,30,10-30 cm,0.310344827586207,"N-containing formulae
+(%)",100,7,31.0344827586207
+frac_n_containing,193,6,2023-02-07,warmed,Warmed,30,10-30 cm,0.4,"N-containing formulae
+(%)",100,7,40
+frac_n_containing,194,6,2023-05-02,warmed,Warmed,30,10-30 cm,0.630331753554502,"N-containing formulae
+(%)",100,7,63.0331753554502
+frac_n_containing,123,2,2023-05-30,warmed,Warmed,30,10-30 cm,0.302564102564103,"N-containing formulae
+(%)",100,7,30.2564102564103
+frac_n_containing,169,4,2023-05-30,warmed,Warmed,30,10-30 cm,0.128342245989305,"N-containing formulae
+(%)",100,7,12.8342245989305
+frac_n_containing,124,2,2023-08-22,warmed,Warmed,30,10-30 cm,0.301298701298701,"N-containing formulae
+(%)",100,7,30.1298701298701
+frac_n_containing,195,6,2023-10-03,warmed,Warmed,30,10-30 cm,0.338501291989664,"N-containing formulae
+(%)",100,7,33.8501291989664
+frac_n_containing,125,2,2023-12-12,warmed,Warmed,30,10-30 cm,0.347126436781609,"N-containing formulae
+(%)",100,7,34.7126436781609
+frac_n_containing,196,6,2024-04-30,warmed,Warmed,30,10-30 cm,0.417307692307692,"N-containing formulae
+(%)",100,7,41.7307692307692

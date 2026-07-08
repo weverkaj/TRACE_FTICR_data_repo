@@ -1,0 +1,810 @@
+---
+title: "TRACE FT-ICR Temporal Slopes and Autocorrelation Workbook"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    df_print: paged
+---
+
+## tl;dr
+
+This notebook is an interactive companion for the Q2 temporal-structure analysis.
+It refits:
+
+- Pairwise distance slopes versus `log2(days between samples)`.
+- Scalar semivariance slopes versus `log2(days between samples)`.
+- Treatment-depth CAR(1) temporal autocorrelation terms, including all van Krevelen class fractions.
+
+Run chunks top-to-bottom, or edit the parameters in the setup chunk and rerun selected sections.
+
+## Setup
+
+```{r setup}
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  fig.width = 11,
+  fig.height = 6,
+  dpi = 160
+)
+
+suppressPackageStartupMessages({
+  library(data.table)
+  library(ggplot2)
+  library(cowplot)
+  library(scales)
+  library(nlme)
+})
+
+# Edit this path if the project moves.
+project_dir <- normalizePath("/Users/jrweverk/Documents/TRACE_MCMC", winslash = "/", mustWork = TRUE)
+docs_dir <- normalizePath(file.path(project_dir, ".."), winslash = "/", mustWork = TRUE)
+out_dir <- file.path(project_dir, "fticr_integration", "output")
+fig_dir <- file.path(out_dir, "figures")
+dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
+
+# Interactive toggles.
+write_outputs <- TRUE
+use_cached_autocorrelation <- FALSE
+
+# Pick one row for the CAR(1) decay-curve section.
+selected_metric <- "mean_nosc"
+selected_treatment <- "Warmed"
+selected_depth <- "10cm"
+
+depth_levels <- c("0-10 cm", "10-30 cm")
+depth_display_labels <- c("0-10 cm" = "10cm", "10-30 cm" = "30cm")
+treatment_cols <- c("Control" = "#2B6CB0", "Warmed" = "#C45A2A")
+depth_shapes <- c("0-10 cm" = 16, "10-30 cm" = 17)
+depth_offsets <- c("0-10 cm" = 0.14, "10-30 cm" = -0.14)
+```
+
+## Context & Methods
+
+The pairwise distance and semivariance models use:
+
+```text
+response ~ log2(days between samples)
+```
+
+The slope is therefore the expected increase in distance, or scaled semivariance, per doubling of the sample interval.
+
+The continuous-time autocorrelation model uses an irregular-time CAR(1) structure:
+
+```text
+Corr(e_i, e_j) = phi_30d ^ (|date_i - date_j| / 30)
+```
+
+So the reported autocorrelation term is the fitted 30-day correlation, but it defines a full exponential decay curve over arbitrary lags.
+
+## Helper Functions
+
+```{r helpers}
+safe_numeric <- function(x) suppressWarnings(as.numeric(x))
+
+classify_vk <- function(hc, oc, ai_mod) {
+  fifelse(
+    ai_mod >= 0.67,
+    "condensed_aromatic",
+    fifelse(
+      ai_mod >= 0.5,
+      "aromatic",
+      fifelse(
+        hc >= 1.5 & oc <= 0.3,
+        "lipid",
+        fifelse(
+          hc >= 1.5 & oc > 0.3,
+          "carbohydrate",
+          fifelse(
+            hc < 1.5 & hc >= 0.7 & oc <= 0.67,
+            "lignin_like",
+            fifelse(hc < 0.7, "condensed_aromatic", "other")
+          )
+        )
+      )
+    )
+  )
+}
+
+transform_metric <- function(metric, value_plot) {
+  if (metric == "richness") return(log1p(value_plot))
+  if (metric == "frac_n_containing" || grepl("^vk_frac_", metric)) {
+    p <- value_plot / 100
+    p <- pmin(pmax(p, 1e-4), 1 - 1e-4)
+    return(qlogis(p))
+  }
+  value_plot
+}
+
+standardize <- function(x) {
+  s <- sd(x, na.rm = TRUE)
+  if (!is.finite(s) || s == 0) return(rep(NA_real_, length(x)))
+  (x - mean(x, na.rm = TRUE)) / s
+}
+
+clean_metric_label <- function(x) {
+  gsub("\\n\\([^)]*\\)", "", gsub("\\n", " ", x))
+}
+
+theme_trace <- function(base_size = 10.5) {
+  theme_minimal(base_size = base_size) +
+    theme(
+      legend.position = "top",
+      legend.justification = "left",
+      legend.title = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.grid.major.y = element_blank(),
+      strip.text = element_text(face = "bold", color = "#202124"),
+      axis.text.y = element_text(color = "#202124"),
+      axis.title = element_text(color = "#202124")
+    )
+}
+
+fit_lm_slope <- function(dt, response_col) {
+  mod_dt <- dt[is.finite(get(response_col)) & is.finite(log2_lag) & lag_days > 0]
+  if (nrow(mod_dt) < 10L || uniqueN(mod_dt$log2_lag) < 2L) {
+    return(data.table(
+      n_pairs = nrow(mod_dt),
+      intercept = NA_real_,
+      slope_per_log2_day_interval = NA_real_,
+      r2 = NA_real_
+    ))
+  }
+  fit <- lm(mod_dt[[response_col]] ~ mod_dt$log2_lag)
+  data.table(
+    n_pairs = nrow(mod_dt),
+    intercept = unname(coef(fit)[[1]]),
+    slope_per_log2_day_interval = unname(coef(fit)[[2]]),
+    r2 = summary(fit)$r.squared
+  )
+}
+
+fit_distance_slopes <- function(pair_dt, distance_cols, group_cols) {
+  groups <- unique(pair_dt[, ..group_cols])
+  out <- list()
+  idx <- 1L
+  for (g_i in seq_len(nrow(groups))) {
+    group_row <- groups[g_i]
+    sub <- pair_dt[group_row, on = group_cols, nomatch = 0]
+    for (distance_col in distance_cols) {
+      out[[idx]] <- cbind(
+        group_row,
+        data.table(distance_metric = distance_col),
+        fit_lm_slope(sub, distance_col)
+      )
+      idx <- idx + 1L
+    }
+  }
+  rbindlist(out, fill = TRUE)
+}
+
+fit_scalar_semivariance_slopes <- function(scalar_pairs) {
+  scalar_pairs[, log2_lag := log2(lag_days)]
+  out <- scalar_pairs[
+    ,
+    fit_lm_slope(.SD, "scaled_semivar"),
+    by = .(metric, metric_label, metric_order, treatment_label, depth_label)
+  ]
+  setorder(out, metric_order, depth_label, treatment_label)
+  out
+}
+
+fit_car1_by_treatment_depth <- function(long_dt, metric_order_dt) {
+  ctrl <- lmeControl(opt = "optim", msMaxIter = 200, maxIter = 100, returnObject = TRUE)
+  rows <- list()
+  idx <- 1L
+
+  for (metric_name in metric_order_dt$metric) {
+    metric_dt <- long_dt[metric == metric_name]
+    for (dep in depth_levels) {
+      for (trt in c("Control", "Warmed")) {
+        d <- copy(metric_dt[depth_label == dep & treatment_label == trt])
+        if (nrow(d) < 10L) next
+        d[, date := as.IDate(date)]
+        d[, series_id := factor(interaction(plot, depth_label, drop = TRUE))]
+        d[, time30 := as.numeric(date - min(date, na.rm = TRUE)) / 30]
+        d[, z := standardize(transform_metric(metric_name, value_plot))]
+        d <- d[is.finite(z)]
+        if (nrow(d) < 10L || uniqueN(d$series_id) < 2L) next
+
+        fit0 <- try(lme(
+          z ~ 1,
+          random = ~1 | series_id,
+          data = d,
+          method = "ML",
+          control = ctrl
+        ), silent = TRUE)
+        fit1 <- try(lme(
+          z ~ 1,
+          random = ~1 | series_id,
+          correlation = corCAR1(value = 0.5, form = ~time30 | series_id),
+          data = d,
+          method = "ML",
+          control = ctrl
+        ), silent = TRUE)
+
+        phi <- if (!inherits(fit1, "try-error")) {
+          as.numeric(coef(fit1$modelStruct$corStruct, unconstrained = FALSE))
+        } else {
+          NA_real_
+        }
+
+        rows[[idx]] <- data.table(
+          metric = metric_name,
+          metric_label = unique(d$metric_label)[[1]],
+          metric_order = unique(d$metric_order)[[1]],
+          metric_group = unique(d$metric_group)[[1]],
+          treatment_label = trt,
+          depth_label = dep,
+          n_samples = nrow(d),
+          n_series = uniqueN(d$series_id),
+          phi_per_30d = phi,
+          half_life_days = if (is.finite(phi) && phi > 0 && phi < 1) 30 * log(0.5) / log(phi) else NA_real_,
+          days_to_corr05 = if (is.finite(phi) && phi > 0 && phi < 1) 30 * log(0.05) / log(phi) else NA_real_,
+          delta_aic_car1_minus_null = if (!inherits(fit0, "try-error") && !inherits(fit1, "try-error")) AIC(fit1) - AIC(fit0) else NA_real_,
+          fit_ok = !inherits(fit1, "try-error")
+        )
+        idx <- idx + 1L
+      }
+    }
+  }
+
+  rbindlist(rows, fill = TRUE)
+}
+```
+
+## Data Sources
+
+```{r paths}
+pairwise_distance_pairs_path <- file.path(out_dir, "fticr_q2_pairwise_temporal_distance_pairs.csv")
+scalar_pairs_path <- file.path(out_dir, "fticr_formula_count_autocorrelation_pairs.csv")
+long_metric_path <- file.path(out_dir, "fticr_formula_count_temporal_metrics_plot_data.csv")
+cached_autocorr_path <- file.path(out_dir, "fticr_q2_autocorrelation_terms_by_treatment_depth_vk_classes.csv")
+cached_autocorr_metric_path <- file.path(out_dir, "fticr_q2_autocorrelation_metric_plot_data_vk_classes.csv")
+
+mol_path <- file.path(
+  docs_dir,
+  "trace_data_cleanup",
+  "data_raw",
+  "processed_data",
+  "Merged_Output",
+  "Test_Processed-Unprocessed_Mol.csv"
+)
+intensity_path <- file.path(
+  docs_dir,
+  "trace_data_cleanup",
+  "data_raw",
+  "processed_data",
+  "Merged_Output",
+  "Test_Processed-Unprocssed_Data.csv"
+)
+
+required_paths <- c(pairwise_distance_pairs_path, scalar_pairs_path, long_metric_path, mol_path, intensity_path)
+missing_paths <- required_paths[!file.exists(required_paths)]
+if (length(missing_paths) > 0L) {
+  stop("Missing required input files:\n", paste(missing_paths, collapse = "\n"))
+}
+
+data.table(
+  input = basename(required_paths),
+  path = required_paths,
+  exists = file.exists(required_paths)
+)
+```
+
+## Day-Interval Slopes
+
+### Refit Distance Slopes
+
+```{r fit-distance-slopes}
+distance_pairs <- fread(pairwise_distance_pairs_path)
+distance_cols <- c("formula_jaccard_distance", "vk_class_braycurtis", "metric_vector_distance")
+
+distance_slope_td <- fit_distance_slopes(
+  distance_pairs,
+  distance_cols = distance_cols,
+  group_cols = c("treatment_label", "depth_label")
+)
+
+distance_names <- c(
+  formula_jaccard_distance = "Formula identity\nJaccard",
+  vk_class_braycurtis = "Chemical class\nBray-Curtis",
+  metric_vector_distance = "Scalar metric\nvector"
+)
+distance_levels <- c("Formula identity\nJaccard", "Chemical class\nBray-Curtis", "Scalar metric\nvector")
+distance_slope_td[, distance_label := factor(distance_names[distance_metric], levels = rev(distance_levels))]
+distance_slope_td[, treatment_label := factor(treatment_label, levels = c("Control", "Warmed"))]
+distance_slope_td[, depth_label := factor(depth_label, levels = depth_levels)]
+
+distance_slope_td[
+  ,
+  .(
+    distance_metric,
+    treatment_label,
+    depth_label,
+    n_pairs,
+    intercept,
+    slope_per_log2_day_interval,
+    r2
+  )
+]
+```
+
+### Refit Scalar Semivariance Slopes
+
+```{r fit-scalar-semivariance-slopes}
+scalar_pairs <- fread(scalar_pairs_path)
+scalar_slope_td <- fit_scalar_semivariance_slopes(scalar_pairs)
+scalar_slope_td[, metric_clean := factor(
+  clean_metric_label(metric_label),
+  levels = rev(clean_metric_label(unique(scalar_slope_td[order(metric_order), metric_label])))
+)]
+scalar_slope_td[, treatment_label := factor(treatment_label, levels = c("Control", "Warmed"))]
+scalar_slope_td[, depth_label := factor(depth_label, levels = depth_levels)]
+
+scalar_slope_td[
+  ,
+  .(
+    metric,
+    treatment_label,
+    depth_label,
+    n_pairs,
+    intercept,
+    slope_per_log2_day_interval,
+    r2
+  )
+]
+```
+
+### Two-Panel Slope Figure
+
+```{r plot-slope-figure, fig.width=14, fig.height=6.6}
+make_offset_plot_data <- function(dt, label_col, order_col, y_levels = NULL) {
+  axis_dt <- unique(dt[, .SD, .SDcols = c(label_col, order_col)])
+  setnames(axis_dt, c(label_col, order_col), c("label", "order"))
+  axis_dt[, base_y := max(order, na.rm = TRUE) - order + 1]
+  plot_dt <- merge(dt, axis_dt, by.x = label_col, by.y = "label", all.x = TRUE)
+  plot_dt[, y_position := base_y + unname(depth_offsets[as.character(depth_label)])]
+  list(plot_dt = plot_dt, axis_dt = axis_dt)
+}
+
+distance_axis <- data.table(
+  distance_label = factor(distance_levels, levels = rev(distance_levels)),
+  distance_order = seq_along(distance_levels)
+)
+distance_axis[, distance_order := max(distance_order) - distance_order + 1]
+distance_slope_plot <- merge(distance_slope_td, distance_axis, by = "distance_label", all.x = TRUE)
+distance_slope_plot[, y_position := distance_order + unname(depth_offsets[as.character(depth_label)])]
+distance_segments <- dcast(
+  distance_slope_plot,
+  depth_label + distance_label + y_position ~ treatment_label,
+  value.var = "slope_per_log2_day_interval"
+)
+
+p_distance_slope <- ggplot(distance_slope_plot, aes(
+  x = slope_per_log2_day_interval,
+  y = y_position,
+  color = treatment_label,
+  shape = depth_label
+)) +
+  geom_hline(
+    data = distance_axis,
+    aes(yintercept = distance_order),
+    color = "#EEF0F3",
+    linewidth = 0.4
+  ) +
+  geom_vline(xintercept = 0, color = "#6B7280", linewidth = 0.35) +
+  geom_segment(
+    data = distance_segments[is.finite(Control) & is.finite(Warmed)],
+    aes(x = Control, xend = Warmed, y = y_position, yend = y_position),
+    inherit.aes = FALSE,
+    color = "#B8BDC7",
+    linewidth = 0.45
+  ) +
+  geom_point(size = 3.0, stroke = 1.0, na.rm = TRUE) +
+  scale_color_manual(values = treatment_cols) +
+  scale_shape_manual(values = depth_shapes, breaks = names(depth_shapes), labels = depth_display_labels) +
+  scale_x_continuous(
+    labels = label_number(accuracy = 0.01),
+    limits = c(-0.01, 0.18),
+    breaks = seq(0, 0.18, by = 0.03),
+    expand = expansion(mult = c(0.02, 0.04))
+  ) +
+  scale_y_continuous(
+    breaks = distance_axis[order(distance_order), distance_order],
+    labels = as.character(distance_axis[order(distance_order), distance_label]),
+    expand = expansion(add = 0.55)
+  ) +
+  guides(
+    color = guide_legend(order = 1, override.aes = list(shape = 16)),
+    shape = guide_legend(order = 2, override.aes = list(color = "#4B5563"))
+  ) +
+  labs(x = "Distance slope per log2(day interval)", y = NULL) +
+  theme_trace() +
+  theme(legend.position = "none", plot.margin = margin(5.5, 12, 5.5, 28))
+
+metric_axis <- unique(scalar_slope_td[, .(metric_clean, metric_order)])
+metric_axis[, base_y := max(metric_order, na.rm = TRUE) - metric_order + 1]
+scalar_slope_plot <- merge(scalar_slope_td, metric_axis, by = "metric_clean", all.x = TRUE)
+scalar_slope_plot[, y_position := base_y + unname(depth_offsets[as.character(depth_label)])]
+scalar_segments <- dcast(
+  scalar_slope_plot,
+  depth_label + metric_clean + y_position ~ treatment_label,
+  value.var = "slope_per_log2_day_interval"
+)
+
+p_scalar_slope <- ggplot(scalar_slope_plot, aes(
+  x = slope_per_log2_day_interval,
+  y = y_position,
+  color = treatment_label,
+  shape = depth_label
+)) +
+  geom_hline(
+    data = metric_axis,
+    aes(yintercept = base_y),
+    color = "#EEF0F3",
+    linewidth = 0.4
+  ) +
+  geom_vline(xintercept = 0, color = "#6B7280", linewidth = 0.35) +
+  geom_segment(
+    data = scalar_segments[is.finite(Control) & is.finite(Warmed)],
+    aes(x = Control, xend = Warmed, y = y_position, yend = y_position),
+    inherit.aes = FALSE,
+    color = "#B8BDC7",
+    linewidth = 0.45
+  ) +
+  geom_point(size = 2.7, stroke = 1.0, na.rm = TRUE) +
+  scale_color_manual(values = treatment_cols) +
+  scale_shape_manual(values = depth_shapes, breaks = names(depth_shapes), labels = depth_display_labels) +
+  scale_x_continuous(
+    labels = label_number(accuracy = 0.01),
+    limits = c(-0.05, 0.40),
+    breaks = seq(0, 0.40, by = 0.10),
+    expand = expansion(mult = c(0.02, 0.04))
+  ) +
+  scale_y_continuous(
+    breaks = metric_axis[order(base_y), base_y],
+    labels = as.character(metric_axis[order(base_y), metric_clean]),
+    expand = expansion(add = 0.55)
+  ) +
+  guides(
+    color = guide_legend(order = 1, override.aes = list(shape = 16)),
+    shape = guide_legend(order = 2, override.aes = list(color = "#4B5563"))
+  ) +
+  labs(x = "Scaled semivariance per log2(day interval)", y = NULL) +
+  theme_trace() +
+  theme(legend.position = "none", plot.margin = margin(5.5, 5.5, 5.5, 56))
+
+slope_legend <- get_legend(
+  p_distance_slope + theme(legend.position = "top")
+)
+
+p_slope_two_panel <- plot_grid(
+  slope_legend,
+  plot_grid(
+    p_distance_slope,
+    p_scalar_slope,
+    ncol = 2,
+    align = "h",
+    axis = "tb",
+    labels = c("A", "B"),
+    label_size = 12,
+    label_fontface = "bold",
+    rel_widths = c(0.92, 1.22)
+  ),
+  ncol = 1,
+  rel_heights = c(0.08, 1)
+)
+
+p_slope_two_panel
+
+if (write_outputs) {
+  ggsave(
+    file.path(fig_dir, "fticr_q2_temporal_slopes_two_panel_interactive.png"),
+    p_slope_two_panel,
+    width = 14,
+    height = 6.6,
+    units = "in",
+    dpi = 320,
+    bg = "white"
+  )
+  ggsave(
+    file.path(fig_dir, "fticr_q2_temporal_slopes_two_panel_interactive.pdf"),
+    p_slope_two_panel,
+    width = 14,
+    height = 6.6,
+    units = "in",
+    bg = "white"
+  )
+}
+```
+
+## Autocorrelation Terms With All Van Krevelen Classes
+
+### Build Metric Table
+
+This section expands the scalar metric table to include formula-count fractions for every van Krevelen class.
+
+```{r build-vk-metrics}
+if (use_cached_autocorrelation && file.exists(cached_autocorr_metric_path)) {
+  metric_dt <- fread(cached_autocorr_metric_path)
+  metric_order_dt <- unique(metric_dt[, .(metric, metric_label, metric_group, metric_order)])
+  setorder(metric_order_dt, metric_order)
+} else {
+  long_dt <- fread(long_metric_path)
+  long_dt[, date := as.IDate(date)]
+
+  base_metric_map <- data.table(
+    metric = c("richness", "mean_nosc", "mean_hc", "mean_oc", "mean_ai", "frac_n_containing"),
+    metric_label = c(
+      "Formula richness",
+      "Mean NOSC",
+      "Mean H/C",
+      "Mean O/C",
+      "Aromaticity",
+      "N-containing formulae (%)"
+    ),
+    metric_group = c(rep("Bulk molecular metrics", 5), "Elemental formula fractions"),
+    metric_order = seq_len(6L)
+  )
+
+  base_dt <- copy(long_dt[metric %in% base_metric_map$metric])
+  base_dt[, c("metric_label", "metric_order") := NULL]
+  base_dt <- merge(base_dt, base_metric_map, by = "metric", all.x = TRUE)
+
+  mol <- fread(mol_path)
+  formula_col <- "Molecular Formula"
+  if ("Is Isotopologue" %in% names(mol)) {
+    mol <- mol[safe_numeric(`Is Isotopologue`) == 0 | is.na(`Is Isotopologue`)]
+  }
+  for (nm in c("C", "H", "O", "N", "S", "P")) mol[, (nm) := safe_numeric(get(nm))]
+  mol <- mol[!is.na(C) & !is.na(H) & C > 0]
+  for (nm in c("O", "N", "S", "P")) mol[is.na(get(nm)), (nm) := 0]
+  mol[, HC := H / C]
+  mol[, OC := O / C]
+  mol[, AI_mod_denominator := C - O - S - N - P]
+  mol[, AI_mod := (1 + C - O - S - 0.5 * (H + N + P)) / AI_mod_denominator]
+  mol[AI_mod_denominator <= 0 | !is.finite(AI_mod) | AI_mod < 0, AI_mod := 0]
+  mol[, vk_class := classify_vk(HC, OC, AI_mod)]
+  mol <- unique(mol, by = formula_col)
+
+  intensity <- fread(intensity_path)
+  setnames(intensity, formula_col, "formula")
+  blank_cols <- grep("Blank", names(intensity), value = TRUE, ignore.case = TRUE)
+  field_cols <- grep("^Sihi_60398_[0-9]+_r[0-9]+_", names(intensity), value = TRUE)
+  blank_formulas <- character()
+  if (length(blank_cols) > 0L) {
+    blank_detected <- rowSums(!is.na(intensity[, ..blank_cols])) > 0
+    blank_formulas <- intensity[blank_detected, formula]
+  }
+
+  valid_formula_set <- setdiff(mol[[formula_col]], blank_formulas)
+  formula_class <- mol[get(formula_col) %in% valid_formula_set, .(formula = get(formula_col), vk_class)]
+  setkey(formula_class, formula)
+
+  sample_map <- data.table(sample_col = field_cols)
+  sample_map[, sample_num := suppressWarnings(as.integer(sub("^Sihi_60398_([0-9]+)_r[0-9]+_.*$", "\\1", sample_col)))]
+  sample_map <- sample_map[!is.na(sample_num)]
+
+  vk_levels <- c("aromatic", "carbohydrate", "condensed_aromatic", "lignin_like", "lipid", "other")
+  vk_metric_map <- data.table(
+    vk_class = vk_levels,
+    metric = paste0("vk_frac_", vk_levels),
+    metric_label = c(
+      "Aromatic formulae (%)",
+      "Carbohydrate formulae (%)",
+      "Condensed aromatic formulae (%)",
+      "Lignin-like formulae (%)",
+      "Lipid formulae (%)",
+      "Other formulae (%)"
+    ),
+    metric_group = "Van Krevelen class fractions",
+    metric_order = seq.int(max(base_metric_map$metric_order) + 1L, max(base_metric_map$metric_order) + length(vk_levels))
+  )
+
+  target_samples <- unique(long_dt[, .(sample_num, plot, date, treatment, treatment_label, depth_cm, depth_label)])
+  vk_rows <- vector("list", nrow(target_samples))
+  for (i in seq_len(nrow(target_samples))) {
+    snum <- target_samples$sample_num[[i]]
+    cols <- sample_map[sample_num == snum, sample_col]
+    if (length(cols) == 0L) next
+    detected <- rowSums(!is.na(intensity[, ..cols])) > 0
+    detected_formulas <- intersect(intensity[detected, formula], valid_formula_set)
+    if (length(detected_formulas) < 5L) next
+    classes <- formula_class[J(detected_formulas), on = "formula", nomatch = 0, vk_class]
+    class_counts <- table(factor(classes, levels = vk_levels))
+    total <- sum(class_counts)
+    if (!is.finite(total) || total == 0) next
+    vk_rows[[i]] <- cbind(
+      target_samples[i],
+      data.table(vk_class = vk_levels, value = as.numeric(class_counts) / total, multiplier = 100)
+    )
+  }
+
+  vk_dt <- rbindlist(vk_rows, fill = TRUE)
+  vk_dt <- merge(vk_dt, vk_metric_map, by = "vk_class", all.x = TRUE)
+  vk_dt[, value_plot := value * multiplier]
+  vk_dt[, vk_class := NULL]
+
+  metric_dt <- rbindlist(list(base_dt, vk_dt), fill = TRUE)
+  metric_dt <- metric_dt[is.finite(value_plot)]
+  metric_dt[, date := as.IDate(date)]
+  metric_order_dt <- unique(metric_dt[, .(metric, metric_label, metric_group, metric_order)])
+  setorder(metric_order_dt, metric_order)
+
+  if (write_outputs) {
+    fwrite(metric_dt, file.path(out_dir, "fticr_q2_autocorrelation_metric_plot_data_vk_classes_interactive.csv"))
+  }
+}
+
+metric_order_dt
+```
+
+### Fit CAR(1) Autocorrelation Terms
+
+```{r fit-car1-terms}
+if (use_cached_autocorrelation && file.exists(cached_autocorr_path)) {
+  autocorr_dt <- fread(cached_autocorr_path)
+} else {
+  autocorr_dt <- fit_car1_by_treatment_depth(metric_dt, metric_order_dt)
+}
+
+autocorr_dt[, metric_clean := factor(clean_metric_label(metric_label), levels = rev(metric_order_dt$metric_label))]
+autocorr_dt[, treatment_label := factor(treatment_label, levels = c("Control", "Warmed"))]
+autocorr_dt[, depth_label := factor(depth_label, levels = depth_levels)]
+
+if (write_outputs) {
+  fwrite(autocorr_dt, file.path(out_dir, "fticr_q2_autocorrelation_terms_by_treatment_depth_vk_classes_interactive.csv"))
+}
+
+autocorr_dt[
+  ,
+  .(
+    metric,
+    treatment_label,
+    depth_label,
+    n_samples,
+    phi_per_30d,
+    half_life_days,
+    days_to_corr05,
+    delta_aic_car1_minus_null
+  )
+]
+```
+
+### Autocorrelation Term Figure
+
+```{r plot-autocorrelation-terms, fig.width=11, fig.height=7.8}
+axis_dt <- unique(autocorr_dt[, .(metric_clean, metric_order)])
+axis_dt[, base_y := max(metric_order, na.rm = TRUE) - metric_order + 1]
+autocorr_plot_dt <- merge(autocorr_dt, axis_dt, by = "metric_clean", all.x = TRUE)
+autocorr_plot_dt[, y_position := base_y + unname(depth_offsets[as.character(depth_label)])]
+autocorr_segments <- dcast(
+  autocorr_plot_dt,
+  depth_label + metric_clean + y_position ~ treatment_label,
+  value.var = "phi_per_30d"
+)
+
+p_autocorr <- ggplot(autocorr_plot_dt, aes(
+  x = phi_per_30d,
+  y = y_position,
+  color = treatment_label,
+  shape = depth_label
+)) +
+  geom_hline(
+    data = axis_dt,
+    aes(yintercept = base_y),
+    color = "#EEF0F3",
+    linewidth = 0.4
+  ) +
+  geom_vline(xintercept = 0, color = "#6B7280", linewidth = 0.35) +
+  geom_segment(
+    data = autocorr_segments[is.finite(Control) & is.finite(Warmed)],
+    aes(x = Control, xend = Warmed, y = y_position, yend = y_position),
+    inherit.aes = FALSE,
+    color = "#B8BDC7",
+    linewidth = 0.45
+  ) +
+  geom_point(size = 2.8, stroke = 1.0, na.rm = TRUE) +
+  scale_color_manual(values = treatment_cols) +
+  scale_shape_manual(values = depth_shapes, breaks = names(depth_shapes), labels = depth_display_labels) +
+  scale_x_continuous(
+    limits = c(0, 1),
+    breaks = seq(0, 1, by = 0.2),
+    labels = label_number(accuracy = 0.1),
+    expand = expansion(mult = c(0.01, 0.04))
+  ) +
+  scale_y_continuous(
+    breaks = axis_dt[order(base_y), base_y],
+    labels = as.character(axis_dt[order(base_y), metric_clean]),
+    expand = expansion(add = 0.58)
+  ) +
+  guides(
+    color = guide_legend(order = 1, override.aes = list(shape = 16)),
+    shape = guide_legend(order = 2, override.aes = list(color = "#4B5563"))
+  ) +
+  labs(x = "30-day temporal autocorrelation", y = NULL) +
+  theme_trace()
+
+p_autocorr
+
+if (write_outputs) {
+  ggsave(
+    file.path(fig_dir, "fticr_q2_autocorrelation_terms_vk_classes_interactive.png"),
+    p_autocorr,
+    width = 11,
+    height = 7.8,
+    units = "in",
+    dpi = 320,
+    bg = "white"
+  )
+  ggsave(
+    file.path(fig_dir, "fticr_q2_autocorrelation_terms_vk_classes_interactive.pdf"),
+    p_autocorr,
+    width = 11,
+    height = 7.8,
+    units = "in",
+    bg = "white"
+  )
+}
+```
+
+## Optional: Autocorrelation Decay Curve
+
+Edit `selected_metric`, `selected_treatment`, and `selected_depth` in the setup chunk, then rerun this section.
+
+```{r selected-car1-decay, fig.width=7.5, fig.height=4.5}
+selected_depth_raw <- names(depth_display_labels)[match(selected_depth, depth_display_labels)]
+selected_row <- autocorr_dt[
+  metric == selected_metric &
+    treatment_label == selected_treatment &
+    depth_label == selected_depth_raw
+]
+
+if (nrow(selected_row) != 1L || !is.finite(selected_row$phi_per_30d)) {
+  message("No finite CAR(1) estimate found for this selected metric/treatment/depth.")
+} else {
+  lag_grid <- data.table(lag_days = seq(0, 365, by = 7))
+  lag_grid[, autocorrelation := selected_row$phi_per_30d^(lag_days / 30)]
+  ggplot(lag_grid, aes(x = lag_days, y = autocorrelation)) +
+    geom_hline(yintercept = 0.05, color = "#6B7280", linewidth = 0.35, linetype = "dashed") +
+    geom_line(color = "#2B6CB0", linewidth = 0.9) +
+    scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, by = 0.2)) +
+    scale_x_continuous(breaks = c(0, 30, 60, 90, 180, 365)) +
+    labs(
+      x = "Lag (days)",
+      y = "Implied autocorrelation"
+    ) +
+    theme_trace()
+}
+
+selected_row[
+  ,
+  .(
+    metric,
+    treatment_label,
+    depth_label,
+    phi_per_30d,
+    half_life_days,
+    days_to_corr05,
+    delta_aic_car1_minus_null
+  )
+]
+```
+
+## Takeaways
+
+Use the slope figure for the question:
+
+```text
+Does dissimilarity increase as the time between samples doubles?
+```
+
+Use the CAR(1) figure for the question:
+
+```text
+How much temporal memory remains at a standardized 30-day lag?
+```
+
+These are related but not identical. Semivariance can increase steeply with lag even when 30-day autocorrelation is high, because strong short-term memory can still decay substantially over longer intervals.

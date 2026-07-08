@@ -1,0 +1,49 @@
+metric,metric_label,metric_order,metric_group,depth_label,treatment_label,n_samples,n_series,phi_per_30d,half_life_days,days_to_corr05,delta_aic_car1_minus_null,fit_ok,metric_clean
+richness,Formula richness,1,Bulk molecular metrics,0-10 cm,Control,54,3,2.42240479907252e-07,1.36505995390987,5.89969096600873,2.00552887015138,TRUE,Formula richness
+richness,Formula richness,1,Bulk molecular metrics,0-10 cm,Warmed,53,3,0.601784220018954,40.9454680880631,176.963368888114,-13.2674099162707,TRUE,Formula richness
+richness,Formula richness,1,Bulk molecular metrics,10-30 cm,Control,46,3,0.669450416307324,51.817866587034,223.953093419628,-10.574859027976,TRUE,Formula richness
+richness,Formula richness,1,Bulk molecular metrics,10-30 cm,Warmed,42,3,0.175823372345523,11.9626705677453,51.7018020166207,-0.34765643525148,TRUE,Formula richness
+mean_nosc,Mean NOSC,2,Bulk molecular metrics,0-10 cm,Control,54,3,0.000838598099900197,2.93549748644057,12.6870090591187,1.97708899466076,TRUE,Mean NOSC
+mean_nosc,Mean NOSC,2,Bulk molecular metrics,0-10 cm,Warmed,53,3,0.627733468325791,44.6577453849534,193.007564433557,-12.0035893882781,TRUE,Mean NOSC
+mean_nosc,Mean NOSC,2,Bulk molecular metrics,10-30 cm,Control,46,3,1.17957232628707e-05,1.83246655093491,7.91978866942694,1.99979556220012,TRUE,Mean NOSC
+mean_nosc,Mean NOSC,2,Bulk molecular metrics,10-30 cm,Warmed,42,3,0.44603330626268,25.7560107846095,111.315626622226,0.805594077223418,TRUE,Mean NOSC
+mean_hc,Mean H/C,3,Bulk molecular metrics,0-10 cm,Control,54,3,0.04295365184808,6.60636465438178,28.5522330048435,0.722733896103591,TRUE,Mean H/C
+mean_hc,Mean H/C,3,Bulk molecular metrics,0-10 cm,Warmed,53,3,0.176865006584456,12.0034595826907,51.8780892062758,-1.43866725904235,TRUE,Mean H/C
+mean_hc,Mean H/C,3,Bulk molecular metrics,10-30 cm,Control,46,3,3.93107539806463e-07,1.40986900402897,6.09335245862369,2.00357945453584,TRUE,Mean H/C
+mean_hc,Mean H/C,3,Bulk molecular metrics,10-30 cm,Warmed,42,3,1.86476510228415e-06,1.57624496623955,6.81241740401547,2.00817365037818,TRUE,Mean H/C
+mean_oc,Mean O/C,4,Bulk molecular metrics,0-10 cm,Control,54,3,0.621478485698833,43.7175258834255,188.944003354542,-16.8615192187659,TRUE,Mean O/C
+mean_oc,Mean O/C,4,Bulk molecular metrics,0-10 cm,Warmed,53,3,0.659583495851173,49.9689530497132,215.962222057663,-13.6018787006558,TRUE,Mean O/C
+mean_oc,Mean O/C,4,Bulk molecular metrics,10-30 cm,Control,46,3,0.000236842146969235,2.49091096839418,10.7655380961659,1.98856121861112,TRUE,Mean O/C
+mean_oc,Mean O/C,4,Bulk molecular metrics,10-30 cm,Warmed,42,3,7.46513497159778e-06,1.76145235298848,7.61287041218636,2.00560732588974,TRUE,Mean O/C
+mean_ai,Aromaticity,5,Bulk molecular metrics,0-10 cm,Control,54,3,0.509679560925863,30.8534814955464,133.346528500689,-10.2868637540804,TRUE,Aromaticity
+mean_ai,Aromaticity,5,Bulk molecular metrics,0-10 cm,Warmed,53,3,0.659836357608005,50.015019432669,216.16131765239,-13.9852227053169,TRUE,Aromaticity
+mean_ai,Aromaticity,5,Bulk molecular metrics,10-30 cm,Control,46,3,4.30619157190354e-07,1.4186352960604,6.1312397424423,2.00423364742719,TRUE,Aromaticity
+mean_ai,Aromaticity,5,Bulk molecular metrics,10-30 cm,Warmed,42,3,0.135272149893479,10.3947825814179,44.9255028788758,1.66324677828976,TRUE,Aromaticity
+frac_n_containing,N-containing formulae (%),6,Elemental formula fractions,0-10 cm,Control,54,3,0.000468549143910847,2.71259708231733,11.7236495401768,1.97560205663609,TRUE,N-containing formulae (%)
+frac_n_containing,N-containing formulae (%),6,Elemental formula fractions,0-10 cm,Warmed,53,3,0.0549538050842253,7.16736815837638,30.976849810088,0.936690924213821,TRUE,N-containing formulae (%)
+frac_n_containing,N-containing formulae (%),6,Elemental formula fractions,10-30 cm,Control,46,3,0.567618606502273,36.7194269921891,158.698723145708,-8.57513975673297,TRUE,N-containing formulae (%)
+frac_n_containing,N-containing formulae (%),6,Elemental formula fractions,10-30 cm,Warmed,42,3,0.000116820507541003,2.29648918169993,9.92526111399382,2.0076490589405,TRUE,N-containing formulae (%)
+vk_frac_aromatic,Aromatic formulae (%),7,Van Krevelen class fractions,0-10 cm,Control,54,3,0.0555857064134972,7.19572474772224,31.099404950257,1.32180451325189,TRUE,Aromatic formulae (%)
+vk_frac_aromatic,Aromatic formulae (%),7,Van Krevelen class fractions,0-10 cm,Warmed,53,3,0.569245148134351,36.9059069305612,159.504676030491,-10.2871328502253,TRUE,Aromatic formulae (%)
+vk_frac_aromatic,Aromatic formulae (%),7,Van Krevelen class fractions,10-30 cm,Control,46,3,0.241234032380094,14.6234844419876,63.2016482549743,-1.49111773095797,TRUE,Aromatic formulae (%)
+vk_frac_aromatic,Aromatic formulae (%),7,Van Krevelen class fractions,10-30 cm,Warmed,42,3,0.0371919678986545,6.31729883725885,27.3029113285483,1.85858805989599,TRUE,Aromatic formulae (%)
+vk_frac_carbohydrate,Carbohydrate formulae (%),8,Van Krevelen class fractions,0-10 cm,Control,54,3,1.8827576401392e-07,1.3428436886639,5.80367386507867,2.00557584274276,TRUE,Carbohydrate formulae (%)
+vk_frac_carbohydrate,Carbohydrate formulae (%),8,Van Krevelen class fractions,0-10 cm,Warmed,53,3,0.0111391334175437,4.62376487697793,19.9835793259643,1.75505675894385,TRUE,Carbohydrate formulae (%)
+vk_frac_carbohydrate,Carbohydrate formulae (%),8,Van Krevelen class fractions,10-30 cm,Control,46,3,0.103272036684845,9.15896734794208,39.5843983012269,0.938068633940475,TRUE,Carbohydrate formulae (%)
+vk_frac_carbohydrate,Carbohydrate formulae (%),8,Van Krevelen class fractions,10-30 cm,Warmed,42,3,0.00754920228986775,4.25564506551188,18.3925919705046,1.97885807826106,TRUE,Carbohydrate formulae (%)
+vk_frac_condensed_aromatic,Condensed aromatic formulae (%),9,Van Krevelen class fractions,0-10 cm,Control,54,3,0.162289539474772,11.4357243880342,49.4243785180336,0.101696883052256,TRUE,Condensed aromatic formulae (%)
+vk_frac_condensed_aromatic,Condensed aromatic formulae (%),9,Van Krevelen class fractions,0-10 cm,Warmed,53,3,0.603807507302221,41.2178840265218,178.140730986034,-15.0379055691379,TRUE,Condensed aromatic formulae (%)
+vk_frac_condensed_aromatic,Condensed aromatic formulae (%),9,Van Krevelen class fractions,10-30 cm,Control,46,3,0.0543542549080532,7.14036954959548,30.8601637642749,1.52031576110164,TRUE,Condensed aromatic formulae (%)
+vk_frac_condensed_aromatic,Condensed aromatic formulae (%),9,Van Krevelen class fractions,10-30 cm,Warmed,42,3,1.4420100095128e-05,1.86549074307062,8.06251685322921,2.00204306822624,TRUE,Condensed aromatic formulae (%)
+vk_frac_lignin_like,Lignin-like formulae (%),10,Van Krevelen class fractions,0-10 cm,Control,54,3,0.132464896516511,10.2869440098226,44.4594323265856,0.967165714063754,TRUE,Lignin-like formulae (%)
+vk_frac_lignin_like,Lignin-like formulae (%),10,Van Krevelen class fractions,0-10 cm,Warmed,53,3,0.692294235350195,56.5458663684118,244.387168507385,-20.825100026335,TRUE,Lignin-like formulae (%)
+vk_frac_lignin_like,Lignin-like formulae (%),10,Van Krevelen class fractions,10-30 cm,Control,46,3,0.557495297029791,35.5885201114974,153.811024925345,0.106068542790524,TRUE,Lignin-like formulae (%)
+vk_frac_lignin_like,Lignin-like formulae (%),10,Van Krevelen class fractions,10-30 cm,Warmed,42,3,0.801501177326069,93.9780567472349,406.166403758793,-9.70415476839489,TRUE,Lignin-like formulae (%)
+vk_frac_lipid,Lipid formulae (%),11,Van Krevelen class fractions,0-10 cm,Control,54,3,0.019799328207812,5.30184770106814,22.9142045340604,1.61109836778175,TRUE,Lipid formulae (%)
+vk_frac_lipid,Lipid formulae (%),11,Van Krevelen class fractions,0-10 cm,Warmed,53,3,0.000157778693132808,2.37533264807458,10.2660169064167,2.01316455437072,TRUE,Lipid formulae (%)
+vk_frac_lipid,Lipid formulae (%),11,Van Krevelen class fractions,10-30 cm,Control,46,3,0.0222390602821394,5.46372415158974,23.6138229134703,2.0356501879526,TRUE,Lipid formulae (%)
+vk_frac_lipid,Lipid formulae (%),11,Van Krevelen class fractions,10-30 cm,Warmed,42,3,4.023798778066e-06,1.67382595423838,7.23415541757449,2.00240679111269,TRUE,Lipid formulae (%)
+vk_frac_other,Other formulae (%),12,Van Krevelen class fractions,0-10 cm,Control,54,3,0.0181406506671674,5.18615712152079,22.4141981680009,1.58466884619259,TRUE,Other formulae (%)
+vk_frac_other,Other formulae (%),12,Van Krevelen class fractions,0-10 cm,Warmed,53,3,0.817574303606847,103.242416939878,446.206302356533,-29.9905519633286,TRUE,Other formulae (%)
+vk_frac_other,Other formulae (%),12,Van Krevelen class fractions,10-30 cm,Control,46,3,0.468877113591565,27.4544700329085,118.656245365471,-0.789418638519578,TRUE,Other formulae (%)
+vk_frac_other,Other formulae (%),12,Van Krevelen class fractions,10-30 cm,Warmed,42,3,0.609036584172288,41.9346287689536,181.238450225212,-3.84472356789806,TRUE,Other formulae (%)
