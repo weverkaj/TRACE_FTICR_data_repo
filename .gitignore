@@ -5,4 +5,8 @@
 *_cache/
 *_files/
 .quarto/
+output/
 
+# Local decompressions of Git-tracked .csv.gz data files.
+data/raw/merged_output/Test_Processed-Unprocssed_Data.csv
+data/cleaned/trace_fticr_all.csv

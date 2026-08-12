@@ -1,7 +1,6 @@
 # TRACE FTICR Data
 
-Curated FTICR data package for sharing TRACE porewater FT-ICR molecular composition data and derived temporal-analysis outputs with collaborators.
-
+Curated data package and reproducible analysis scripts for TRACE porewater FT-ICR molecular composition data.
 
 ## Directory Layout
 
@@ -18,12 +17,15 @@ data/
     trace_fticr_all.csv.gz
   derived/
     fticr_chemodiversity_metrics.csv
-    fticr_integration_output/
-      *.csv
+    monthly_covariates/
+      fticr_monthly_covariates.csv
+      fticr_monthly_covariates_metadata.csv
 scripts/
   fticr_integration/
     *.R
     *.Rmd
+output/                         # generated locally; ignored by Git
+  fticr_integration/
 ```
 
 ## Data Contents
@@ -38,9 +40,37 @@ scripts/
 
 `data/derived/fticr_chemodiversity_metrics.csv` contains sample-level chemodiversity metrics.
 
-`data/derived/fticr_integration_output/` contains derived FTICR integration outputs, including interpolation tables, formula-count temporal metrics, pairwise temporal distance data, semivariance slope tests, CAR(1) autocorrelation summaries, model coefficients, driver-analysis outputs, and plot-ready CSVs.
+## Monthly TRACE Covariates
 
-`scripts/fticr_integration/` contains the R scripts and interactive R Markdown workbook used to generate the current temporal variability and interpolation analyses.
+`data/derived/monthly_covariates/fticr_monthly_covariates.csv` is a complete plot-by-calendar-month grid for May 2017 through April 2024. It has 504 rows (six plots by 84 months) and 84 columns and can be joined to FT-ICR samples using `plot` and `year_month`. Existing FT-ICR-derived columns are excluded to prevent outcome leakage.
+
+The environmental profile contains monthly mean temperature and VWC at 0-10, 20-30, and 40-50 cm from the central CS655 sensors, plus monthly mean plot-level soil CO2 flux. It also retains selected porewater chemistry, nutrient-core and root-soil-core measurements, nutrient-core microbial biomass, and root stock, growth, and mortality at 0-10, 10-20, and 20-30 cm.
+
+Sparse biogeochemical measurements are not interpolated or imputed. Multiple observations within a plot-month are represented by their arithmetic mean; blank cells indicate that no source observation was available.
+
+`data/derived/monthly_covariates/fticr_monthly_covariates_metadata.csv` defines every output column, including its source variable and file, units, depth, aggregation, data type, and coverage.
+
+Rebuild both files with:
+
+```bash
+Rscript scripts/fticr_integration/15_build_monthly_covariates.R
+```
+
+The script reads the hourly and daily `joined_data_flux_final_2` derivatives from `/Users/jrweverk/Documents/TRACE_MCMC` by default. Set `TRACE_MCMC_DIR` to use a different checkout.
+
+## Analysis Outputs
+
+The scripts in `scripts/fticr_integration/` generate interpolation tables, temporal-distance and semivariance tests, continuous-time autocorrelation summaries, temporal-driver models, calendar-time trends, cross-plot convergence tests, and figures.
+
+These regenerated products are written to or retained under `output/fticr_integration/`, which is intentionally ignored by Git. This keeps the shared repository focused on source data, final collaborator datasets, and the code needed to reproduce analyses.
+
+Run the calendar-time trend and cross-plot convergence analysis with:
+
+```bash
+Rscript scripts/fticr_integration/14_calendar_time_trends_and_cross_plot_convergence.R
+```
+
+Its figures are written to `output/fticr_integration/figures/` without embedded titles or subtitles.
 
 ## Compressed CSVs
 
@@ -55,3 +85,5 @@ They can be decompressed with:
 gunzip -k data/raw/merged_output/Test_Processed-Unprocssed_Data.csv.gz
 gunzip -k data/cleaned/trace_fticr_all.csv.gz
 ```
+
+The calendar-time analysis can read the compressed formula-by-sample matrix through the system `gzip` command when `R.utils` is unavailable. It prefers the decompressed CSV when both versions are present.
