@@ -20,6 +20,9 @@ data/
     monthly_covariates/
       fticr_monthly_covariates.csv
       fticr_monthly_covariates_metadata.csv
+    same_day_covariates/
+      fticr_same_day_covariates.csv
+      fticr_same_day_covariates_metadata.csv
 scripts/
   fticr_integration/
     *.R
@@ -57,6 +60,20 @@ Rscript scripts/fticr_integration/15_build_monthly_covariates.R
 ```
 
 The script reads the hourly and daily `joined_data_flux_final_2` derivatives from `/Users/jrweverk/Documents/TRACE_MCMC` by default. Set `TRACE_MCMC_DIR` to use a different checkout.
+
+## Same-Day TRACE Covariates
+
+`data/derived/same_day_covariates/fticr_same_day_covariates.csv` contains one row per FT-ICR spectrum and is limited to temperature, VWC, porewater, and surface lysimeter chemistry. Covariates are populated only from observations made in the same plot on the exact FT-ICR collection date. Temperature and VWC are arithmetic means of the hourly observations from that date.
+
+The first two covariates are NPOC (`mg C L^-1`) and TDN (`mg N L^-1`) measured in the porewater sample matching each FT-ICR spectrum by plot, collection date, and exact depth. All 195 spectra have both measurements. Other depth-specific porewater chemistry columns are omitted so chemistry from another depth cannot be mistaken for the matching sample. Same-day surface lysimeter NPOC, TN, NH4, NO3, and PO4 fields are retained separately and are explicitly identified as surface lysimeter measurements in the metadata.
+
+No interpolation, nearest-date matching, carry-forward, or monthly aggregation is used. A blank field means that the corresponding source had no observation for that plot on the exact FT-ICR date. Variables with no observations on any FT-ICR date are omitted. The accompanying metadata records the temporal and depth matching rule, source variable, units, aggregation, and coverage for every column.
+
+Rebuild the exact-date dataset and metadata with:
+
+```bash
+Rscript scripts/fticr_integration/16_build_same_day_covariates.R
+```
 
 ## Analysis Outputs
 
