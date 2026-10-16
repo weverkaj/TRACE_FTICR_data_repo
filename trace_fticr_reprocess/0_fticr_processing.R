@@ -2,10 +2,14 @@ library(furrr)
 library(readxl)
 library(tidyverse)
 
+out_root <- "output_updated"
+processed_dir <- file.path(out_root, "processed")
+dir.create(processed_dir, recursive = TRUE, showWarnings = FALSE)
+
 
 # FTICR-MS data ----
 
-fticr_files_all <- list.files('Sihi_TRACE_output/', pattern = '.csv',
+fticr_files_all <- list.files('../../../Sihi_TRACE_output/', pattern = '.csv',
                               full.names = TRUE) 
 
 blank_files <- fticr_files_all[str_detect(fticr_files_all, 'QC_Blank')]
@@ -57,28 +61,24 @@ data_frames <- future_map(fticr_files_samples, function(path){
   if('P' %notin% colnames(data)) data <- mutate(data, P = NA)
   if('S' %notin% colnames(data)) data <- mutate(data, S = NA)
   
-  data_filt_blanks <- data %>% 
-    drop_na(`Molecular Formula`) %>% 
+  data_ready <- data |>
+    drop_na(`Molecular Formula`) |>
     rename(Molecular_Formula = `Molecular Formula`, 
-           mz = `Calibrated m/z`) %>% 
-    mutate(filename = tools::file_path_sans_ext(basename(path))) %>% 
+           mz = `Calibrated m/z`) |>
+    mutate(
+      filename = tools::file_path_sans_ext(basename(path)),
+      # Round before grouping so near-identical masses are treated as one peak.
+      mz = ceiling(mz * 1e6) / 1e6
+    ) |>
     filter(!Molecular_Formula %in% blank_formulas$Molecular_Formula,
            `Is Isotopologue` == 0,
-           `Ion Type` == 'de-protonated') %>% 
+           `Ion Type` == 'de-protonated') |>
     select(Sample_ID = filename, mz, `Peak Height`, 
            `Confidence Score`, `m/z Error (ppm)`, Molecular_Formula, 
-           C, H, N, O, P, S) %>% 
-    group_by(mz) %>% 
-    slice_max(n = 1, order_by = `Confidence Score`) %>% 
+           C, H, N, O, P, S) |>
+    group_by(mz) |>
+    slice_max(n = 1, order_by = `Confidence Score`, with_ties = FALSE) |>
     ungroup()
-  
-  data_ready <- data_filt_blanks %>% 
-    ## To avoid floting point issues with R
-    mutate(
-      mz = mz * 1000000,
-      mz = ceiling(mz),
-      mz = mz / 1000000,
-      mz = format(mz, 6))
   
   peak_abundances <- data_ready %>% 
     select(Molecular_Formula, Sample_ID, Intensity = `Peak Height`) %>% 
@@ -87,7 +87,7 @@ data_frames <- future_map(fticr_files_samples, function(path){
     ungroup()
   
   peak_annot <- data_ready %>% 
-    select(-c(`Peak Height`, `Confidence Score`, `m/z Error (ppm)`, -mz)) %>% 
+    select(-`Peak Height`, -`Confidence Score`, -`m/z Error (ppm)`) %>%
     distinct() %>% 
     select(Molecular_Formula, everything()) %>% 
     mutate(across(!Molecular_Formula, ~ifelse(is.na(.x), 0, .x)))
@@ -99,7 +99,7 @@ data_frames <- future_map(fticr_files_samples, function(path){
 all_peak_abundances <- map(data_frames, ~.x$abundances) %>% reduce(rbind) 
 
 peak_abundances_derep <- all_peak_abundances %>% 
-  mutate(Sample_ID = str_remove(Sample_ID, '_r[1-4].*')) %>% 
+  mutate(Sample_ID = str_remove(Sample_ID, "_r\\d+.*$")) %>%
   group_by(Sample_ID, Molecular_Formula) %>% 
   mutate(rep_count = n()) %>% 
   group_by(Sample_ID) %>% 
@@ -108,7 +108,10 @@ peak_abundances_derep <- all_peak_abundances %>%
   summarise(Intensity = ceiling(mean(Intensity))) %>% 
   pivot_wider(names_from = Molecular_Formula, values_from = Intensity, values_fill = 0)
 
-write_csv(peak_abundances_derep, 'output/Trace_ICR_data_SN12_sigma8_final.csv')
+write_csv(
+  peak_abundances_derep,
+  file.path(processed_dir, "Trace_ICR_data_SN12_sigma8_final.csv")
+)
 
 all_annotations <- map(data_frames, ~.x$annotation) %>% reduce(plyr::rbind.fill) %>% 
   filter(Molecular_Formula %in% colnames(peak_abundances_derep)) %>% 
@@ -130,6 +133,7 @@ all_annotations_ready <- all_annotations %>%
          AI_mod = ifelse(is.infinite(AI_mod), 0, AI_mod),
          AI = ifelse(is.infinite(AI), 0, AI),
          AI = ifelse(AI < 0, 0, AI),
+         AI = ifelse(is.na(AI), 0, AI),
          heteroatom = str_remove(Molecular_Formula, 'C\\d+ H\\d+ ')) %>% 
   mutate(Class = case_when(between(OC, 0, 0.3) & between(HC, 1.5, 2.5) ~ 'Lipid',
                            between(OC, 0, 0.125) & between(HC, 0.8, 1.5) ~ 'Unsat. HC',
@@ -138,6 +142,10 @@ all_annotations_ready <- all_annotations %>%
                            between(OC, 0.55, 0.7) & between(HC, 1.5, 2.2) ~ 'Amino sugar',
                            between(OC, 0.7, 1.5) & between(HC, 1.5, 2.5) ~ 'Carbohydrate',
                            between(OC, 0.125, 0.65) & between(HC, 0.8, 1.5) ~ 'Lignin',
-                           between(OC, 0.65, 1.1) & between(HC, 0.8, 1.5) ~ 'Tannin'))
+                           between(OC, 0.65, 1.1) & between(HC, 0.8, 1.5) ~ 'Tannin',
+                           .default = 'Unclassified'))
 
-write_csv(all_annotations_ready, 'output/Trace_ICR_mol_SN12_sigma8_final.csv')
+write_csv(
+  all_annotations_ready,
+  file.path(processed_dir, "Trace_ICR_mol_SN12_sigma8_final.csv")
+)

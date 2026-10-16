@@ -5,17 +5,14 @@ source("getLambda.R")
 
 # FTICR-MS processed data ----
 
-
-data <- read_csv("output/Trace_ICR_data_SN12_sigma8_final.csv")
-
-mol <- read_csv("output/Trace_ICR_mol_SN12_sigma8_final.csv")
-
-
-## derived dir
-
-out_dir = file.path("output/derived_clean")
-
+out_root <- "output_updated"
+processed_dir <- file.path(out_root, "processed")
+out_dir <- file.path(out_root, "derived_clean")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+
+data <- read_csv(file.path(processed_dir, "Trace_ICR_data_SN12_sigma8_final.csv"))
+
+mol <- read_csv(file.path(processed_dir, "Trace_ICR_mol_SN12_sigma8_final.csv"))
 
 # Remove sample 194 that did not calibrated well
 
@@ -60,8 +57,8 @@ lambda_mol <- get_lambda(lambda_comp$chemical_compositions)[, thermo_cols] |>
 
 ## Joining to mol
 
-mol_ready <- mol %>% 
-  left_join(lambda_mol)
+mol_ready <- mol_ft |>
+  left_join(lambda_mol, by = "Molecular_Formula")
 
 write_csv(
   mol_ready,
@@ -70,8 +67,13 @@ write_csv(
 
 ## Mean, medians, quartiles
 
+
 data_long <- data_long |>
-  inner_join(mol_ready, by = "Molecular_Formula")
+  inner_join(
+    mol_ready,
+    by = "Molecular_Formula",
+    relationship = "many-to-one"
+  )
 
 ready_summary <- data_long |>
   summarise(
@@ -100,7 +102,31 @@ write_csv(
 )
 
 
+## Filtering data 
 
+
+data_ready <- data_long |>
+  select(Sample_ID, Molecular_Formula, intensity) |>
+  pivot_wider(
+    id_cols = Sample_ID,
+    names_from = Molecular_Formula,
+    values_from = intensity,
+    values_fill = 0
+  )
+  
+write_csv(
+  data_ready,
+  file.path(out_dir, "trace_data_ready.csv")
+)
+
+## Sanity check
+
+matrix_formulas <- setdiff(names(data_ready), "Sample_ID")
+
+setequal(
+  matrix_formulas,
+  mol_ready$Molecular_Formula
+)
 
 
 
